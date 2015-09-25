@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="322" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<ext_resource path="res://scripts/Level1.gd" type="Script"></ext_resource>
+	<ext_resource path="res://sounds/Streams/Music/Lotus.ogg" type="AudioStream"></ext_resource>
+	<ext_resource path="res://scripts/stream.gd" type="Script"></ext_resource>
+	<ext_resource path="res://sounds/Samples/Voice/Female/japan/japanese 1.wav" type="Sample"></ext_resource>
+	<ext_resource path="res://sounds/Samples/Voice/Male/smp_dojoNinjas.wav" type="Sample"></ext_resource>
+	<ext_resource path="res://scripts/sample.gd" type="Script"></ext_resource>
+	<ext_resource path="res://sprites/Static/Backgrounds/bg_smoke.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Static/Backgrounds/blackBar.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Static/text/title_jap.png" type="Texture"></ext_resource>
+	<ext_resource path="res://scripts/btn_hover.gd" type="Script"></ext_resource>
+	<ext_resource path="res://scripts/settings.gd" type="Script"></ext_resource>
+	<ext_resource path="res://scripts/quit.gd" type="Script"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0001.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0002.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0003.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0004.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0005.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0006.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0007.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0008.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0009.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0010.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0011.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0012.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0013.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0014.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0015.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0016.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0017.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0018.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0019.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0020.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0021.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0022.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0023.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0024.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0025.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0026.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0027.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0028.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0029.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/idle_maybe/idle.0030.png" type="Texture"></ext_resource>
+	<ext_resource path="res://scripts/loopSprite.gd" type="Script"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0003.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0004.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0005.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0006.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0007.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0008.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0009.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0010.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0011.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0012.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0013.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0014.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0015.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0016.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0017.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0018.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0019.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0020.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0021.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0022.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0023.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0024.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0025.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0026.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0027.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0028.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0029.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0030.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0031.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0032.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0033.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0034.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0035.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0036.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0037.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0038.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0039.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0040.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0041.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0042.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0043.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0044.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0045.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0046.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0047.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0048.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0049.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0050.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0051.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0052.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0053.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0054.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0055.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0056.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0057.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0058.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0059.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/anim_band/0060.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0001.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0002.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0003.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0004.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0005.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0006.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0007.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0008.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0009.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0010.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0011.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0012.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0013.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0014.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0015.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0016.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0017.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0018.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0019.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0020.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0021.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0022.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0023.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0024.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0025.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0026.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0027.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0028.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0029.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0030.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0031.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0032.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0033.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0034.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0035.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0036.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0037.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0038.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0039.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0040.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0041.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0042.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0043.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0044.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0045.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0046.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0047.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0048.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0049.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0050.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0051.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0052.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0053.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0054.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0055.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0056.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0057.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0058.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0059.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0060.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0061.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0062.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0063.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0064.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0065.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0066.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0067.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0068.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0069.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0070.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0071.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0072.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0073.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0074.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0075.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0076.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0077.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0078.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0079.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0080.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0081.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0082.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0083.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0084.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0085.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0086.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0087.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0088.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0089.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0090.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0091.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0092.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0093.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0094.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0095.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0096.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0097.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0098.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0099.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0100.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0101.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0102.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0103.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0104.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0105.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0106.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0107.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0108.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0109.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0110.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0111.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0112.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0113.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0114.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0115.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0116.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0117.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0118.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0119.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0120.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0121.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0122.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0123.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0124.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0125.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0126.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0127.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0128.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0129.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0130.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0131.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0132.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0133.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0134.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0135.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0136.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0137.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0138.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0139.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0140.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0141.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0142.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0143.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0144.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0145.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0146.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0147.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0148.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0149.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0150.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0151.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0152.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0153.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0154.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0155.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0156.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0157.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0158.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0159.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0160.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0161.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0162.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0163.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0164.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0165.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0166.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0167.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0168.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0169.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0170.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0171.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0172.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0173.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0174.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0175.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0176.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0177.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0178.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0179.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0180.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0181.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0182.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0183.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0184.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0185.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0186.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0187.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0188.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0189.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0190.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0191.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0192.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0193.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0194.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0195.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0196.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0197.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0198.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0199.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0200.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0201.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0202.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0203.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0204.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0205.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0206.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0207.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0208.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0209.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0210.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0211.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0212.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0213.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0214.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Animated/sway/sway.0215.png" type="Texture"></ext_resource>
+	<ext_resource path="res://sprites/Static/particles_2D/part_smoke.png" type="Texture"></ext_resource>
+	<resource type="SampleLibrary" path="local://0">
+		<dictionary name="samples/japanese 1" shared="false">
+			<string> "db" </string>
+			<real> 0 </real>
+			<string> "pitch" </string>
+			<real> 1 </real>
+			<string> "sample" </string>
+			<resource  resource_type="Sample" path="res://sounds/Samples/Voice/Female/japan/japanese 1.wav">  </resource>
+		</dictionary>
+		<dictionary name="samples/smp_dojoNinjas" shared="false">
+			<string> "db" </string>
+			<real> 0 </real>
+			<string> "pitch" </string>
+			<real> 1 </real>
+			<string> "sample" </string>
+			<resource  resource_type="Sample" path="res://sounds/Samples/Voice/Male/smp_dojoNinjas.wav">  </resource>
+		</dictionary>
+
+	</resource>
+	<resource type="SpriteFrames" path="local://1">
+		<array name="frames" len="30" shared="false">
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0001.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0002.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0003.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0004.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0005.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0006.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0007.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0008.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0009.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0010.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0011.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0012.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0013.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0014.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0015.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0016.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0017.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0018.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0019.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0020.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0021.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0022.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0023.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0024.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0025.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0026.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0027.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0028.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0029.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/idle_maybe/idle.0030.png">  </resource>
+		</array>
+
+	</resource>
+	<resource type="SpriteFrames" path="local://2">
+		<array name="frames" len="58" shared="false">
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0003.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0004.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0005.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0006.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0007.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0008.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0009.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0010.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0011.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0012.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0013.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0014.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0015.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0016.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0017.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0018.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0019.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0020.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0021.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0022.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0023.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0024.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0025.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0026.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0027.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0028.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0029.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0030.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0031.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0032.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0033.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0034.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0035.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0036.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0037.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0038.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0039.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0040.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0041.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0042.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0043.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0044.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0045.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0046.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0047.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0048.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0049.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0050.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0051.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0052.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0053.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0054.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0055.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0056.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0057.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0058.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0059.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/anim_band/0060.png">  </resource>
+		</array>
+
+	</resource>
+	<resource type="SpriteFrames" path="local://3">
+		<array name="frames" len="215" shared="false">
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0001.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0002.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0003.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0004.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0005.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0006.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0007.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0008.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0009.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0010.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0011.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0012.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0013.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0014.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0015.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0016.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0017.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0018.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0019.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0020.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0021.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0022.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0023.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0024.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0025.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0026.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0027.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0028.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0029.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0030.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0031.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0032.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0033.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0034.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0035.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0036.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0037.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0038.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0039.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0040.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0041.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0042.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0043.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0044.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0045.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0046.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0047.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0048.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0049.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0050.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0051.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0052.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0053.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0054.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0055.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0056.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0057.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0058.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0059.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0060.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0061.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0062.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0063.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0064.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0065.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0066.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0067.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0068.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0069.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0070.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0071.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0072.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0073.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0074.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0075.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0076.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0077.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0078.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0079.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0080.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0081.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0082.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0083.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0084.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0085.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0086.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0087.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0088.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0089.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0090.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0091.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0092.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0093.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0094.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0095.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0096.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0097.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0098.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0099.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0100.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0101.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0102.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0103.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0104.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0105.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0106.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0107.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0108.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0109.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0110.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0111.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0112.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0113.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0114.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0115.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0116.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0117.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0118.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0119.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0120.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0121.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0122.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0123.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0124.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0125.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0126.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0127.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0128.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0129.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0130.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0131.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0132.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0133.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0134.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0135.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0136.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0137.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0138.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0139.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0140.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0141.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0142.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0143.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0144.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0145.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0146.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0147.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0148.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0149.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0150.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0151.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0152.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0153.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0154.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0155.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0156.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0157.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0158.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0159.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0160.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0161.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0162.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0163.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0164.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0165.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0166.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0167.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0168.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0169.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0170.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0171.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0172.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0173.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0174.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0175.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0176.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0177.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0178.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0179.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0180.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0181.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0182.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0183.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0184.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0185.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0186.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0187.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0188.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0189.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0190.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0191.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0192.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0193.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0194.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0195.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0196.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0197.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0198.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0199.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0200.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0201.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0202.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0203.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0204.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0205.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0206.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0207.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0208.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0209.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0210.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0211.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0212.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0213.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0214.png">  </resource>
+			<resource  resource_type="Texture" path="res://sprites/Animated/sway/sway.0215.png">  </resource>
+		</array>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "names" </string>
+			<string_array  len="170">
+				<string> "Node2D" </string>
+				<string> "_import_path" </string>
+				<string> "visibility/visible" </string>
+				<string> "visibility/opacity" </string>
+				<string> "visibility/self_opacity" </string>
+				<string> "visibility/light_mask" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/rot" </string>
+				<string> "transform/scale" </string>
+				<string> "z/z" </string>
+				<string> "z/relative" </string>
+				<string> "script/script" </string>
+				<string> "__meta__" </string>
+				<string> "Sounds" </string>
+				<string> "Node" </string>
+				<string> "Music" </string>
+				<string> "StreamPlayer" </string>
+				<string> "stream/stream" </string>
+				<string> "stream/play" </string>
+				<string> "stream/loop" </string>
+				<string> "stream/volume_db" </string>
+				<string> "stream/autoplay" </string>
+				<string> "stream/paused" </string>
+				<string> "Voice" </string>
+				<string> "SamplePlayer" </string>
+				<string> "config/voices" </string>
+				<string> "config/samples" </string>
+				<string> "default/volume_db" </string>
+				<string> "default/pitch_scale" </string>
+				<string> "default/pan" </string>
+				<string> "default/depth" </string>
+				<string> "default/height" </string>
+				<string> "default/filter/type" </string>
+				<string> "default/filter/cutoff" </string>
+				<string> "default/filter/resonance" </string>
+				<string> "default/filter/gain" </string>
+				<string> "default/reverb_room" </string>
+				<string> "default/reverb_send" </string>
+				<string> "default/chorus_send" </string>
+				<string> "Sprites" </string>
+				<string> "Background" </string>
+				<string> "Sprite" </string>
+				<string> "texture" </string>
+				<string> "centered" </string>
+				<string> "offset" </string>
+				<string> "flip_h" </string>
+				<string> "flip_v" </string>
+				<string> "vframes" </string>
+				<string> "hframes" </string>
+				<string> "frame" </string>
+				<string> "modulate" </string>
+				<string> "region" </string>
+				<string> "region_rect" </string>
+				<string> "Background1" </string>
+				<string> "topbar" </string>
+				<string> "bottombar" </string>
+				<string> "Title" </string>
+				<string> "Control" </string>
+				<string> "margin/left" </string>
+				<string> "margin/top" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "focus_neighbour/left" </string>
+				<string> "focus_neighbour/top" </string>
+				<string> "focus_neighbour/right" </string>
+				<string> "focus_neighbour/bottom" </string>
+				<string> "focus/ignore_mouse" </string>
+				<string> "focus/stop_mouse" </string>
+				<string> "size_flags/horizontal" </string>
+				<string> "size_flags/vertical" </string>
+				<string> "size_flags/stretch_ratio" </string>
+				<string> "btn_Play" </string>
+				<string> "Button" </string>
+				<string> "disabled" </string>
+				<string> "toggle_mode" </string>
+				<string> "is_pressed" </string>
+				<string> "click_on_press" </string>
+				<string> "text" </string>
+				<string> "icon" </string>
+				<string> "flat" </string>
+				<string> "clip_text" </string>
+				<string> "align" </string>
+				<string> "btn_Settings" </string>
+				<string> "btn_Quit" </string>
+				<string> "ConfirmationDialog" </string>
+				<string> "popup/exclusive" </string>
+				<string> "window/title" </string>
+				<string> "Label" </string>
+				<string> "range/min" </string>
+				<string> "range/max" </string>
+				<string> "range/step" </string>
+				<string> "range/page" </string>
+				<string> "range/value" </string>
+				<string> "range/exp_edit" </string>
+				<string> "rounded_values" </string>
+				<string> "valign" </string>
+				<string> "autowrap" </string>
+				<string> "uppercase" </string>
+				<string> "percent_visible" </string>
+				<string> "menu_Settings" </string>
+				<string> "WindowDialog" </string>
+				<string> "Ninja" </string>
+				<string> "AnimatedSprite" </string>
+				<string> "frames" </string>
+				<string> "speed" </string>
+				<string> "bandana" </string>
+				<string> "Sway" </string>
+				<string> "Particles" </string>
+				<string> "Smoke" </string>
+				<string> "Particles2D" </string>
+				<string> "config/amount" </string>
+				<string> "config/lifetime" </string>
+				<string> "config/time_scale" </string>
+				<string> "config/preprocess" </string>
+				<string> "config/emit_timeout" </string>
+				<string> "config/emitting" </string>
+				<string> "config/offset" </string>
+				<string> "config/half_extents" </string>
+				<string> "config/local_space" </string>
+				<string> "config/explosiveness" </string>
+				<string> "config/flip_h" </string>
+				<string> "config/flip_v" </string>
+				<string> "config/texture" </string>
+				<string> "config/h_frames" </string>
+				<string> "config/v_frames" </string>
+				<string> "params/direction" </string>
+				<string> "params/spread" </string>
+				<string> "params/linear_velocity" </string>
+				<string> "params/spin_velocity" </string>
+				<string> "params/orbit_velocity" </string>
+				<string> "params/gravity_direction" </string>
+				<string> "params/gravity_strength" </string>
+				<string> "params/radial_accel" </string>
+				<string> "params/tangential_accel" </string>
+				<string> "params/damping" </string>
+				<string> "params/initial_angle" </string>
+				<string> "params/initial_size" </string>
+				<string> "params/final_size" </string>
+				<string> "params/hue_variation" </string>
+				<string> "params/anim_speed_scale" </string>
+				<string> "params/anim_initial_pos" </string>
+				<string> "randomness/direction" </string>
+				<string> "randomness/spread" </string>
+				<string> "randomness/linear_velocity" </string>
+				<string> "randomness/spin_velocity" </string>
+				<string> "randomness/orbit_velocity" </string>
+				<string> "randomness/gravity_direction" </string>
+				<string> "randomness/gravity_strength" </string>
+				<string> "randomness/radial_accel" </string>
+				<string> "randomness/tangential_accel" </string>
+				<string> "randomness/damping" </string>
+				<string> "randomness/initial_angle" </string>
+				<string> "randomness/initial_size" </string>
+				<string> "randomness/final_size" </string>
+				<string> "randomness/hue_variation" </string>
+				<string> "randomness/anim_speed_scale" </string>
+				<string> "randomness/anim_initial_pos" </string>
+				<string> "color_phases/count" </string>
+				<string> "phase_0/pos" </string>
+				<string> "phase_0/color" </string>
+				<string> "phase_1/pos" </string>
+				<string> "phase_1/color" </string>
+				<string> "phase_2/pos" </string>
+				<string> "phase_2/color" </string>
+				<string> "phase_3/pos" </string>
+				<string> "phase_3/color" </string>
+				<string> "emission_points" </string>
+				<string> "Smoke1" </string>
+				<string> "Smoke3" </string>
+				<string> "Smoke2" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 26 </int>
+			<string> "nodes" </string>
+			<int_array  len="1538"> 				-1, -1, 0, 0, -1, 12, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 4, 7, 5, 8, 6, 9, 7, 10, 1, 11, 8, 12, 9, 0, 0, 0, 14, 13, -1, 2, 1, 0, 12, 10, 0, 1, 0, 16, 15, -1, 8, 1, 0, 17, 11, 18, 12, 19, 1, 20, 5, 21, 12, 22, 12, 11, 13, 0, 1, 0, 24, 23, -1, 16, 1, 0, 25, 3, 26, 14, 27, 5, 28, 2, 29, 5, 30, 5, 31, 5, 32, 15, 33, 15, 34, 15, 35, 15, 36, 7, 37, 5, 38, 5, 11, 16, 0, 0, 0, 0, 39, -1, 11, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 4, 7, 5, 8, 6, 9, 7, 10, 1, 12, 17, 0, 4, 0, 41, 40, -1, 22, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 18, 7, 5, 8, 19, 9, 7, 10, 1, 42, 20, 43, 1, 44, 4, 45, 12, 46, 12, 47, 3, 48, 3, 49, 7, 50, 21, 51, 12, 52, 22, 12, 23, 0, 4, 0, 41, 53, -1, 22, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 24, 7, 5, 8, 19, 9, 7, 10, 1, 42, 20, 43, 1, 44, 4, 45, 1, 46, 12, 47, 3, 48, 3, 49, 7, 50, 21, 51, 12, 52, 22, 12, 25, 0, 4, 0, 41, 54, -1, 21, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 26, 7, 5, 8, 27, 9, 7, 10, 1, 42, 28, 43, 1, 44, 4, 45, 12, 46, 12, 47, 3, 48, 3, 49, 7, 50, 21, 51, 12, 52, 22, 0, 4, 0, 41, 55, -1, 21, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 29, 7, 5, 8, 30, 9, 7, 10, 1, 42, 28, 43, 1, 44, 4, 45, 12, 46, 12, 47, 3, 48, 3, 49, 7, 50, 21, 51, 12, 52, 22, 0, 4, 0, 41, 56, -1, 21, 1, 0, 2, 1, 3, 31, 4, 2, 5, 3, 6, 32, 7, 5, 8, 6, 9, 7, 10, 1, 42, 33, 43, 1, 44, 4, 45, 12, 46, 12, 47, 3, 48, 3, 49, 7, 50, 21, 51, 12, 52, 22, 0, 0, 0, 57, 57, -1, 19, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 58, 34, 59, 35, 60, 36, 61, 37, 62, 0, 63, 0, 64, 0, 65, 0, 66, 12, 67, 1, 68, 38, 69, 38, 70, 2, 12, 39, 0, 10, 0, 72, 71, -1, 29, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 58, 40, 59, 41, 60, 42, 61, 43, 62, 0, 63, 0, 64, 0, 65, 0, 66, 12, 67, 1, 68, 38, 69, 38, 70, 2, 73, 12, 74, 12, 75, 12, 76, 12, 77, 44, 78, 45, 79, 12, 80, 12, 81, 3, 11, 46, 12, 47, 0, 10, 0, 72, 82, -1, 29, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 58, 48, 59, 49, 60, 50, 61, 51, 62, 0, 63, 0, 64, 0, 65, 0, 66, 12, 67, 1, 68, 38, 69, 38, 70, 2, 73, 12, 74, 12, 75, 12, 76, 12, 77, 52, 78, 45, 79, 12, 80, 12, 81, 3, 11, 53, 12, 54, 0, 10, 0, 72, 83, -1, 29, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 58, 49, 59, 55, 60, 56, 61, 57, 62, 0, 63, 0, 64, 0, 65, 0, 66, 12, 67, 1, 68, 38, 69, 38, 70, 2, 73, 12, 74, 12, 75, 12, 76, 12, 77, 58, 78, 45, 79, 12, 80, 12, 81, 3, 11, 59, 12, 60, 0, 10, 0, 84, 84, -1, 20, 1, 0, 2, 12, 3, 2, 4, 2, 5, 3, 58, 61, 59, 62, 60, 63, 61, 64, 62, 0, 63, 0, 64, 0, 65, 0, 66, 12, 67, 1, 68, 38, 69, 38, 70, 2, 85, 12, 86, 65, 0, 10, 0, 87, 87, -1, 29, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 60, 66, 61, 67, 62, 0, 63, 0, 64, 0, 65, 0, 66, 1, 67, 1, 68, 38, 70, 2, 88, 5, 89, 2, 90, 2, 91, 2, 92, 5, 93, 12, 94, 12, 77, 68, 81, 7, 95, 7, 96, 12, 97, 12, 98, 69, 12, 70, 0, 10, 0, 100, 99, -1, 20, 1, 0, 2, 12, 3, 71, 4, 2, 5, 3, 58, 72, 59, 73, 60, 74, 61, 75, 62, 0, 63, 0, 64, 0, 65, 0, 66, 12, 67, 1, 68, 38, 69, 38, 70, 2, 85, 12, 86, 52, 0, 0, 0, 102, 101, -1, 18, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 76, 7, 5, 8, 6, 9, 7, 10, 1, 103, 77, 43, 1, 45, 12, 46, 12, 50, 78, 11, 79, 12, 80, 104, 81, 0, 17, 0, 102, 105, -1, 18, 1, 0, 2, 1, 3, 82, 4, 2, 5, 3, 6, 83, 7, 5, 8, 84, 9, 7, 10, 1, 103, 85, 43, 1, 45, 12, 46, 12, 50, 86, 11, 79, 12, 87, 104, 88, 0, 17, 0, 102, 106, -1, 18, 1, 0, 2, 1, 3, 89, 4, 2, 5, 3, 6, 90, 7, 5, 8, 91, 9, 7, 10, 1, 103, 92, 43, 1, 45, 12, 46, 12, 50, 86, 11, 79, 12, 93, 104, 81, 0, 0, 0, 0, 107, -1, 11, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 4, 7, 5, 8, 6, 9, 7, 10, 1, 12, 94, 0, 20, 0, 0, 108, -1, 11, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 4, 7, 5, 8, 6, 9, 7, 10, 1, 12, 95, 0, 21, 0, 109, 108, -1, 67, 1, 0, 2, 1, 3, 71, 4, 2, 5, 3, 6, 96, 7, 5, 8, 97, 9, 7, 10, 1, 110, 98, 111, 99, 112, 2, 113, 5, 114, 5, 115, 1, 116, 4, 117, 4, 118, 1, 119, 2, 120, 12, 121, 12, 122, 100, 123, 3, 124, 3, 125, 5, 126, 101, 127, 102, 128, 5, 129, 5, 130, 5, 131, 103, 132, 5, 133, 5, 134, 5, 135, 5, 136, 2, 137, 2, 138, 5, 139, 2, 140, 5, 141, 2, 142, 5, 143, 5, 144, 5, 145, 5, 146, 5, 147, 5, 148, 5, 149, 5, 150, 5, 151, 5, 152, 5, 153, 5, 154, 5, 155, 5, 156, 5, 157, 3, 158, 5, 159, 21, 160, 2, 161, 86, 162, 2, 163, 86, 164, 2, 165, 86, 166, 104, 0, 21, 0, 109, 167, -1, 68, 1, 0, 2, 1, 3, 71, 4, 2, 5, 3, 6, 105, 7, 5, 8, 97, 9, 7, 10, 1, 110, 98, 111, 99, 112, 2, 113, 5, 114, 5, 115, 1, 116, 4, 117, 4, 118, 1, 119, 2, 120, 12, 121, 12, 122, 100, 123, 3, 124, 3, 125, 5, 126, 101, 127, 102, 128, 5, 129, 5, 130, 5, 131, 103, 132, 5, 133, 5, 134, 5, 135, 5, 136, 2, 137, 2, 138, 5, 139, 2, 140, 5, 141, 2, 142, 5, 143, 5, 144, 5, 145, 5, 146, 5, 147, 5, 148, 5, 149, 5, 150, 5, 151, 5, 152, 5, 153, 5, 154, 5, 155, 5, 156, 5, 157, 3, 158, 5, 159, 21, 160, 2, 161, 86, 162, 2, 163, 86, 164, 2, 165, 86, 166, 104, 12, 106, 0, 21, 0, 109, 168, -1, 68, 1, 0, 2, 1, 3, 71, 4, 2, 5, 3, 6, 107, 7, 5, 8, 97, 9, 7, 10, 1, 110, 98, 111, 99, 112, 2, 113, 5, 114, 5, 115, 1, 116, 4, 117, 4, 118, 1, 119, 2, 120, 12, 121, 12, 122, 100, 123, 3, 124, 3, 125, 5, 126, 101, 127, 102, 128, 5, 129, 5, 130, 5, 131, 103, 132, 5, 133, 5, 134, 5, 135, 5, 136, 2, 137, 2, 138, 5, 139, 2, 140, 5, 141, 2, 142, 5, 143, 5, 144, 5, 145, 5, 146, 5, 147, 5, 148, 5, 149, 5, 150, 5, 151, 5, 152, 5, 153, 5, 154, 5, 155, 5, 156, 5, 157, 3, 158, 5, 159, 21, 160, 2, 161, 86, 162, 2, 163, 86, 164, 2, 165, 86, 166, 104, 12, 108, 0, 21, 0, 109, 169, -1, 68, 1, 0, 2, 1, 3, 71, 4, 2, 5, 3, 6, 109, 7, 5, 8, 97, 9, 7, 10, 1, 110, 98, 111, 99, 112, 2, 113, 5, 114, 5, 115, 1, 116, 4, 117, 4, 118, 1, 119, 2, 120, 12, 121, 12, 122, 100, 123, 3, 124, 3, 125, 5, 126, 101, 127, 102, 128, 5, 129, 5, 130, 5, 131, 103, 132, 5, 133, 5, 134, 5, 135, 5, 136, 2, 137, 2, 138, 5, 139, 2, 140, 5, 141, 2, 142, 5, 143, 5, 144, 5, 145, 5, 146, 5, 147, 5, 148, 5, 149, 5, 150, 5, 151, 5, 152, 5, 153, 5, 154, 5, 155, 5, 156, 5, 157, 3, 158, 5, 159, 21, 160, 2, 161, 86, 162, 2, 163, 86, 164, 2, 165, 86, 166, 104, 12, 110, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="111" shared="false">
+				<node_path> "" </node_path>
+				<bool> True </bool>
+				<real> 1 </real>
+				<int> 1 </int>
+				<vector2> 0, 0 </vector2>
+				<real> 0 </real>
+				<vector2> 1, 1 </vector2>
+				<int> 0 </int>
+				<resource  resource_type="Script" path="res://scripts/Level1.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -401.739, -516.632 </vector2>
+							<string> "snap_grid" </string>
+							<bool> True </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> True </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 0.487674 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 8.635701 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0.2625 </real>
+									<string> "y_rot" </string>
+									<real> 0.4875 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+						<string> "Script" </string>
+						<dictionary  shared="false">
+							<string> "current" </string>
+							<int> 8 </int>
+							<string> "sources" </string>
+							<array  len="9" shared="false">
+								<string> "res://scripts/Level1.gd" </string>
+								<string> "res://scripts/stream.gd" </string>
+								<string> "res://scripts/GodotSnippets.gd" </string>
+								<string> "res://btn_hover.gd" </string>
+								<string> "res://scripts/btn_hover.gd" </string>
+								<string> "res://scripts/loopSprite.gd" </string>
+								<string> "res://scripts/sample.gd" </string>
+								<string> "res://scripts/quit.gd" </string>
+								<string> "res://scripts/settings.gd" </string>
+							</array>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="AudioStream" path="res://sounds/Streams/Music/Lotus.ogg">  </resource>
+				<bool> False </bool>
+				<resource  resource_type="Script" path="res://scripts/stream.gd">  </resource>
+				<resource  resource_type="SampleLibrary" path="local://0">  </resource>
+				<nil>  </nil>
+				<resource  resource_type="Script" path="res://scripts/sample.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 525, 450 </vector2>
+				<vector2> 1.12305, 1.17187 </vector2>
+				<resource  resource_type="Texture" path="res://sprites/Static/Backgrounds/bg_smoke.png">  </resource>
+				<color> 1, 1, 1, 1 </color>
+				<rect2> 0, 0, 0, 0 </rect2>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 1675, 450 </vector2>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 1120, 10.0001 </vector2>
+				<vector2> 4.41406, 0.429688 </vector2>
+				<resource  resource_type="Texture" path="res://sprites/Static/Backgrounds/blackBar.png">  </resource>
+				<vector2> 1130, 885 </vector2>
+				<vector2> 4.41406, 0.292969 </vector2>
+				<real> 0.2 </real>
+				<vector2> 861, 174 </vector2>
+				<resource  resource_type="Texture" path="res://sprites/Static/text/title_jap.png">  </resource>
+				<real> 340 </real>
+				<real> 40 </real>
+				<real> 380 </real>
+				<real> 80 </real>
+				<int> 2 </int>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 401 </real>
+				<real> 347 </real>
+				<real> 613 </real>
+				<real> 384 </real>
+				<string> "Play" </string>
+				<resource name=""></resource>				<resource  resource_type="Script" path="res://scripts/btn_hover.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 402 </real>
+				<real> 406 </real>
+				<real> 614 </real>
+				<real> 443 </real>
+				<string> "Settings" </string>
+				<resource  resource_type="Script" path="res://scripts/settings.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 469 </real>
+				<real> 618 </real>
+				<real> 506 </real>
+				<string> "Quit" </string>
+				<resource  resource_type="Script" path="res://scripts/quit.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 780 </real>
+				<real> 140 </real>
+				<real> 926 </real>
+				<real> 197 </real>
+				<string> "You sure?" </string>
+				<real> 63 </real>
+				<real> 13 </real>
+				<string> "Prototype" </string>
+				<real> -1 </real>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 0.5 </real>
+				<real> 550 </real>
+				<real> 250 </real>
+				<real> 1180 </real>
+				<real> 660 </real>
+				<vector2> 566, 566 </vector2>
+				<resource  resource_type="SpriteFrames" path="local://1">  </resource>
+				<color> 0.346215, 0.164203, 0.106116, 1 </color>
+				<resource  resource_type="Script" path="res://scripts/loopSprite.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 0.05 </real>
+				<real> 0.7 </real>
+				<vector2> -226.001, -145.999 </vector2>
+				<vector2> 2.26562, 2.73438 </vector2>
+				<resource  resource_type="SpriteFrames" path="local://2">  </resource>
+				<color> 0, 0, 0, 1 </color>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 0.1 </real>
+				<real> 0.3 </real>
+				<vector2> 419, -91 </vector2>
+				<vector2> 1.66016, 1.66016 </vector2>
+				<resource  resource_type="SpriteFrames" path="local://3">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 1464.7, 57.4445 </vector2>
+				<vector2> 2.95944, 3.35764 </vector2>
+				<int> 100 </int>
+				<real> 50 </real>
+				<resource  resource_type="Texture" path="res://sprites/Static/particles_2D/part_smoke.png">  </resource>
+				<real> 100 </real>
+				<real> 20 </real>
+				<real> 9.8 </real>
+				<vector2_array  len="0"> 					 </vector2_array>
+				<vector2> 223.143, 101.134 </vector2>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 893.91, 72.4941 </vector2>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 666.301, 63.4501 </vector2>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+			</array>
+			<string> "version" </string>
+			<int> 1 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
