@@ -21,3 +21,4 @@ Credits:
 Notes:
 It will work with animated 3d models, since all you are doing is changing the diffuse parameter of a particular mesh object.
 
+![alt tag](https://sites.google.com/site/tutorialdoctorphotos/zips/screenshot.png)
