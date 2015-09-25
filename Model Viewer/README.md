@@ -12,7 +12,7 @@ This demo demonstrates how to:
 
 Tools:
 - Blender 3D
-- Mary Blass model from a free 3d model website
+- Mary Blass model from [here](http://tf3dm.com)
 - Godot Engine
 
 
