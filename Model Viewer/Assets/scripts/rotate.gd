@@ -30,6 +30,7 @@ func _ready():
 	hair_material = hair.get('geometry/material_override')
 	hair_picker = get_parent().get_node("Control/hair_picker")
 
+
 	
 func _process(delta):
 	rotateObject(self)
