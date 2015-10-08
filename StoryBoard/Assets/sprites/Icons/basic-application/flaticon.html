@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flaticon WebFont</title>
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#66A523;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #666;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #66A523;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#66A523;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#34302d;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#66A523;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#66A523;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="http://www.flaticon.com">
+                <span>FLAT</span>ICON</a>
+            <strong>Font Demo</strong>
+        </h1>
+    </header>
+
+    <section class="demo">
+        <div class="text">
+
+            <div class="instructions">Instructions:</div>
+
+            <ul>
+                <li>
+                    <p>
+                        <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+                </li>
+                <li>
+                    <p>
+                        <span class="num">2</span>Add the CSS link to your website source code on header.
+                        <br />
+                        <span class="ex">&lt;head&gt;
+                            <br/>...
+                            <br/>&lt;link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css"&gt;
+                            <br/>...
+                            <br/>&lt;/head&gt;</span>
+                </li>
+
+                <li>
+                    <p>
+                        <span class="num">3</span>Use the icon class on "display:inline" elements:
+                        <br />
+                        <span class="ex">Use example: &lt;i class=&quot;flaticon-airplane49&quot;&gt;&lt;/i&gt; or &lt;span class=&quot;flaticon-airplane49&quot;&gt;&lt;/span&gt;</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="glyphs"><div class="glyph">
+		<div class="glyph-icon flaticon-add73"></div>
+		<div class="class-name">.flaticon-add73</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/add-button-with-plus-symbol-in-a-black-circle_32360">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow476"></div>
+		<div class="class-name">.flaticon-arrow476</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-in-u-shape-to-turn_32158">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow477"></div>
+		<div class="class-name">.flaticon-arrow477</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-loop_32161">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow478"></div>
+		<div class="class-name">.flaticon-arrow478</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-pointing-up-left_32163">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow479"></div>
+		<div class="class-name">.flaticon-arrow479</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-pointing-right-down_32165">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow480"></div>
+		<div class="class-name">.flaticon-arrow480</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-spread-symbol_32167">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow481"></div>
+		<div class="class-name">.flaticon-arrow481</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-merge-symbol_32179">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow482"></div>
+		<div class="class-name">.flaticon-arrow482</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-squiggly_32188">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow483"></div>
+		<div class="class-name">.flaticon-arrow483</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-down-sign-to-navigate_32195">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow484"></div>
+		<div class="class-name">.flaticon-arrow484</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-pointing-to-right_32199">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow485"></div>
+		<div class="class-name">.flaticon-arrow485</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-over-a-rectangular-element_32201">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow486"></div>
+		<div class="class-name">.flaticon-arrow486</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-point-to-down_32209">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow487"></div>
+		<div class="class-name">.flaticon-arrow487</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-point-to-right_32213">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow488"></div>
+		<div class="class-name">.flaticon-arrow488</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-pointing-down-right-in-a-circle_32215">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow489"></div>
+		<div class="class-name">.flaticon-arrow489</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-out_32227">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow490"></div>
+		<div class="class-name">.flaticon-arrow490</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-fork_32237">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow491"></div>
+		<div class="class-name">.flaticon-arrow491</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-shuffle_32238">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow492"></div>
+		<div class="class-name">.flaticon-arrow492</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-navigate-close_32246">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow493"></div>
+		<div class="class-name">.flaticon-arrow493</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-loop_32277">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow494"></div>
+		<div class="class-name">.flaticon-arrow494</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-circle_32303">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow495"></div>
+		<div class="class-name">.flaticon-arrow495</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-through_32304">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow496"></div>
+		<div class="class-name">.flaticon-arrow496</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-curve-pointing-left_32310">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow497"></div>
+		<div class="class-name">.flaticon-arrow497</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-loop-symbol_32311">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow498"></div>
+		<div class="class-name">.flaticon-arrow498</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-join_32318">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow499"></div>
+		<div class="class-name">.flaticon-arrow499</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-up_32321">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow500"></div>
+		<div class="class-name">.flaticon-arrow500</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-to_32327">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow501"></div>
+		<div class="class-name">.flaticon-arrow501</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-down-left_32331">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow502"></div>
+		<div class="class-name">.flaticon-arrow502</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-up-in-a-circle_32340">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow503"></div>
+		<div class="class-name">.flaticon-arrow503</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-from_32347">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow504"></div>
+		<div class="class-name">.flaticon-arrow504</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-up-right_32348">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow505"></div>
+		<div class="class-name">.flaticon-arrow505</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-down_32450">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow506"></div>
+		<div class="class-name">.flaticon-arrow506</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-to-the-left-silhouette_32536">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow507"></div>
+		<div class="class-name">.flaticon-arrow507</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-curving-around-a-circle_32553">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow508"></div>
+		<div class="class-name">.flaticon-arrow508</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-to-the-right-navigation_32570">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow510"></div>
+		<div class="class-name">.flaticon-arrow510</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-junction-one-to-the-left_32747">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow511"></div>
+		<div class="class-name">.flaticon-arrow511</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-into-drive-symbol_32758">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow514"></div>
+		<div class="class-name">.flaticon-arrow514</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-of-large-size-turning-to-the-left_33283">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow515"></div>
+		<div class="class-name">.flaticon-arrow515</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-upward-to-rectangle-shape_33297">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrowhead7"></div>
+		<div class="class-name">.flaticon-arrowhead7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrowhead-thin-outline-to-the-left_32542">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrowheads3"></div>
+		<div class="class-name">.flaticon-arrowheads3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrowheads-of-thin-outline-to-the-left_32766">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrows64"></div>
+		<div class="class-name">.flaticon-arrows64</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrows-circle_32220">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrows65"></div>
+		<div class="class-name">.flaticon-arrows65</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrows-merge-pointing-to-right_32232">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrows66"></div>
+		<div class="class-name">.flaticon-arrows66</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrows-group-interface-symbol-to-expand_32235">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrows67"></div>
+		<div class="class-name">.flaticon-arrows67</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrows-mix_32358">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-back14"></div>
+		<div class="class-name">.flaticon-back14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/back-navigational-arrow-button-pointing-to-left_32170">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-barrier1"></div>
+		<div class="class-name">.flaticon-barrier1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/barrier-closed_32342">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-barrier"></div>
+		<div class="class-name">.flaticon-barrier</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/barrier-open_32293">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-basic1"></div>
+		<div class="class-name">.flaticon-basic1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/basic-text-format_32734">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-basic"></div>
+		<div class="class-name">.flaticon-basic</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/basic-window-appearance_32550">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-bell16"></div>
+		<div class="class-name">.flaticon-bell16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/bell-black-shape_32240">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-biohazard1"></div>
+		<div class="class-name">.flaticon-biohazard1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/biohazard-sign-inside-a-triangle-outline_33275">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-blank22"></div>
+		<div class="class-name">.flaticon-blank22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/blank-window-with-key_32566">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-book117"></div>
+		<div class="class-name">.flaticon-book117</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/book-open-in-the-middle_32182">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-book118"></div>
+		<div class="class-name">.flaticon-book118</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/book-closed-with-black-cover_32285">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-book119"></div>
+		<div class="class-name">.flaticon-book119</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/book-of-black-cover-closed_32354">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-book121"></div>
+		<div class="class-name">.flaticon-book121</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/book-with-headphones-symbol_33271">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-book122"></div>
+		<div class="class-name">.flaticon-book122</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/book-with-white-bookmark_33277">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-bookmark11"></div>
+		<div class="class-name">.flaticon-bookmark11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/bookmark-silhouette-variant_32530">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-bookmarks"></div>
+		<div class="class-name">.flaticon-bookmarks</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/bookmarks_32288">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-books13"></div>
+		<div class="class-name">.flaticon-books13</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/books-overlapping-arrangement_32737">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-braille1"></div>
+		<div class="class-name">.flaticon-braille1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/braille-text_32278">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-broken21"></div>
+		<div class="class-name">.flaticon-broken21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/broken-heart-silhouette-shape_32751">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-buoy"></div>
+		<div class="class-name">.flaticon-buoy</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/buoy_32313">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-calibration"></div>
+		<div class="class-name">.flaticon-calibration</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/calibration-mark_32198">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-candle4"></div>
+		<div class="class-name">.flaticon-candle4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/candle-burning_32184">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-candle5"></div>
+		<div class="class-name">.flaticon-candle5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/candle-holder-with-candle_32739">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cd18"></div>
+		<div class="class-name">.flaticon-cd18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cd-window_32190">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cd19"></div>
+		<div class="class-name">.flaticon-cd19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cd-drive_32218">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cd20"></div>
+		<div class="class-name">.flaticon-cd20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cd-pirated-interface-symbol-for-piracy_32239">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cd21"></div>
+		<div class="class-name">.flaticon-cd21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cd-case_32283">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cd22"></div>
+		<div class="class-name">.flaticon-cd22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cd-with-open-window_32756">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cd23"></div>
+		<div class="class-name">.flaticon-cd23</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cd-burning-application_33276">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-check34"></div>
+		<div class="class-name">.flaticon-check34</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/check_32282">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-check35"></div>
+		<div class="class-name">.flaticon-check35</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/check-mark-black-outline_33281">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-checkered4"></div>
+		<div class="class-name">.flaticon-checkered4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/checkered-racing-flag-variant_32741">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circle46"></div>
+		<div class="class-name">.flaticon-circle46</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circle-outline_32341">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circle48"></div>
+		<div class="class-name">.flaticon-circle48</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circle-outline-with-exclamation-point_33299">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-clipboard41"></div>
+		<div class="class-name">.flaticon-clipboard41</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/clipboard-paste-with-no-format_32296">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-clipboard42"></div>
+		<div class="class-name">.flaticon-clipboard42</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/clipboard_32300">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-clipboard43"></div>
+		<div class="class-name">.flaticon-clipboard43</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/clipboard-empty-in-black_32365">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-clipboard44"></div>
+		<div class="class-name">.flaticon-clipboard44</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/clipboard-variant-with-lists-and-checks_32549">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-clipboard45"></div>
+		<div class="class-name">.flaticon-clipboard45</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/clipboard-variant-with-pencil-and-check-mark-variant_33280">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-clipboard46"></div>
+		<div class="class-name">.flaticon-clipboard46</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/clipboard-paste-option_33296">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-close20"></div>
+		<div class="class-name">.flaticon-close20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/close_32350">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-closed42"></div>
+		<div class="class-name">.flaticon-closed42</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/closed-door-with-border-silhouette_32533">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-compact12"></div>
+		<div class="class-name">.flaticon-compact12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/compact-disc-variant-with-border_32545">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-copy12"></div>
+		<div class="class-name">.flaticon-copy12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/copy-documents-option_32565">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cross54"></div>
+		<div class="class-name">.flaticon-cross54</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cross-variant-with-arrow-edges_32735">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-crosshair8"></div>
+		<div class="class-name">.flaticon-crosshair8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/crosshair-variant-with-navigation-arrows_33274">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-curved14"></div>
+		<div class="class-name">.flaticon-curved14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/curved-arrow-to-the-right_32528">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cut20"></div>
+		<div class="class-name">.flaticon-cut20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cut_32330">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-delete30"></div>
+		<div class="class-name">.flaticon-delete30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/delete_32178">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-delete31"></div>
+		<div class="class-name">.flaticon-delete31</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/delete-symbol-option_32554">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-dictionary"></div>
+		<div class="class-name">.flaticon-dictionary</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/dictionary-book-with-letters-a-to-z_32556">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document65"></div>
+		<div class="class-name">.flaticon-document65</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-with-irregular-line_32164">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document66"></div>
+		<div class="class-name">.flaticon-document66</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-vertical-center-alignment_32174">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document67"></div>
+		<div class="class-name">.flaticon-document67</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-with-a-cup_32183">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document68"></div>
+		<div class="class-name">.flaticon-document68</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-empty-horizontal-page_32196">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document69"></div>
+		<div class="class-name">.flaticon-document69</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-footer_32206">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document70"></div>
+		<div class="class-name">.flaticon-document70</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-centering-horizontally_32219">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document71"></div>
+		<div class="class-name">.flaticon-document71</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-width_32222">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document72"></div>
+		<div class="class-name">.flaticon-document72</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-size_32225">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document73"></div>
+		<div class="class-name">.flaticon-document73</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-center_32236">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document74"></div>
+		<div class="class-name">.flaticon-document74</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-pinned_32241">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document75"></div>
+		<div class="class-name">.flaticon-document75</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-page-number_32245">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document76"></div>
+		<div class="class-name">.flaticon-document76</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-with-gear_32247">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document77"></div>
+		<div class="class-name">.flaticon-document77</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-header_32286">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document78"></div>
+		<div class="class-name">.flaticon-document78</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-tag-interface-symbol_32334">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document79"></div>
+		<div class="class-name">.flaticon-document79</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-empty_32345">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document80"></div>
+		<div class="class-name">.flaticon-document80</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-landscape-orientation_32346">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document81"></div>
+		<div class="class-name">.flaticon-document81</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-with-paper-clip_32541">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document82"></div>
+		<div class="class-name">.flaticon-document82</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-with-speaker_32544">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document83"></div>
+		<div class="class-name">.flaticon-document83</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-with-selection-box_32547">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document84"></div>
+		<div class="class-name">.flaticon-document84</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-file-with-line_32755">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document85"></div>
+		<div class="class-name">.flaticon-document85</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-with-line-chart_33279">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document86"></div>
+		<div class="class-name">.flaticon-document86</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-height-adjustment_33285">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-documents4"></div>
+		<div class="class-name">.flaticon-documents4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/documents-empty_32181">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-documents5"></div>
+		<div class="class-name">.flaticon-documents5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/documents-exchange_32212">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-documents6"></div>
+		<div class="class-name">.flaticon-documents6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/documents-with-a-heart-symbol_32336">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-door13"></div>
+		<div class="class-name">.flaticon-door13</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/door-exit_32205">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-double47"></div>
+		<div class="class-name">.flaticon-double47</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/double-curve-arrow-to-the-right_32540">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-edit26"></div>
+		<div class="class-name">.flaticon-edit26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/edit_32355">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-equalizer16"></div>
+		<div class="class-name">.flaticon-equalizer16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/equalizer-tool-on-open-window_32559">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-escalator2"></div>
+		<div class="class-name">.flaticon-escalator2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/escalator-up-sign_32169">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-escalator3"></div>
+		<div class="class-name">.flaticon-escalator3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/escalator-down_32333">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-escalator4"></div>
+		<div class="class-name">.flaticon-escalator4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/escalator-silhouette-symbol_32564">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-female128"></div>
+		<div class="class-name">.flaticon-female128</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/female-symbol_32353">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-find1"></div>
+		<div class="class-name">.flaticon-find1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/find-text_32192">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-find2"></div>
+		<div class="class-name">.flaticon-find2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/find-again-option_32548">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-find"></div>
+		<div class="class-name">.flaticon-find</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/find-and-replace_32162">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-first19"></div>
+		<div class="class-name">.flaticon-first19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/first-aid-cross-in-black-inside-a-circle_32173">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-fit2"></div>
+		<div class="class-name">.flaticon-fit2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/fit-to-height_32287">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-fit"></div>
+		<div class="class-name">.flaticon-fit</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/fit-to-width_32193">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-flag30"></div>
+		<div class="class-name">.flaticon-flag30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/flag-signal-in-black-cloth-on-a-pole_32185">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-floppy13"></div>
+		<div class="class-name">.flaticon-floppy13</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/floppy-disk-digital-data-storage-or-save-interface-symbol_32203">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-floppy14"></div>
+		<div class="class-name">.flaticon-floppy14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/floppy-drive_32338">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-floppy15"></div>
+		<div class="class-name">.flaticon-floppy15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/floppy-disks-pair_32736">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-floppy16"></div>
+		<div class="class-name">.flaticon-floppy16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/floppy-diskette-with-pen_32761">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-floppy18"></div>
+		<div class="class-name">.flaticon-floppy18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/floppy-diskette-with-open-window_33293">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folder78"></div>
+		<div class="class-name">.flaticon-folder78</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folder-shared_32200">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folder79"></div>
+		<div class="class-name">.flaticon-folder79</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folder-with-information_32207">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folder80"></div>
+		<div class="class-name">.flaticon-folder80</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folder-out-interface-symbol_32221">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folder81"></div>
+		<div class="class-name">.flaticon-folder81</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folder-with-a-document-page_32280">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folder82"></div>
+		<div class="class-name">.flaticon-folder82</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folder-and-window_32290">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folder83"></div>
+		<div class="class-name">.flaticon-folder83</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folder-into_32316">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folder84"></div>
+		<div class="class-name">.flaticon-folder84</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folder-zip_32337">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folder85"></div>
+		<div class="class-name">.flaticon-folder85</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folder-network-option_32543">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folder86"></div>
+		<div class="class-name">.flaticon-folder86</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folder-with-label-of-large-size_32753">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folders3"></div>
+		<div class="class-name">.flaticon-folders3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folders-with-information_32166">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folders4"></div>
+		<div class="class-name">.flaticon-folders4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folders-of-large-size-arranged_32531">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-font4"></div>
+		<div class="class-name">.flaticon-font4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/font-window_32159">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-font5"></div>
+		<div class="class-name">.flaticon-font5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/font_32168">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-font6"></div>
+		<div class="class-name">.flaticon-font6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/font-style-superscript_32176">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-font7"></div>
+		<div class="class-name">.flaticon-font7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/font-style-subscript_32292">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-font8"></div>
+		<div class="class-name">.flaticon-font8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/font-style-bold_32294">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-font9"></div>
+		<div class="class-name">.flaticon-font9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/font-style-underline_32305">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-forbidden1"></div>
+		<div class="class-name">.flaticon-forbidden1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/forbidden-sign_32211">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-four37"></div>
+		<div class="class-name">.flaticon-four37</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/four-arrows-meeting-at-the-center_32569">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-garbage3"></div>
+		<div class="class-name">.flaticon-garbage3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/garbage-full_32204">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-garbage4"></div>
+		<div class="class-name">.flaticon-garbage4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/garbage-can_32243">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-garbage5"></div>
+		<div class="class-name">.flaticon-garbage5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/garbage-container_32244">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-garbage6"></div>
+		<div class="class-name">.flaticon-garbage6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/garbage-can-half-full-with-recycle-symbol_32760">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-garbage7"></div>
+		<div class="class-name">.flaticon-garbage7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/garbage-can-with-recycling-symbol_32765">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-garbage8"></div>
+		<div class="class-name">.flaticon-garbage8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/garbage-with-recycle-sign-overflowing-with-trash_33298">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-hard10"></div>
+		<div class="class-name">.flaticon-hard10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/hard-drive-computer-part_33272">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-hard9"></div>
+		<div class="class-name">.flaticon-hard9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/hard-drive-network_32453">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-heart118"></div>
+		<div class="class-name">.flaticon-heart118</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/heart-simple-shape-silhouette_32557">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-history2"></div>
+		<div class="class-name">.flaticon-history2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/history_32223">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-indent2"></div>
+		<div class="class-name">.flaticon-indent2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/indent-increase-interface-symbol_32228">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-indent3"></div>
+		<div class="class-name">.flaticon-indent3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/indent-decrease-symbol_32279">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-information38"></div>
+		<div class="class-name">.flaticon-information38</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/information_32175">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-italics"></div>
+		<div class="class-name">.flaticon-italics</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/italics-font-style-variant_33704">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-justified2"></div>
+		<div class="class-name">.flaticon-justified2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/justified-text-alignment_32752">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-key50"></div>
+		<div class="class-name">.flaticon-key50</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/key-with-cross-sign_32560">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-led3"></div>
+		<div class="class-name">.flaticon-led3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/led-light-lamp_32750">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-letter25"></div>
+		<div class="class-name">.flaticon-letter25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/letter-n-lower-case-font_32537">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-letters2"></div>
+		<div class="class-name">.flaticon-letters2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/letters-abc-in-pixelated-form_32764">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lifebelt"></div>
+		<div class="class-name">.flaticon-lifebelt</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lifebelt_32171">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-light56"></div>
+		<div class="class-name">.flaticon-light56</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/light-bulb-off_32299">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lightbulb3"></div>
+		<div class="class-name">.flaticon-lightbulb3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lightbulb-on_32177">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lighthouse1"></div>
+		<div class="class-name">.flaticon-lighthouse1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lighthouse-with-flashing-lights_32552">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-line20"></div>
+		<div class="class-name">.flaticon-line20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/line-spacing-text_32210">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-line21"></div>
+		<div class="class-name">.flaticon-line21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/line-spacing-adjustment-in-a-paragraph_33278">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-line22"></div>
+		<div class="class-name">.flaticon-line22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/line-break-symbol_33292">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-list35"></div>
+		<div class="class-name">.flaticon-list35</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/list-roman-style-numbers_32224">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-list36"></div>
+		<div class="class-name">.flaticon-list36</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/list-in-bullet-form_32555">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-locator7"></div>
+		<div class="class-name">.flaticon-locator7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/locator-on-an-open-folded-map_32746">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-log4"></div>
+		<div class="class-name">.flaticon-log4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/log-in_32317">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-magazine1"></div>
+		<div class="class-name">.flaticon-magazine1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/magazine-folder_32229">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-magic8"></div>
+		<div class="class-name">.flaticon-magic8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/magic-wand_32357">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-magnifying39"></div>
+		<div class="class-name">.flaticon-magnifying39</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/magnifying-lens-with-plus-sign_33287">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-male154"></div>
+		<div class="class-name">.flaticon-male154</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/male-gender-symbol-variant_32551">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-map29"></div>
+		<div class="class-name">.flaticon-map29</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/map-route_32226">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-map30"></div>
+		<div class="class-name">.flaticon-map30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/map-of-roads_32230">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-map31"></div>
+		<div class="class-name">.flaticon-map31</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/map_32307">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-map32"></div>
+		<div class="class-name">.flaticon-map32</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/map-location_32364">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-maximize"></div>
+		<div class="class-name">.flaticon-maximize</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/maximize-size-option_32763">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-microsoft6"></div>
+		<div class="class-name">.flaticon-microsoft6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/microsoft-word-document-file_32745">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-minimize3"></div>
+		<div class="class-name">.flaticon-minimize3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/minimize_32325">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-minus24"></div>
+		<div class="class-name">.flaticon-minus24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/minus-sign_32234">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-minus25"></div>
+		<div class="class-name">.flaticon-minus25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/minus-sign-of-a-line-in-horizontal-position_32320">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-music168"></div>
+		<div class="class-name">.flaticon-music168</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/music-document_32231">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-music169"></div>
+		<div class="class-name">.flaticon-music169</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/music-folder_32312">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-music170"></div>
+		<div class="class-name">.flaticon-music170</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/music-cd_32328">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-navigate2"></div>
+		<div class="class-name">.flaticon-navigate2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/navigate-arrows-pointing-to-down_32233">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-navigate3"></div>
+		<div class="class-name">.flaticon-navigate3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/navigate-up-arrows_32281">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-navigate4"></div>
+		<div class="class-name">.flaticon-navigate4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/navigate-to-end_32309">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-navigate5"></div>
+		<div class="class-name">.flaticon-navigate5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/navigate-arrow-button-to-beginning_32314">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-navigate6"></div>
+		<div class="class-name">.flaticon-navigate6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/navigate-up-arrow_32323">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-navigation10"></div>
+		<div class="class-name">.flaticon-navigation10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/navigation-up-arrow-to-the-left_32740">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-navigation11"></div>
+		<div class="class-name">.flaticon-navigation11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/navigation-arrow-down-button_33294">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-navigation9"></div>
+		<div class="class-name">.flaticon-navigation9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/navigation-history-interface-symbol-of-a-clock-with-an-arrow_32284">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-navigational"></div>
+		<div class="class-name">.flaticon-navigational</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/navigational-arrow-pointing-down-left-in-a-circle_32370">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-numbered5"></div>
+		<div class="class-name">.flaticon-numbered5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/numbered-list-style_32754">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open127"></div>
+		<div class="class-name">.flaticon-open127</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-folder-black-and-white-variant_32527">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open128"></div>
+		<div class="class-name">.flaticon-open128</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-window-with-timer_32561">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open129"></div>
+		<div class="class-name">.flaticon-open129</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-door-with-border_32567">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open130"></div>
+		<div class="class-name">.flaticon-open130</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-scroll-outline_32571">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open131"></div>
+		<div class="class-name">.flaticon-open131</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-folder-with-document_32743">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open132"></div>
+		<div class="class-name">.flaticon-open132</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-window-with-height-adjustment_32759">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open133"></div>
+		<div class="class-name">.flaticon-open133</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-window-with-star-symbol_33286">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open134"></div>
+		<div class="class-name">.flaticon-open134</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-window-with-gear-sign_33288">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-plus32"></div>
+		<div class="class-name">.flaticon-plus32</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/plus-sign_32339">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-plus33"></div>
+		<div class="class-name">.flaticon-plus33</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/plus-symbol-button_32563">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-portfolio8"></div>
+		<div class="class-name">.flaticon-portfolio8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/portfolio-folder-with-button-lock_32748">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-printer59"></div>
+		<div class="class-name">.flaticon-printer59</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/printer-of-network_32301">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-printer60"></div>
+		<div class="class-name">.flaticon-printer60</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/printer-with-document-coming-out-of-machine_32546">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-question24"></div>
+		<div class="class-name">.flaticon-question24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/question-mark-in-a-circle_32297">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-quotation1"></div>
+		<div class="class-name">.flaticon-quotation1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/quotation-marks_32326">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-quotation2"></div>
+		<div class="class-name">.flaticon-quotation2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/quotation-mark_32371">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-quotation"></div>
+		<div class="class-name">.flaticon-quotation</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/quotation-right-mark_32194">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-radiation2"></div>
+		<div class="class-name">.flaticon-radiation2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/radiation-warning-sign_32361">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-recycle39"></div>
+		<div class="class-name">.flaticon-recycle39</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/recycle-symbol-made-of-arrows-with-selection-box_33291">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-redo5"></div>
+		<div class="class-name">.flaticon-redo5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/redo-navigational-arrow-in-a-circle_32202">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-refresh38"></div>
+		<div class="class-name">.flaticon-refresh38</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/refresh-selection-arrows-couple-inside-a-square-of-broken-line_32189">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-refresh39"></div>
+		<div class="class-name">.flaticon-refresh39</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/refresh-navigational-arrows-interface-symbol-inside-a-circle_32208">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-refresh40"></div>
+		<div class="class-name">.flaticon-refresh40</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/refresh-arrows-couple_32322">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-resize5"></div>
+		<div class="class-name">.flaticon-resize5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/resize-arrow-inside-a-square-interface-symbol_32217">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-right39"></div>
+		<div class="class-name">.flaticon-right39</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/right-thin-arrowheads_32738">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-right40"></div>
+		<div class="class-name">.flaticon-right40</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/right-text-alignment-option_32744">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-route7"></div>
+		<div class="class-name">.flaticon-route7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/route-sign_32335">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-scroll5"></div>
+		<div class="class-name">.flaticon-scroll5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/scroll-variant-with-seal_33289">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-selection5"></div>
+		<div class="class-name">.flaticon-selection5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/selection-find-interface-symbol-of-binoculars-with-eyes-in-a-square-of-broken-line_32276">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-selection6"></div>
+		<div class="class-name">.flaticon-selection6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/selection-view-interface-symbol-of-a-magnifying-glass-inside-a-broken-line-square_32289">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-selection7"></div>
+		<div class="class-name">.flaticon-selection7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/selection-symbol-for-interface-of-a-square-of-broken-line_32454">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-service3"></div>
+		<div class="class-name">.flaticon-service3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/service-bell_32352">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-ships1"></div>
+		<div class="class-name">.flaticon-ships1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/ships-wheel_32160">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-signaling"></div>
+		<div class="class-name">.flaticon-signaling</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/signaling-disc-tool_32451">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-signpost2"></div>
+		<div class="class-name">.flaticon-signpost2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/signpost_32349">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-signpost3"></div>
+		<div class="class-name">.flaticon-signpost3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/signpost-with-three-arrows_32372">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-signpost"></div>
+		<div class="class-name">.flaticon-signpost</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/signpost_32319">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech64"></div>
+		<div class="class-name">.flaticon-speech64</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-balloon-outline-for-conversation_32562">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech65"></div>
+		<div class="class-name">.flaticon-speech65</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-balloon-outline-with-question-mark_32742">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech66"></div>
+		<div class="class-name">.flaticon-speech66</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-balloon-outline-with-exclamation-mark_33273">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-spell1"></div>
+		<div class="class-name">.flaticon-spell1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/spell-check-interface-symbol_32291">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-split3"></div>
+		<div class="class-name">.flaticon-split3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/split-type-window_32558">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-square74"></div>
+		<div class="class-name">.flaticon-square74</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/square-root-of-x-math-formula_32538">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-ssd"></div>
+		<div class="class-name">.flaticon-ssd</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/ssd-drive-part_32749">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-stairs6"></div>
+		<div class="class-name">.flaticon-stairs6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/stairs-down_32180">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-stairs7"></div>
+		<div class="class-name">.flaticon-stairs7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/stairs-up_32356">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-star82"></div>
+		<div class="class-name">.flaticon-star82</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/star-outline_32172">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-star83"></div>
+		<div class="class-name">.flaticon-star83</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/star-in-black-of-five-points-shape_32214">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-stop24"></div>
+		<div class="class-name">.flaticon-stop24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/stop-sign-variant_32529">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-strikethrough2"></div>
+		<div class="class-name">.flaticon-strikethrough2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/strikethrough-font-variant_32534">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sum1"></div>
+		<div class="class-name">.flaticon-sum1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sum-sign_32306">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tag33"></div>
+		<div class="class-name">.flaticon-tag33</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tag-black_32452">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tags3"></div>
+		<div class="class-name">.flaticon-tags3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tags-black-couple-with-rings_32362">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-text70"></div>
+		<div class="class-name">.flaticon-text70</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/text-document_32329">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-text71"></div>
+		<div class="class-name">.flaticon-text71</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/text-align-left_32366">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-text72"></div>
+		<div class="class-name">.flaticon-text72</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/text-alignment-at-the-center_32568">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-ticket8"></div>
+		<div class="class-name">.flaticon-ticket8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/ticket_32157">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-toxic4"></div>
+		<div class="class-name">.flaticon-toxic4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/toxic-warning-sign_32363">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-traffic10"></div>
+		<div class="class-name">.flaticon-traffic10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/traffic-light-silhouette-variant_33282">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-traffic8"></div>
+		<div class="class-name">.flaticon-traffic8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/traffic-light_32351">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-traffic9"></div>
+		<div class="class-name">.flaticon-traffic9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/traffic-light-in-red-signal_32757">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-trafficlight1"></div>
+		<div class="class-name">.flaticon-trafficlight1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/trafficlight-off_32242">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-trafficlight2"></div>
+		<div class="class-name">.flaticon-trafficlight2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/trafficlight-in-yellow_32298">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-trafficlight"></div>
+		<div class="class-name">.flaticon-trafficlight</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/trafficlight-in-green_32191">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-triangular30"></div>
+		<div class="class-name">.flaticon-triangular30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/triangular-warning-sign_32535">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-triple14"></div>
+		<div class="class-name">.flaticon-triple14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/triple-arrow-merging-to-one_33290">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-undo6"></div>
+		<div class="class-name">.flaticon-undo6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/undo-arrow_32216">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-undo7"></div>
+		<div class="class-name">.flaticon-undo7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/undo-navigational-arrow-in-a-circle_32308">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-up27"></div>
+		<div class="class-name">.flaticon-up27</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/up-right-arrow-in-a-circle_32186">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-view7"></div>
+		<div class="class-name">.flaticon-view7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/view-11_32368">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-warning19"></div>
+		<div class="class-name">.flaticon-warning19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/warning-window-with-exclamation-sign-inside-a-triangle_32324">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-warning20"></div>
+		<div class="class-name">.flaticon-warning20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/warning-harmful-sign_32344">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-warning21"></div>
+		<div class="class-name">.flaticon-warning21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/warning-voltage-sign-of-a-bolt-inside-a-triangle_32455">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-warning22"></div>
+		<div class="class-name">.flaticon-warning22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/warning-flammable-sign_33295">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-window25"></div>
+		<div class="class-name">.flaticon-window25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/window-width_32187">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-window26"></div>
+		<div class="class-name">.flaticon-window26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/window-of-test-card_32197">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-window27"></div>
+		<div class="class-name">.flaticon-window27</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/window-close_32302">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-window28"></div>
+		<div class="class-name">.flaticon-window28</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/window-size_32315">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-window29"></div>
+		<div class="class-name">.flaticon-window29</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/window-split-vertical_32343">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-window30"></div>
+		<div class="class-name">.flaticon-window30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/window-with-earth-image_32359">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-window31"></div>
+		<div class="class-name">.flaticon-window31</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/window-of-dialog_32367">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-window32"></div>
+		<div class="class-name">.flaticon-window32</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/window-networking-option_32539">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-window33"></div>
+		<div class="class-name">.flaticon-window33</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/window-with-side-bar-selection_32762">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-windows23"></div>
+		<div class="class-name">.flaticon-windows23</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/windows-couple_32295">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-windows24"></div>
+		<div class="class-name">.flaticon-windows24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/windows-close_32369">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-yield"></div>
+		<div class="class-name">.flaticon-yield</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/yield-sign_32332">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-zip8"></div>
+		<div class="class-name">.flaticon-zip8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/zip-file-document-variant_33284">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-zoom29"></div>
+		<div class="class-name">.flaticon-zoom29</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/zoom-out-option_32532">Freepik</a></div></div></section>
+
+<section class="attribution">
+
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.flaticon.com">flaticon.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. The authors are: <a href="http://www.freepik.com">Freepik</a>.</div><div class="usetitle">Copy the Attribution License:</div>
+
+<textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.flaticon.com&quot;&gt;flaticon.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. The authors are: &lt;a href=&quot;http://www.freepik.com&quot;&gt;Freepik&lt;/a&gt;.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image"><p>&lt;i class=&quot;flaticon-add73&quot;&gt;&lt;/i&gt; <i class="flaticon-add73"></i></p><p>&lt;i class=&quot;flaticon-arrow476&quot;&gt;&lt;/i&gt; <i class="flaticon-arrow476"></i></p><p>&lt;i class=&quot;flaticon-arrow477&quot;&gt;&lt;/i&gt; <i class="flaticon-arrow477"></i></p><p>&lt;i class=&quot;flaticon-arrow478&quot;&gt;&lt;/i&gt; <i class="flaticon-arrow478"></i></p><p>&lt;i class=&quot;flaticon-arrow479&quot;&gt;&lt;/i&gt; <i class="flaticon-arrow479"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-arrow480&quot;&gt;&lt;/span&gt; <span class="flaticon-arrow480"></span></p><p>&lt;span class=&quot;flaticon-arrow481&quot;&gt;&lt;/span&gt; <span class="flaticon-arrow481"></span></p><p>&lt;span class=&quot;flaticon-arrow482&quot;&gt;&lt;/span&gt; <span class="flaticon-arrow482"></span></p><p>&lt;span class=&quot;flaticon-arrow483&quot;&gt;&lt;/span&gt; <span class="flaticon-arrow483"></span></p><p>&lt;span class=&quot;flaticon-arrow484&quot;&gt;&lt;/span&gt; <span class="flaticon-arrow484"></span></p></div><div class="image"><p>&lt;span class=&quot;flaticon-arrow485&quot;&gt;&lt;/span&gt; <span class="flaticon-arrow485"></span></p><p>&lt;i class=&quot;flaticon-arrow486&quot;&gt;&lt;/i&gt; <i class="flaticon-arrow486"></i></p><p>&lt;i class=&quot;flaticon-arrow487&quot;&gt;&lt;/i&gt; <i class="flaticon-arrow487"></i></p><p>&lt;i class=&quot;flaticon-arrow488&quot;&gt;&lt;/i&gt; <i class="flaticon-arrow488"></i></p><p>&lt;i class=&quot;flaticon-arrow489&quot;&gt;&lt;/i&gt; <i class="flaticon-arrow489"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-arrow490&quot;&gt;&lt;/span&gt; <span class="flaticon-arrow490"></span></p><p>&lt;span class=&quot;flaticon-arrow491&quot;&gt;&lt;/span&gt; <span class="flaticon-arrow491"></span></p><p>&lt;span class=&quot;flaticon-arrow492&quot;&gt;&lt;/span&gt; <span class="flaticon-arrow492"></span></p><p>&lt;span class=&quot;flaticon-arrow493&quot;&gt;&lt;/span&gt; <span class="flaticon-arrow493"></span></p><p>&lt;span class=&quot;flaticon-arrow494&quot;&gt;&lt;/span&gt; <span class="flaticon-arrow494"></span></p></div><div class="image"></div>
+</section>
+<div id="footer">
+    <div>Generated by <a href="http://www.flaticon.com">flaticon.com</a>
+    </div>
+</div>
+	</body>
+</html>

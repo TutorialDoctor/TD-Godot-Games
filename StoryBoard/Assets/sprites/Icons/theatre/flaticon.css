@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-3d graphics:before {
+	content: "\e000";
+}
+.flaticon-access2:before {
+	content: "\e001";
+}
+.flaticon-binocular:before {
+	content: "\e002";
+}
+.flaticon-carnival49:before {
+	content: "\e003";
+}
+.flaticon-cd10:before {
+	content: "\e004";
+}
+.flaticon-chairs2:before {
+	content: "\e005";
+}
+.flaticon-cinema64:before {
+	content: "\e006";
+}
+.flaticon-cinema65:before {
+	content: "\e007";
+}
+.flaticon-cinema icons:before {
+	content: "\e008";
+}
+.flaticon-clapperboard11:before {
+	content: "\e009";
+}
+.flaticon-columns9:before {
+	content: "\e00a";
+}
+.flaticon-comedy:before {
+	content: "\e00b";
+}
+.flaticon-curtain:before {
+	content: "\e00c";
+}
+.flaticon-drinks8:before {
+	content: "\e00d";
+}
+.flaticon-eyeglasses25:before {
+	content: "\e00e";
+}
+.flaticon-feather1:before {
+	content: "\e00f";
+}
+.flaticon-film7:before {
+	content: "\e010";
+}
+.flaticon-frames8:before {
+	content: "\e011";
+}
+.flaticon-lights1:before {
+	content: "\e012";
+}
+.flaticon-microphone19:before {
+	content: "\e013";
+}
+.flaticon-movies8:before {
+	content: "\e014";
+}
+.flaticon-popcorn6:before {
+	content: "\e015";
+}
+.flaticon-screen113:before {
+	content: "\e016";
+}
+.flaticon-script1:before {
+	content: "\e017";
+}
+.flaticon-shoe21:before {
+	content: "\e018";
+}
+.flaticon-speaker15:before {
+	content: "\e019";
+}
+.flaticon-stadium4:before {
+	content: "\e01a";
+}
+.flaticon-temple5:before {
+	content: "\e01b";
+}
+.flaticon-theater7:before {
+	content: "\e01c";
+}
+.flaticon-theatre1:before {
+	content: "\e01d";
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g>
+	<rect x="12" y="49" width="7" height="4"/>
+	<rect x="51" y="49" width="7" height="4"/>
+	<polygon points="61.132,49 61.132,49 61.132,49 	"/>
+	<path d="M3.022,39h1.955C5.542,39,6,38.542,6,37.978V37h1.541h0.533h0.472l-0.917,9.936c-0.028,0.305,0.032,0.535,0.183,0.7
+		C8.026,47.871,8.444,48,8.99,48H12h7h32h7h3.132c0.566,0,0.991-0.123,1.196-0.347c0.138-0.151,0.191-0.367,0.165-0.66
+		l-2.696-29.539C59.722,16.625,58.977,16,58.064,16H12.058l-0.001,0c-0.841,0-1.65,0.793-1.731,1.696L8.822,34H8.349H7.818H6v-0.978
+		C6,32.458,5.542,32,4.978,32H3.022C2.458,32,2,32.458,2,33.022v4.955C2,38.542,2.458,39,3.022,39z"/>
+</g>
+</svg>

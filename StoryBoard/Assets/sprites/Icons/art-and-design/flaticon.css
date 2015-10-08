@@ -1,0 +1,286 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-aim6:before {
+	content: "\e000";
+}
+.flaticon-alignment2:before {
+	content: "\e001";
+}
+.flaticon-arrow7:before {
+	content: "\e002";
+}
+.flaticon-artist3:before {
+	content: "\e003";
+}
+.flaticon-artist:before {
+	content: "\e004";
+}
+.flaticon-bright5:before {
+	content: "\e005";
+}
+.flaticon-brush2:before {
+	content: "\e006";
+}
+.flaticon-candy26:before {
+	content: "\e007";
+}
+.flaticon-capital3:before {
+	content: "\e008";
+}
+.flaticon-circle123:before {
+	content: "\e009";
+}
+.flaticon-circular2:before {
+	content: "\e00a";
+}
+.flaticon-color8:before {
+	content: "\e00b";
+}
+.flaticon-container11:before {
+	content: "\e00c";
+}
+.flaticon-contrast27:before {
+	content: "\e00d";
+}
+.flaticon-crayon8:before {
+	content: "\e00e";
+}
+.flaticon-crop17:before {
+	content: "\e00f";
+}
+.flaticon-crop18:before {
+	content: "\e010";
+}
+.flaticon-crop tool:before {
+	content: "\e011";
+}
+.flaticon-cross out:before {
+	content: "\e012";
+}
+.flaticon-cube35:before {
+	content: "\e013";
+}
+.flaticon-cursor2:before {
+	content: "\e014";
+}
+.flaticon-curve5:before {
+	content: "\e015";
+}
+.flaticon-cut:before {
+	content: "\e016";
+}
+.flaticon-dashed line:before {
+	content: "\e017";
+}
+.flaticon-decrease:before {
+	content: "\e018";
+}
+.flaticon-design33:before {
+	content: "\e019";
+}
+.flaticon-direction27:before {
+	content: "\e01a";
+}
+.flaticon-drawing20:before {
+	content: "\e01b";
+}
+.flaticon-edition1:before {
+	content: "\e01c";
+}
+.flaticon-erase4:before {
+	content: "\e01d";
+}
+.flaticon-file110:before {
+	content: "\e01e";
+}
+.flaticon-fill:before {
+	content: "\e01f";
+}
+.flaticon-folders6:before {
+	content: "\e020";
+}
+.flaticon-font13:before {
+	content: "\e021";
+}
+.flaticon-geometry6:before {
+	content: "\e022";
+}
+.flaticon-geometry7:before {
+	content: "\e023";
+}
+.flaticon-graphic design:before {
+	content: "\e024";
+}
+.flaticon-graphics6:before {
+	content: "\e025";
+}
+.flaticon-graphics editor1:before {
+	content: "\e026";
+}
+.flaticon-graphics editor2:before {
+	content: "\e027";
+}
+.flaticon-graphics editor:before {
+	content: "\e028";
+}
+.flaticon-grids1:before {
+	content: "\e029";
+}
+.flaticon-image2:before {
+	content: "\e02a";
+}
+.flaticon-maximize2:before {
+	content: "\e02b";
+}
+.flaticon-navigation1:before {
+	content: "\e02c";
+}
+.flaticon-night:before {
+	content: "\e02d";
+}
+.flaticon-nodes1:before {
+	content: "\e02e";
+}
+.flaticon-paint4:before {
+	content: "\e02f";
+}
+.flaticon-paint86:before {
+	content: "\e030";
+}
+.flaticon-paint87:before {
+	content: "\e031";
+}
+.flaticon-paint88:before {
+	content: "\e032";
+}
+.flaticon-painting45:before {
+	content: "\e033";
+}
+.flaticon-painting:before {
+	content: "\e034";
+}
+.flaticon-pencil3:before {
+	content: "\e035";
+}
+.flaticon-pen:before {
+	content: "\e036";
+}
+.flaticon-photo223:before {
+	content: "\e037";
+}
+.flaticon-photoshop1:before {
+	content: "\e038";
+}
+.flaticon-photoshop2:before {
+	content: "\e039";
+}
+.flaticon-photoshop3:before {
+	content: "\e03a";
+}
+.flaticon-pieces:before {
+	content: "\e03b";
+}
+.flaticon-reduce4:before {
+	content: "\e03c";
+}
+.flaticon-reload13:before {
+	content: "\e03d";
+}
+.flaticon-repair19:before {
+	content: "\e03e";
+}
+.flaticon-rewind1:before {
+	content: "\e03f";
+}
+.flaticon-rotate2:before {
+	content: "\e040";
+}
+.flaticon-rubber2:before {
+	content: "\e041";
+}
+.flaticon-rubber stamp:before {
+	content: "\e042";
+}
+.flaticon-sand bucket:before {
+	content: "\e043";
+}
+.flaticon-school materials8:before {
+	content: "\e044";
+}
+.flaticon-screen68:before {
+	content: "\e045";
+}
+.flaticon-share1:before {
+	content: "\e046";
+}
+.flaticon-signature:before {
+	content: "\e047";
+}
+.flaticon-spin1:before {
+	content: "\e048";
+}
+.flaticon-spirals3:before {
+	content: "\e049";
+}
+.flaticon-square194:before {
+	content: "\e04a";
+}
+.flaticon-square1:before {
+	content: "\e04b";
+}
+.flaticon-strings:before {
+	content: "\e04c";
+}
+.flaticon-sun2:before {
+	content: "\e04d";
+}
+.flaticon-target1:before {
+	content: "\e04e";
+}
+.flaticon-technical drawing1:before {
+	content: "\e04f";
+}
+.flaticon-technical drawing2:before {
+	content: "\e050";
+}
+.flaticon-tool21:before {
+	content: "\e051";
+}
+.flaticon-triangular61:before {
+	content: "\e052";
+}
+.flaticon-trim line:before {
+	content: "\e053";
+}
+.flaticon-volume1:before {
+	content: "\e054";
+}
+.flaticon-wand3:before {
+	content: "\e055";
+}
+.flaticon-water drop:before {
+	content: "\e056";
+}
+.flaticon-web design2:before {
+	content: "\e057";
+}
+.flaticon-write37:before {
+	content: "\e058";
+}
+.flaticon-write38:before {
+	content: "\e059";
+}

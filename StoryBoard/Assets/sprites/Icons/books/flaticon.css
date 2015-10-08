@@ -1,0 +1,76 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-bible5:before {
+	content: "\e000";
+}
+.flaticon-book213:before {
+	content: "\e001";
+}
+.flaticon-book214:before {
+	content: "\e002";
+}
+.flaticon-book215:before {
+	content: "\e003";
+}
+.flaticon-book216:before {
+	content: "\e004";
+}
+.flaticon-book217:before {
+	content: "\e005";
+}
+.flaticon-book218:before {
+	content: "\e006";
+}
+.flaticon-book219:before {
+	content: "\e007";
+}
+.flaticon-book220:before {
+	content: "\e008";
+}
+.flaticon-book221:before {
+	content: "\e009";
+}
+.flaticon-book222:before {
+	content: "\e00a";
+}
+.flaticon-book223:before {
+	content: "\e00b";
+}
+.flaticon-book224:before {
+	content: "\e00c";
+}
+.flaticon-book225:before {
+	content: "\e00d";
+}
+.flaticon-book226:before {
+	content: "\e00e";
+}
+.flaticon-clipboard105:before {
+	content: "\e00f";
+}
+.flaticon-file101:before {
+	content: "\e010";
+}
+.flaticon-library18:before {
+	content: "\e011";
+}
+.flaticon-notebook73:before {
+	content: "\e012";
+}
+.flaticon-text158:before {
+	content: "\e013";
+}

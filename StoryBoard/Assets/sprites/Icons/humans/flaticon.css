@@ -1,0 +1,745 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-abduction:before {
+	content: "\e000";
+}
+.flaticon-angel2:before {
+	content: "\e001";
+}
+.flaticon-angel3:before {
+	content: "\e002";
+}
+.flaticon-arch1:before {
+	content: "\e003";
+}
+.flaticon-archery1:before {
+	content: "\e004";
+}
+.flaticon-area1:before {
+	content: "\e005";
+}
+.flaticon-area:before {
+	content: "\e006";
+}
+.flaticon-arm1:before {
+	content: "\e007";
+}
+.flaticon-armed:before {
+	content: "\e008";
+}
+.flaticon-arms:before {
+	content: "\e009";
+}
+.flaticon-arrest:before {
+	content: "\e00a";
+}
+.flaticon-attack1:before {
+	content: "\e00b";
+}
+.flaticon-attack:before {
+	content: "\e00c";
+}
+.flaticon-basketball4:before {
+	content: "\e00d";
+}
+.flaticon-binoculars1:before {
+	content: "\e00e";
+}
+.flaticon-boy2:before {
+	content: "\e00f";
+}
+.flaticon-break:before {
+	content: "\e010";
+}
+.flaticon-business10:before {
+	content: "\e011";
+}
+.flaticon-business9:before {
+	content: "\e012";
+}
+.flaticon-call:before {
+	content: "\e013";
+}
+.flaticon-celebration:before {
+	content: "\e014";
+}
+.flaticon-checked7:before {
+	content: "\e015";
+}
+.flaticon-child1:before {
+	content: "\e016";
+}
+.flaticon-communication3:before {
+	content: "\e017";
+}
+.flaticon-couple10:before {
+	content: "\e018";
+}
+.flaticon-couple11:before {
+	content: "\e019";
+}
+.flaticon-couple8:before {
+	content: "\e01a";
+}
+.flaticon-couple9:before {
+	content: "\e01b";
+}
+.flaticon-cowboy1:before {
+	content: "\e01c";
+}
+.flaticon-cripple:before {
+	content: "\e01d";
+}
+.flaticon-dancing1:before {
+	content: "\e01e";
+}
+.flaticon-dive:before {
+	content: "\e01f";
+}
+.flaticon-dj1:before {
+	content: "\e020";
+}
+.flaticon-drag:before {
+	content: "\e021";
+}
+.flaticon-drink6:before {
+	content: "\e022";
+}
+.flaticon-elegant6:before {
+	content: "\e023";
+}
+.flaticon-elegant7:before {
+	content: "\e024";
+}
+.flaticon-elegant8:before {
+	content: "\e025";
+}
+.flaticon-equilibrist1:before {
+	content: "\e026";
+}
+.flaticon-falling1:before {
+	content: "\e027";
+}
+.flaticon-famous:before {
+	content: "\e028";
+}
+.flaticon-fishing2:before {
+	content: "\e029";
+}
+.flaticon-flexed:before {
+	content: "\e02a";
+}
+.flaticon-frontal14:before {
+	content: "\e02b";
+}
+.flaticon-girl3:before {
+	content: "\e02c";
+}
+.flaticon-girl4:before {
+	content: "\e02d";
+}
+.flaticon-graduate:before {
+	content: "\e02e";
+}
+.flaticon-gymnast:before {
+	content: "\e02f";
+}
+.flaticon-head:before {
+	content: "\e030";
+}
+.flaticon-hit:before {
+	content: "\e031";
+}
+.flaticon-human4:before {
+	content: "\e032";
+}
+.flaticon-ice13:before {
+	content: "\e033";
+}
+.flaticon-ice4:before {
+	content: "\e034";
+}
+.flaticon-indian:before {
+	content: "\e035";
+}
+.flaticon-jumping3:before {
+	content: "\e036";
+}
+.flaticon-jumping4:before {
+	content: "\e037";
+}
+.flaticon-jumping5:before {
+	content: "\e038";
+}
+.flaticon-kick:before {
+	content: "\e039";
+}
+.flaticon-knee:before {
+	content: "\e03a";
+}
+.flaticon-knocked:before {
+	content: "\e03b";
+}
+.flaticon-leg1:before {
+	content: "\e03c";
+}
+.flaticon-leg2:before {
+	content: "\e03d";
+}
+.flaticon-majordomo:before {
+	content: "\e03e";
+}
+.flaticon-man64:before {
+	content: "\e03f";
+}
+.flaticon-man65:before {
+	content: "\e040";
+}
+.flaticon-man66:before {
+	content: "\e041";
+}
+.flaticon-man67:before {
+	content: "\e042";
+}
+.flaticon-man68:before {
+	content: "\e043";
+}
+.flaticon-man69:before {
+	content: "\e044";
+}
+.flaticon-man70:before {
+	content: "\e045";
+}
+.flaticon-man71:before {
+	content: "\e046";
+}
+.flaticon-man72:before {
+	content: "\e047";
+}
+.flaticon-man73:before {
+	content: "\e048";
+}
+.flaticon-man74:before {
+	content: "\e049";
+}
+.flaticon-man76:before {
+	content: "\e04a";
+}
+.flaticon-man77:before {
+	content: "\e04b";
+}
+.flaticon-man78:before {
+	content: "\e04c";
+}
+.flaticon-man79:before {
+	content: "\e04d";
+}
+.flaticon-man80:before {
+	content: "\e04e";
+}
+.flaticon-man81:before {
+	content: "\e04f";
+}
+.flaticon-man84:before {
+	content: "\e050";
+}
+.flaticon-marry:before {
+	content: "\e051";
+}
+.flaticon-martial1:before {
+	content: "\e052";
+}
+.flaticon-martial:before {
+	content: "\e053";
+}
+.flaticon-mask1:before {
+	content: "\e054";
+}
+.flaticon-matrix:before {
+	content: "\e055";
+}
+.flaticon-medical6:before {
+	content: "\e056";
+}
+.flaticon-meeting1:before {
+	content: "\e057";
+}
+.flaticon-men2:before {
+	content: "\e058";
+}
+.flaticon-mexican1:before {
+	content: "\e059";
+}
+.flaticon-militar:before {
+	content: "\e05a";
+}
+.flaticon-mother1:before {
+	content: "\e05b";
+}
+.flaticon-old14:before {
+	content: "\e05c";
+}
+.flaticon-one4:before {
+	content: "\e05d";
+}
+.flaticon-oriental3:before {
+	content: "\e05e";
+}
+.flaticon-person100:before {
+	content: "\e05f";
+}
+.flaticon-person101:before {
+	content: "\e060";
+}
+.flaticon-person102:before {
+	content: "\e061";
+}
+.flaticon-person103:before {
+	content: "\e062";
+}
+.flaticon-person104:before {
+	content: "\e063";
+}
+.flaticon-person105:before {
+	content: "\e064";
+}
+.flaticon-person106:before {
+	content: "\e065";
+}
+.flaticon-person107:before {
+	content: "\e066";
+}
+.flaticon-person108:before {
+	content: "\e067";
+}
+.flaticon-person109:before {
+	content: "\e068";
+}
+.flaticon-person110:before {
+	content: "\e069";
+}
+.flaticon-person111:before {
+	content: "\e06a";
+}
+.flaticon-person112:before {
+	content: "\e06b";
+}
+.flaticon-person113:before {
+	content: "\e06c";
+}
+.flaticon-person114:before {
+	content: "\e06d";
+}
+.flaticon-person115:before {
+	content: "\e06e";
+}
+.flaticon-person116:before {
+	content: "\e06f";
+}
+.flaticon-person117:before {
+	content: "\e070";
+}
+.flaticon-person118:before {
+	content: "\e071";
+}
+.flaticon-person119:before {
+	content: "\e072";
+}
+.flaticon-person120:before {
+	content: "\e073";
+}
+.flaticon-person121:before {
+	content: "\e074";
+}
+.flaticon-person122:before {
+	content: "\e075";
+}
+.flaticon-person123:before {
+	content: "\e076";
+}
+.flaticon-person124:before {
+	content: "\e077";
+}
+.flaticon-person125:before {
+	content: "\e078";
+}
+.flaticon-person126:before {
+	content: "\e079";
+}
+.flaticon-person127:before {
+	content: "\e07a";
+}
+.flaticon-person128:before {
+	content: "\e07b";
+}
+.flaticon-person129:before {
+	content: "\e07c";
+}
+.flaticon-person130:before {
+	content: "\e07d";
+}
+.flaticon-person131:before {
+	content: "\e07e";
+}
+.flaticon-person132:before {
+	content: "\e07f";
+}
+.flaticon-person133:before {
+	content: "\e080";
+}
+.flaticon-person134:before {
+	content: "\e081";
+}
+.flaticon-person135:before {
+	content: "\e082";
+}
+.flaticon-person136:before {
+	content: "\e083";
+}
+.flaticon-person137:before {
+	content: "\e084";
+}
+.flaticon-person138:before {
+	content: "\e085";
+}
+.flaticon-person139:before {
+	content: "\e086";
+}
+.flaticon-person140:before {
+	content: "\e087";
+}
+.flaticon-person141:before {
+	content: "\e088";
+}
+.flaticon-person142:before {
+	content: "\e089";
+}
+.flaticon-person143:before {
+	content: "\e08a";
+}
+.flaticon-person144:before {
+	content: "\e08b";
+}
+.flaticon-person145:before {
+	content: "\e08c";
+}
+.flaticon-person146:before {
+	content: "\e08d";
+}
+.flaticon-person147:before {
+	content: "\e08e";
+}
+.flaticon-person148:before {
+	content: "\e08f";
+}
+.flaticon-person149:before {
+	content: "\e090";
+}
+.flaticon-person150:before {
+	content: "\e091";
+}
+.flaticon-person151:before {
+	content: "\e092";
+}
+.flaticon-person152:before {
+	content: "\e093";
+}
+.flaticon-person153:before {
+	content: "\e094";
+}
+.flaticon-person154:before {
+	content: "\e095";
+}
+.flaticon-person155:before {
+	content: "\e096";
+}
+.flaticon-person156:before {
+	content: "\e097";
+}
+.flaticon-person157:before {
+	content: "\e098";
+}
+.flaticon-person158:before {
+	content: "\e099";
+}
+.flaticon-person159:before {
+	content: "\e09a";
+}
+.flaticon-person160:before {
+	content: "\e09b";
+}
+.flaticon-person161:before {
+	content: "\e09c";
+}
+.flaticon-person164:before {
+	content: "\e09d";
+}
+.flaticon-person165:before {
+	content: "\e09e";
+}
+.flaticon-person166:before {
+	content: "\e09f";
+}
+.flaticon-person167:before {
+	content: "\e0a0";
+}
+.flaticon-person168:before {
+	content: "\e0a1";
+}
+.flaticon-person169:before {
+	content: "\e0a2";
+}
+.flaticon-person70:before {
+	content: "\e0a3";
+}
+.flaticon-person71:before {
+	content: "\e0a4";
+}
+.flaticon-person72:before {
+	content: "\e0a5";
+}
+.flaticon-person73:before {
+	content: "\e0a6";
+}
+.flaticon-person74:before {
+	content: "\e0a7";
+}
+.flaticon-person75:before {
+	content: "\e0a8";
+}
+.flaticon-person76:before {
+	content: "\e0a9";
+}
+.flaticon-person77:before {
+	content: "\e0aa";
+}
+.flaticon-person78:before {
+	content: "\e0ab";
+}
+.flaticon-person79:before {
+	content: "\e0ac";
+}
+.flaticon-person80:before {
+	content: "\e0ad";
+}
+.flaticon-person81:before {
+	content: "\e0ae";
+}
+.flaticon-person82:before {
+	content: "\e0af";
+}
+.flaticon-person83:before {
+	content: "\e0b0";
+}
+.flaticon-person84:before {
+	content: "\e0b1";
+}
+.flaticon-person85:before {
+	content: "\e0b2";
+}
+.flaticon-person86:before {
+	content: "\e0b3";
+}
+.flaticon-person87:before {
+	content: "\e0b4";
+}
+.flaticon-person88:before {
+	content: "\e0b5";
+}
+.flaticon-person89:before {
+	content: "\e0b6";
+}
+.flaticon-person90:before {
+	content: "\e0b7";
+}
+.flaticon-person91:before {
+	content: "\e0b8";
+}
+.flaticon-person92:before {
+	content: "\e0b9";
+}
+.flaticon-person93:before {
+	content: "\e0ba";
+}
+.flaticon-person94:before {
+	content: "\e0bb";
+}
+.flaticon-person95:before {
+	content: "\e0bc";
+}
+.flaticon-person96:before {
+	content: "\e0bd";
+}
+.flaticon-person97:before {
+	content: "\e0be";
+}
+.flaticon-person98:before {
+	content: "\e0bf";
+}
+.flaticon-person99:before {
+	content: "\e0c0";
+}
+.flaticon-pitcher2:before {
+	content: "\e0c1";
+}
+.flaticon-pregnant:before {
+	content: "\e0c2";
+}
+.flaticon-profesor:before {
+	content: "\e0c3";
+}
+.flaticon-quit:before {
+	content: "\e0c4";
+}
+.flaticon-raindrops:before {
+	content: "\e0c5";
+}
+.flaticon-read1:before {
+	content: "\e0c6";
+}
+.flaticon-relay:before {
+	content: "\e0c7";
+}
+.flaticon-rest:before {
+	content: "\e0c8";
+}
+.flaticon-romantic1:before {
+	content: "\e0c9";
+}
+.flaticon-runner:before {
+	content: "\e0ca";
+}
+.flaticon-running1:before {
+	content: "\e0cb";
+}
+.flaticon-running3:before {
+	content: "\e0cc";
+}
+.flaticon-see1:before {
+	content: "\e0cd";
+}
+.flaticon-shower:before {
+	content: "\e0ce";
+}
+.flaticon-side5:before {
+	content: "\e0cf";
+}
+.flaticon-silhouette8:before {
+	content: "\e0d0";
+}
+.flaticon-silhouette:before {
+	content: "\e0d1";
+}
+.flaticon-sitting4:before {
+	content: "\e0d2";
+}
+.flaticon-skater:before {
+	content: "\e0d3";
+}
+.flaticon-slide2:before {
+	content: "\e0d4";
+}
+.flaticon-slide3:before {
+	content: "\e0d5";
+}
+.flaticon-sportive11:before {
+	content: "\e0d6";
+}
+.flaticon-standing22:before {
+	content: "\e0d7";
+}
+.flaticon-standing23:before {
+	content: "\e0d8";
+}
+.flaticon-standing24:before {
+	content: "\e0d9";
+}
+.flaticon-standing25:before {
+	content: "\e0da";
+}
+.flaticon-standing26:before {
+	content: "\e0db";
+}
+.flaticon-standing27:before {
+	content: "\e0dc";
+}
+.flaticon-standing28:before {
+	content: "\e0dd";
+}
+.flaticon-standing29:before {
+	content: "\e0de";
+}
+.flaticon-stop10:before {
+	content: "\e0df";
+}
+.flaticon-superman:before {
+	content: "\e0e0";
+}
+.flaticon-surprised:before {
+	content: "\e0e1";
+}
+.flaticon-swords:before {
+	content: "\e0e2";
+}
+.flaticon-teacher1:before {
+	content: "\e0e3";
+}
+.flaticon-thief:before {
+	content: "\e0e4";
+}
+.flaticon-traveler:before {
+	content: "\e0e5";
+}
+.flaticon-two26:before {
+	content: "\e0e6";
+}
+.flaticon-two40:before {
+	content: "\e0e7";
+}
+.flaticon-unrecognizable:before {
+	content: "\e0e8";
+}
+.flaticon-walker:before {
+	content: "\e0e9";
+}
+.flaticon-warm:before {
+	content: "\e0ea";
+}
+.flaticon-watching:before {
+	content: "\e0eb";
+}
+.flaticon-wheelchair1:before {
+	content: "\e0ec";
+}
+.flaticon-winners:before {
+	content: "\e0ed";
+}
+.flaticon-woman10:before {
+	content: "\e0ee";
+}
+.flaticon-woman11:before {
+	content: "\e0ef";
+}
+.flaticon-woman9:before {
+	content: "\e0f0";
+}
+.flaticon-yoga2:before {
+	content: "\e0f1";
+}
+.flaticon-zebra:before {
+	content: "\e0f2";
+}

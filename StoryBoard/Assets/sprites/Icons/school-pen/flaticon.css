@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-ballpoint1:before {
+	content: "\e000";
+}
+.flaticon-big49:before {
+	content: "\e001";
+}
+.flaticon-big50:before {
+	content: "\e002";
+}
+.flaticon-black118:before {
+	content: "\e003";
+}
+.flaticon-black123:before {
+	content: "\e004";
+}
+.flaticon-black124:before {
+	content: "\e005";
+}
+.flaticon-black148:before {
+	content: "\e006";
+}
+.flaticon-calligraphy1:before {
+	content: "\e007";
+}
+.flaticon-crayon:before {
+	content: "\e008";
+}
+.flaticon-fat1:before {
+	content: "\e009";
+}
+.flaticon-fine:before {
+	content: "\e00a";
+}
+.flaticon-fountain:before {
+	content: "\e00b";
+}
+.flaticon-hand17:before {
+	content: "\e00c";
+}
+.flaticon-mechanical:before {
+	content: "\e00d";
+}
+.flaticon-pen17:before {
+	content: "\e00e";
+}
+.flaticon-pen18:before {
+	content: "\e00f";
+}
+.flaticon-pen19:before {
+	content: "\e010";
+}
+.flaticon-pencil15:before {
+	content: "\e011";
+}
+.flaticon-pencil16:before {
+	content: "\e012";
+}
+.flaticon-pencil17:before {
+	content: "\e013";
+}
+.flaticon-pencil18:before {
+	content: "\e014";
+}
+.flaticon-pencil19:before {
+	content: "\e015";
+}
+.flaticon-pencil20:before {
+	content: "\e016";
+}
+.flaticon-pencil21:before {
+	content: "\e017";
+}
+.flaticon-quill1:before {
+	content: "\e018";
+}
+.flaticon-sharp:before {
+	content: "\e019";
+}
+.flaticon-small81:before {
+	content: "\e01a";
+}
+.flaticon-small82:before {
+	content: "\e01b";
+}
+.flaticon-tiny1:before {
+	content: "\e01c";
+}
+.flaticon-uncapped:before {
+	content: "\e01d";
+}

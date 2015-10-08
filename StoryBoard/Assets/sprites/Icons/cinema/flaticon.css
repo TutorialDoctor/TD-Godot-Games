@@ -1,0 +1,133 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-3d2:before {
+	content: "\e000";
+}
+.flaticon-3d4:before {
+	content: "\e001";
+}
+.flaticon-3d5:before {
+	content: "\e002";
+}
+.flaticon-announcement:before {
+	content: "\e003";
+}
+.flaticon-cinema14:before {
+	content: "\e004";
+}
+.flaticon-cinema15:before {
+	content: "\e005";
+}
+.flaticon-cinema16:before {
+	content: "\e006";
+}
+.flaticon-cinema17:before {
+	content: "\e007";
+}
+.flaticon-cinema18:before {
+	content: "\e008";
+}
+.flaticon-cinema19:before {
+	content: "\e009";
+}
+.flaticon-cinema20:before {
+	content: "\e00a";
+}
+.flaticon-cinema21:before {
+	content: "\e00b";
+}
+.flaticon-cinema22:before {
+	content: "\e00c";
+}
+.flaticon-cinema24:before {
+	content: "\e00d";
+}
+.flaticon-cinema5:before {
+	content: "\e00e";
+}
+.flaticon-cinema6:before {
+	content: "\e00f";
+}
+.flaticon-cinema7:before {
+	content: "\e010";
+}
+.flaticon-cine:before {
+	content: "\e011";
+}
+.flaticon-directors:before {
+	content: "\e012";
+}
+.flaticon-famous1:before {
+	content: "\e013";
+}
+.flaticon-film12:before {
+	content: "\e014";
+}
+.flaticon-film26:before {
+	content: "\e015";
+}
+.flaticon-film27:before {
+	content: "\e016";
+}
+.flaticon-male84:before {
+	content: "\e017";
+}
+.flaticon-movie10:before {
+	content: "\e018";
+}
+.flaticon-movie9:before {
+	content: "\e019";
+}
+.flaticon-nachos:before {
+	content: "\e01a";
+}
+.flaticon-old15:before {
+	content: "\e01b";
+}
+.flaticon-online3:before {
+	content: "\e01c";
+}
+.flaticon-oscars:before {
+	content: "\e01d";
+}
+.flaticon-popcorn2:before {
+	content: "\e01e";
+}
+.flaticon-popcorn:before {
+	content: "\e01f";
+}
+.flaticon-speaker4:before {
+	content: "\e020";
+}
+.flaticon-star59:before {
+	content: "\e021";
+}
+.flaticon-starting:before {
+	content: "\e022";
+}
+.flaticon-take:before {
+	content: "\e023";
+}
+.flaticon-three57:before {
+	content: "\e024";
+}
+.flaticon-thumbs10:before {
+	content: "\e025";
+}
+.flaticon-ticket3:before {
+	content: "\e026";
+}
