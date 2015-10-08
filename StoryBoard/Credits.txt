@@ -2,3 +2,8 @@ Developers:
 	The Tutorial Doctor
 Music: 
 	OMFG - Hello
+
+Icons:
+http://www.flaticon.com
+
+Icons have licenses, so please do not redistribute unless you have followed the instructions of the license. This is for prototyping only (so far). 
