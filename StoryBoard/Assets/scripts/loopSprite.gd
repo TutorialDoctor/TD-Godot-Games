@@ -8,7 +8,7 @@ var current_frame = null
 
 # Speed: A tenth of a second is equal to one frame (60fps)
 # The lower the faster
-export var speed = .1 # Exported this property to the Inspector, so you can change it form there
+export var delay = .1 # Exported this property to the Inspector, so you can change it form there
 
 func _ready():
 	frames = self.get_sprite_frames()
@@ -22,7 +22,7 @@ func _process(delta):
 	# I will leave it for demonstration purposes
 	
 	# If the elapsed time is greater than one frame...
-	if(dt > speed):
+	if(dt > delay):
 		# And if the current frame is equal to the last frame minus 1 (second to last frame)...
 		if(get_frame() == frames.get_frame_count() -1):
 			# Set the frame of this sprite to the first frame

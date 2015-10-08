@@ -1,7 +1,253 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="3" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+<resource_file type="PackedScene" subresource_count="125" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
 	<ext_resource path="res://Assets/scripts/load.gd" type="Script"></ext_resource>
 	<ext_resource path="res://Assets/sprites/Icons/cinema/png/reel.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0001.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0002.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0003.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0004.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0005.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0006.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0007.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0008.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0009.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0010.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0011.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0012.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0013.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0014.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0015.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0016.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0017.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0018.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0019.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0020.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0021.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0022.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0023.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0024.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0025.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0026.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0027.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0028.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0029.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0030.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0031.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0032.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0033.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0034.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0035.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0036.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0037.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0038.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0039.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0040.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0041.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0042.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0043.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0044.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0045.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0046.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0047.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0048.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0049.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0050.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0051.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0052.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0053.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0054.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0055.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0056.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0057.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0058.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0059.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0060.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0061.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0062.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0063.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0064.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0065.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0066.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0067.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0068.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0069.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0070.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0071.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0072.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0073.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0074.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0075.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0076.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0077.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0078.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0079.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0080.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0081.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0082.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0083.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0084.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0085.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0086.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0087.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0088.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0089.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0090.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0091.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0092.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0093.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0094.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0095.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0096.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0097.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0098.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0099.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0100.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0101.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0102.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0103.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0104.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0105.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0106.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0107.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0108.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0109.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0110.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0111.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0112.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0113.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0114.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0115.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0116.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0117.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0118.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0119.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/sprites/run/run.0120.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/scripts/loopSprite.gd" type="Script"></ext_resource>
+	<resource type="SpriteFrames" path="local://0">
+		<array name="frames" len="120" shared="false">
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0001.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0002.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0003.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0004.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0005.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0006.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0007.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0008.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0009.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0010.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0011.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0012.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0013.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0014.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0015.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0016.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0017.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0018.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0019.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0020.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0021.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0022.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0023.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0024.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0025.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0026.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0027.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0028.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0029.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0030.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0031.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0032.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0033.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0034.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0035.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0036.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0037.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0038.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0039.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0040.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0041.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0042.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0043.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0044.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0045.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0046.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0047.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0048.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0049.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0050.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0051.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0052.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0053.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0054.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0055.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0056.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0057.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0058.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0059.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0060.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0061.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0062.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0063.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0064.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0065.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0066.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0067.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0068.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0069.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0070.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0071.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0072.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0073.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0074.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0075.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0076.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0077.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0078.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0079.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0080.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0081.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0082.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0083.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0084.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0085.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0086.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0087.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0088.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0089.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0090.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0091.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0092.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0093.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0094.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0095.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0096.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0097.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0098.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0099.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0100.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0101.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0102.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0103.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0104.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0105.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0106.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0107.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0108.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0109.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0110.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0111.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0112.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0113.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0114.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0115.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0116.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0117.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0118.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0119.png">  </resource>
+			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0120.png">  </resource>
+		</array>
+
+	</resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
@@ -9,7 +255,7 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="60">
+			<string_array  len="64">
 				<string> "Control" </string>
 				<string> "_import_path" </string>
 				<string> "visibility/visible" </string>
@@ -31,6 +277,7 @@
 				<string> "Background" </string>
 				<string> "Panel" </string>
 				<string> "margin/top" </string>
+				<string> "Invisible Button" </string>
 				<string> "Button" </string>
 				<string> "margin/left" </string>
 				<string> "disabled" </string>
@@ -49,7 +296,7 @@
 				<string> "Button2" </string>
 				<string> "Button3" </string>
 				<string> "Tab Bar" </string>
-				<string> "reel" </string>
+				<string> "reel backdrop" </string>
 				<string> "Sprite" </string>
 				<string> "transform/pos" </string>
 				<string> "transform/rot" </string>
@@ -70,13 +317,16 @@
 				<string> "FileDialog" </string>
 				<string> "popup/exclusive" </string>
 				<string> "window/title" </string>
+				<string> "AnimatedSprite" </string>
+				<string> "frames" </string>
+				<string> "delay" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 14 </int>
+			<int> 15 </int>
 			<string> "nodes" </string>
-			<int_array  len="718"> 				-1, -1, 0, 0, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 4, 7, 4, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 7, 0, 0, 0, 19, 18, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 20, 8, 6, 9, 7, 10, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 0, 0, 0, 21, 21, -1, 28, 1, 0, 2, 1, 3, 11, 4, 2, 5, 3, 22, 12, 20, 13, 6, 14, 7, 15, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 23, 5, 24, 5, 25, 5, 26, 5, 27, 16, 28, 17, 29, 5, 30, 5, 31, 3, 32, 18, 0, 0, 0, 33, 33, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 20, 8, 6, 19, 7, 10, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 0, 0, 0, 19, 34, -1, 18, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 22, 19, 6, 9, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 20, 0, 4, 0, 21, 21, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 22, 21, 6, 22, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 23, 5, 24, 5, 25, 5, 26, 5, 27, 23, 28, 17, 29, 5, 30, 5, 31, 3, 0, 4, 0, 21, 35, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 22, 24, 6, 25, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 23, 5, 24, 5, 25, 5, 26, 5, 27, 26, 28, 17, 29, 5, 30, 5, 31, 3, 0, 4, 0, 21, 36, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 22, 27, 6, 28, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 23, 5, 24, 5, 25, 5, 26, 5, 27, 29, 28, 17, 29, 5, 30, 5, 31, 3, 0, 4, 0, 21, 37, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 22, 30, 6, 31, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 23, 5, 24, 5, 25, 5, 26, 5, 27, 32, 28, 17, 29, 5, 30, 5, 31, 3, 0, 0, 0, 19, 38, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 19, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 33, 0, 9, 0, 21, 21, -1, 25, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 34, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 23, 5, 24, 5, 25, 5, 26, 5, 27, 35, 28, 17, 29, 5, 30, 5, 31, 3, 0, 9, 0, 21, 35, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 22, 36, 6, 19, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 23, 5, 24, 5, 25, 5, 26, 5, 27, 37, 28, 17, 29, 5, 30, 5, 31, 3, 0, 0, 0, 40, 39, -1, 21, 1, 0, 2, 1, 3, 38, 4, 2, 5, 3, 41, 39, 42, 11, 43, 40, 44, 41, 45, 1, 46, 42, 47, 1, 48, 43, 49, 5, 50, 5, 51, 3, 52, 3, 53, 41, 54, 44, 55, 5, 56, 45, 0, 0, 0, 57, 57, -1, 20, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 22, 46, 20, 13, 6, 47, 7, 48, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 58, 5, 59, 49, 0 </int_array>
+			<int_array  len="759"> 				-1, -1, 0, 0, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 4, 7, 4, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 7, 0, 0, 0, 19, 18, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 20, 8, 6, 9, 7, 10, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 0, 0, 0, 22, 21, -1, 28, 1, 0, 2, 1, 3, 11, 4, 2, 5, 3, 23, 12, 20, 13, 6, 14, 7, 15, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 16, 29, 17, 30, 5, 31, 5, 32, 3, 33, 18, 0, 0, 0, 34, 34, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 20, 8, 6, 19, 7, 10, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 0, 0, 0, 19, 35, -1, 18, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 19, 6, 9, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 20, 0, 4, 0, 22, 22, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 21, 6, 22, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 23, 29, 17, 30, 5, 31, 5, 32, 3, 0, 4, 0, 22, 36, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 24, 6, 25, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 26, 29, 17, 30, 5, 31, 5, 32, 3, 0, 4, 0, 22, 37, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 27, 6, 28, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 29, 29, 17, 30, 5, 31, 5, 32, 3, 0, 4, 0, 22, 38, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 30, 6, 31, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 32, 29, 17, 30, 5, 31, 5, 32, 3, 0, 0, 0, 19, 39, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 19, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 33, 0, 9, 0, 22, 22, -1, 25, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 34, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 35, 29, 17, 30, 5, 31, 5, 32, 3, 0, 9, 0, 22, 36, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 36, 6, 19, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 37, 29, 17, 30, 5, 31, 5, 32, 3, 0, 0, 0, 41, 40, -1, 21, 1, 0, 2, 1, 3, 38, 4, 2, 5, 3, 42, 39, 43, 11, 44, 40, 45, 41, 46, 1, 47, 42, 48, 1, 49, 43, 50, 5, 51, 5, 52, 3, 53, 3, 54, 41, 55, 44, 56, 5, 57, 45, 0, 0, 0, 58, 58, -1, 20, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 46, 20, 13, 6, 47, 7, 48, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 59, 5, 60, 49, 0, 0, 0, 61, 61, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 42, 50, 43, 11, 44, 51, 45, 41, 46, 1, 62, 52, 48, 1, 50, 5, 51, 5, 55, 44, 33, 53, 63, 11, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="50" shared="false">
+			<array  len="54" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -92,7 +342,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -1024, -768 </vector2>
+							<vector2> -147.865, -89.4867 </vector2>
 							<string> "snap_grid" </string>
 							<bool> True </bool>
 							<string> "snap_offset" </string>
@@ -112,7 +362,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 0.323534 </real>
+							<real> 0.814507 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -209,10 +459,11 @@
 						<string> "Script" </string>
 						<dictionary  shared="false">
 							<string> "current" </string>
-							<int> 0 </int>
+							<int> 1 </int>
 							<string> "sources" </string>
-							<array  len="1" shared="false">
+							<array  len="2" shared="false">
 								<string> "res://Assets/scripts/load.gd" </string>
+								<string> "res://Assets/scripts/loopSprite.gd" </string>
 							</array>
 						</dictionary>
 					</dictionary>
@@ -273,6 +524,10 @@
 				<real> 580 </real>
 				<real> 320 </real>
 				<string> "Save a File" </string>
+				<vector2> 646, 506 </vector2>
+				<vector2> 1, 1 </vector2>
+				<resource  resource_type="SpriteFrames" path="local://0">  </resource>
+				<resource  resource_type="Script" path="res://Assets/scripts/loopSprite.gd">  </resource>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>
