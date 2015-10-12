@@ -40,10 +40,10 @@
 	- collada
 - Pixelmator
 - Audacity
-	- wav
-	- ogg
+	- wav (for samples)
+	- ogg (for streams)
 
-## 4. Add children nodes to root nodes to levels
+## 4. Add children nodes to root nodes of levels
 ### Inspect their properties and documentation
 - Control
 	- Button
