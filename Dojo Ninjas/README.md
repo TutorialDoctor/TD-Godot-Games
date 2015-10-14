@@ -2,4 +2,4 @@
 
 It is currently a work in progress. 
 
-![](https://github.com/TutorialDoctor/TD-Godot-Games/blob/master/Dojo%20Ninjas/screenshot.png)
+![](screenshot.png)
