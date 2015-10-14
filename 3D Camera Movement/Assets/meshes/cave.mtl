@@ -1,0 +1,12 @@
+# Blender MTL File: 'cave.blend'
+# Material Count: 1
+
+newmtl Material
+Ns 11.764706
+Ka 0.000000 0.000000 0.000000
+Kd 0.290424 0.290424 0.290424
+Ks 0.025180 0.025180 0.025180
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Users/RamonSuthers/Downloads/Godot-3.app/Contents/Resources/godot_demos-1/3d/3D Camera Movement/Assets/maps/cave_diff.png

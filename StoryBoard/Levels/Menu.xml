@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="127" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+<resource_file type="PackedScene" subresource_count="131" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
 	<ext_resource path="res://Assets/scripts/load.gd" type="Script"></ext_resource>
 	<ext_resource path="res://Assets/sprites/Icons/cinema/png/reel.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Assets/scripts/file_dialog.gd" type="Script"></ext_resource>
@@ -125,6 +125,10 @@
 	<ext_resource path="res://Assets/sprites/run/run.0120.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Assets/scripts/loopSprite.gd" type="Script"></ext_resource>
 	<ext_resource path="res://Assets/scripts/animation_speed_slider.gd" type="Script"></ext_resource>
+	<ext_resource path="res://Assets/scripts/quit.gd" type="Script"></ext_resource>
+	<ext_resource path="res://Assets/scripts/reload.gd" type="Script"></ext_resource>
+	<ext_resource path="res://Assets/scripts/tree.gd" type="Script"></ext_resource>
+	<ext_resource path="res://Assets/scripts/searchbar.gd" type="Script"></ext_resource>
 	<resource type="SpriteFrames" path="local://0">
 		<array name="frames" len="120" shared="false">
 			<resource  resource_type="Texture" path="res://Assets/sprites/run/run.0001.png">  </resource>
@@ -257,7 +261,7 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="74">
+			<string_array  len="84">
 				<string> "Control" </string>
 				<string> "_import_path" </string>
 				<string> "visibility/visible" </string>
@@ -332,13 +336,23 @@
 				<string> "rounded_values" </string>
 				<string> "tick_count" </string>
 				<string> "ticks_on_borders" </string>
+				<string> "quit_btn" </string>
+				<string> "reload_btn" </string>
+				<string> "Tree" </string>
+				<string> "LineEdit" </string>
+				<string> "max_length" </string>
+				<string> "editable" </string>
+				<string> "secret" </string>
+				<string> "placeholder" </string>
+				<string> "TextureFrame" </string>
+				<string> "expand" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 16 </int>
+			<int> 21 </int>
 			<string> "nodes" </string>
-			<int_array  len="822"> 				-1, -1, 0, 0, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 4, 7, 4, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 7, 0, 0, 0, 19, 18, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 20, 8, 6, 9, 7, 10, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 0, 0, 0, 22, 21, -1, 28, 1, 0, 2, 1, 3, 11, 4, 2, 5, 3, 23, 12, 20, 13, 6, 14, 7, 15, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 16, 29, 17, 30, 5, 31, 5, 32, 3, 33, 18, 0, 0, 0, 34, 34, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 20, 8, 6, 19, 7, 10, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 0, 0, 0, 19, 35, -1, 18, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 19, 6, 9, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 20, 0, 4, 0, 22, 22, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 21, 6, 22, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 23, 29, 17, 30, 5, 31, 5, 32, 3, 0, 4, 0, 22, 36, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 24, 6, 25, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 26, 29, 17, 30, 5, 31, 5, 32, 3, 0, 4, 0, 22, 37, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 27, 6, 28, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 29, 29, 17, 30, 5, 31, 5, 32, 3, 0, 4, 0, 22, 38, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 30, 6, 31, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 32, 29, 17, 30, 5, 31, 5, 32, 3, 0, 0, 0, 19, 39, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 19, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 33, 0, 9, 0, 22, 22, -1, 25, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 34, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 35, 29, 17, 30, 5, 31, 5, 32, 3, 0, 9, 0, 22, 36, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 36, 6, 19, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 37, 29, 17, 30, 5, 31, 5, 32, 3, 0, 0, 0, 41, 40, -1, 21, 1, 0, 2, 1, 3, 38, 4, 2, 5, 3, 42, 39, 43, 11, 44, 40, 45, 41, 46, 1, 47, 42, 48, 1, 49, 43, 50, 5, 51, 5, 52, 3, 53, 3, 54, 41, 55, 44, 56, 5, 57, 45, 0, 0, 0, 58, 58, -1, 21, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 46, 20, 13, 6, 47, 7, 48, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 59, 5, 60, 49, 33, 50, 0, 0, 0, 61, 61, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 42, 51, 43, 11, 44, 52, 45, 41, 46, 1, 62, 53, 48, 1, 50, 5, 51, 5, 55, 44, 33, 54, 63, 11, 0, 0, 0, 64, 64, -1, 27, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 55, 20, 56, 6, 57, 7, 58, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 16, 2, 65, 11, 66, 59, 67, 60, 68, 11, 69, 59, 70, 5, 71, 5, 72, 41, 73, 5, 33, 61, 0 </int_array>
+			<int_array  len="1121"> 				-1, -1, 0, 0, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 4, 7, 4, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 7, 0, 0, 0, 19, 18, -1, 18, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 20, 8, 6, 9, 7, 10, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 11, 0, 0, 0, 22, 21, -1, 29, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 12, 20, 13, 6, 14, 7, 15, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 16, 29, 17, 30, 5, 31, 5, 32, 3, 33, 18, 17, 19, 0, 0, 0, 34, 34, -1, 18, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 20, 8, 6, 20, 7, 10, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 21, 0, 0, 0, 19, 35, -1, 18, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 20, 6, 9, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 22, 0, 4, 0, 22, 22, -1, 27, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 23, 6, 24, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 25, 29, 17, 30, 5, 31, 5, 32, 3, 17, 26, 0, 4, 0, 22, 36, -1, 27, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 27, 6, 28, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 29, 29, 17, 30, 5, 31, 5, 32, 3, 17, 30, 0, 4, 0, 22, 37, -1, 27, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 31, 6, 32, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 33, 29, 17, 30, 5, 31, 5, 32, 3, 17, 34, 0, 4, 0, 22, 38, -1, 27, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 35, 6, 36, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 37, 29, 17, 30, 5, 31, 5, 32, 3, 17, 38, 0, 0, 0, 19, 39, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 20, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 17, 39, 0, 9, 0, 22, 22, -1, 26, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 40, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 41, 29, 17, 30, 5, 31, 5, 32, 3, 17, 42, 0, 9, 0, 22, 36, -1, 27, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 43, 6, 20, 7, 8, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 44, 29, 17, 30, 5, 31, 5, 32, 3, 17, 45, 0, 0, 0, 41, 40, -1, 22, 1, 0, 2, 1, 3, 46, 4, 2, 5, 3, 42, 47, 43, 48, 44, 49, 45, 50, 46, 1, 47, 51, 48, 1, 49, 52, 50, 5, 51, 5, 52, 3, 53, 3, 54, 50, 55, 53, 56, 5, 57, 54, 17, 55, 0, 0, 0, 58, 58, -1, 21, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 56, 20, 13, 6, 57, 7, 58, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 59, 5, 60, 59, 33, 60, 0, 0, 0, 61, 61, -1, 18, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 42, 61, 43, 48, 44, 62, 45, 50, 46, 1, 62, 63, 48, 1, 50, 5, 51, 5, 55, 53, 33, 64, 17, 65, 63, 48, 0, 0, 0, 64, 64, -1, 28, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 66, 20, 67, 6, 68, 7, 69, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 16, 2, 65, 48, 66, 70, 67, 71, 68, 48, 69, 48, 70, 5, 71, 5, 72, 50, 73, 5, 33, 72, 17, 73, 0, 0, 0, 22, 74, -1, 28, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 74, 20, 75, 6, 76, 7, 77, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 78, 29, 17, 30, 5, 31, 5, 32, 3, 33, 79, 0, 0, 0, 22, 75, -1, 28, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 80, 20, 75, 6, 81, 7, 77, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 24, 5, 25, 5, 26, 5, 27, 5, 28, 82, 29, 17, 30, 5, 31, 5, 32, 3, 33, 83, 0, 0, 0, 76, 76, -1, 19, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 9, 20, 40, 6, 84, 7, 85, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 33, 86, 0, 0, 0, 77, 77, -1, 24, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 75, 20, 87, 6, 74, 7, 88, 8, 0, 9, 0, 10, 0, 11, 0, 12, 5, 13, 1, 14, 6, 15, 6, 16, 2, 28, 89, 78, 50, 79, 1, 80, 5, 33, 90, 81, 89, 0, 0, 0, 82, 82, -1, 21, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 23, 91, 20, 92, 6, 93, 7, 94, 8, 0, 9, 0, 10, 0, 11, 0, 12, 1, 13, 1, 14, 6, 15, 6, 16, 2, 47, 17, 55, 53, 83, 5, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="62" shared="false">
+			<array  len="95" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -354,7 +368,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -147.865, -15.6904 </vector2>
+							<vector2> -165.684, -45.8798 </vector2>
 							<string> "snap_grid" </string>
 							<bool> True </bool>
 							<string> "snap_offset" </string>
@@ -471,13 +485,14 @@
 						<string> "Script" </string>
 						<dictionary  shared="false">
 							<string> "current" </string>
-							<int> 3 </int>
+							<int> 4 </int>
 							<string> "sources" </string>
-							<array  len="4" shared="false">
-								<string> "res://Assets/scripts/load.gd" </string>
+							<array  len="5" shared="false">
+								<string> "res://Assets/scripts/searchbar.gd" </string>
 								<string> "res://Assets/scripts/loopSprite.gd" </string>
-								<string> "res://Assets/scripts/file_dialog.gd" </string>
 								<string> "res://Assets/scripts/animation_speed_slider.gd" </string>
+								<string> "res://Assets/scripts/file_dialog.gd" </string>
+								<string> "res://Assets/scripts/load.gd" </string>
 							</array>
 						</dictionary>
 					</dictionary>
@@ -494,62 +509,135 @@
 				<real> 60 </real>
 				<real> 1020 </real>
 				<real> 770 </real>
-				<real> 0 </real>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
 				<real> 382 </real>
 				<real> 130 </real>
 				<real> 910 </real>
 				<real> 650 </real>
 				<string> "" </string>
 				<resource name=""></resource>				<resource  resource_type="Script" path="res://Assets/scripts/load.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
 				<real> 290 </real>
 				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
-				<real> 20 </real>
-				<real> 190 </real>
+				<real> 12 </real>
+				<real> 182 </real>
 				<string> "Change Background" </string>
-				<real> 191 </real>
-				<real> 361 </real>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 183 </real>
+				<real> 353 </real>
 				<string> "Reframe Shot" </string>
-				<real> 362 </real>
-				<real> 532 </real>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 356 </real>
+				<real> 526 </real>
 				<string> "Add Character" </string>
-				<real> 534 </real>
-				<real> 703 </real>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 530 </real>
+				<real> 699 </real>
 				<string> "Add Prop" </string>
 				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
 				<real> 140 </real>
 				<string> "Script" </string>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
 				<real> 150 </real>
 				<string> "Outline" </string>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
 				<real> 0.25 </real>
 				<vector2> 670, 410 </vector2>
+				<real> 0 </real>
 				<vector2> 0.742188, 0.742188 </vector2>
 				<int> 0 </int>
 				<resource  resource_type="Texture" path="res://Assets/sprites/Icons/cinema/png/reel.png">  </resource>
 				<vector2> 0, 0 </vector2>
 				<color> 1, 1, 1, 1 </color>
 				<rect2> 0, 0, 0, 0 </rect2>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
 				<real> 310 </real>
-				<real> 580 </real>
-				<real> 320 </real>
-				<string> "Save a File" </string>
+				<real> 640 </real>
+				<real> 470 </real>
+				<string> "Load an Image" </string>
 				<resource  resource_type="Script" path="res://Assets/scripts/file_dialog.gd">  </resource>
 				<vector2> 646, 506 </vector2>
 				<vector2> 1, 1 </vector2>
 				<resource  resource_type="SpriteFrames" path="local://0">  </resource>
 				<resource  resource_type="Script" path="res://Assets/scripts/loopSprite.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
 				<real> 390 </real>
 				<real> 700 </real>
 				<real> 900 </real>
 				<real> 750 </real>
-				<real> 0.5 </real>
 				<real> 0.1 </real>
+				<real> 0.05 </real>
 				<resource  resource_type="Script" path="res://Assets/scripts/animation_speed_slider.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 980 </real>
+				<real> 730 </real>
+				<real> 1010 </real>
+				<real> 760 </real>
+				<string> "X" </string>
+				<resource  resource_type="Script" path="res://Assets/scripts/quit.gd">  </resource>
+				<real> 930 </real>
+				<real> 960 </real>
+				<string> "@" </string>
+				<resource  resource_type="Script" path="res://Assets/scripts/reload.gd">  </resource>
+				<real> 1270 </real>
+				<real> 510 </real>
+				<resource  resource_type="Script" path="res://Assets/scripts/tree.gd">  </resource>
+				<real> 70 </real>
+				<real> 93 </real>
+				<string> "search..." </string>
+				<resource  resource_type="Script" path="res://Assets/scripts/searchbar.gd">  </resource>
+				<real> 820 </real>
+				<real> 100 </real>
+				<real> 970 </real>
+				<real> 240 </real>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>
