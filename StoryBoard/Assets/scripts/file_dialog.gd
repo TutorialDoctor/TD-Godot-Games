@@ -1,11 +1,14 @@
 extends FileDialog
 var frame
+var prop_btn
 
 func _ready():
 	# Set the mode to open files
 	# MODE_OPEN_FILE = 0 
+	prop_btn = get_parent().get_node("Object Bar/prop_btn")
 	set_mode(0)
 	connect("confirmed",self,'print_path')
+	prop_btn.connect('pressed',self,'show_dialog')
 	frame = get_parent().get_node("TextureFrame")
 
 
@@ -18,3 +21,6 @@ func print_path():
 
 # Only the icon.png file is working for me right now. hmmm
 # Also title isn't changing
+
+func show_dialog():
+	set('visibility/visible',true)
