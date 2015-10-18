@@ -2,6 +2,7 @@ extends Node2D
 
 var boxy_animation
 var boxy
+var boxy_girl
 var ray
 var speed = 200
 var btn_restart

@@ -1,11 +1,12 @@
-::res://::1445051151
-icon.png::ImageTexture::1442674153::
+::res://::1445112426
+icon.png::ImageTexture::1445048326::
+screenshot.png::ImageTexture::1445112025::
 ::res://Assets::1443834055
 ::res://Assets/fonts::1445052523
 chalk.fnt::Font::1445052523::font<>Assets/fonts/Chalkduster.ttf<>bd9805cba4fdbd10e6f9d097dab9225f<>1383202010
-::res://Assets/scripts::1445055549
+::res://Assets/scripts::1445112265
 GodotSnippets.gd::GDScript::1443494143::
-Level1.gd::GDScript::1445055549::
+Level1.gd::GDScript::1445112265::
 Level2.gd::GDScript::1443494383::
 Level3.gd::GDScript::1442695920::
 Menu.gd::GDScript::1443494370::
@@ -14,7 +15,7 @@ loopSprite.gd::GDScript::1442763074::
 prog.gd::GDScript::1442692074::
 sound.gd::GDScript::1443494370::
 stream.gd::GDScript::1442763074::
-::res://Assets/sounds::1442687888
+::res://Assets/sounds::1445112085
 ::res://Assets/sounds/Samples::1445053329
 jump.wav::Sample::1418500583::
 ::res://Assets/sounds/Samples/Blips::1442688060
@@ -56,23 +57,10 @@ samp_m_see.wav::Sample::1442677345::
 samp_m_smell.wav::Sample::1442677404::
 samp_m_taste.wav::Sample::1442677418::
 ::res://Assets/sounds/Streams::1442688081
-::res://Assets/sounds/Streams/Music::1445055285
+::res://Assets/sounds/Streams/Music::1445134105
+A minor Jazz.ogg::AudioStreamOGGVorbis::1445134113::
 Gentle Breeze.ogg::AudioStreamOGGVorbis::1445055305::
-OMFG - Hello .ogg::AudioStreamOGGVorbis::1442678440::
-::res://Assets/sounds/Streams/Voice::1442688081
-News Report & Soldiers.ogg::AudioStreamOGGVorbis::1442687217::
-::res://Assets/sprites::1445111361
-::res://Assets/sprites/Backgrounds::1442761578
-sky.png::ImageTexture::1439689011::
-sprite_store.png::ImageTexture::1442694554::
-sprite_store.tex::ImageTexture::1442694680::texture_2d<>sprites/Backgrounds/sprite_store.png<>d960d121b802a1bce20215b2dab0e8d8<>0
-::res://Assets/sprites/Bird_256::1442682178
-Bird_256.png::ImageTexture::1442590925::
-::res://Assets/sprites/Bird_256/Bird_256::1442682174
-sprite_1.png::ImageTexture::1442590930::
-sprite_2.png::ImageTexture::1442590930::
-sprite_3.png::ImageTexture::1442590930::
-sprite_4.png::ImageTexture::1442590930::
+::res://Assets/sprites::1445112074
 ::res://Assets/sprites/Boxy::1445048727
 Boxy.png::ImageTexture::1445048334::
 Boxy.tex::ImageTexture::1445048727::texture_2d<>Assets/sprites/Boxy/Boxy.png<>7f2d6a7f0581fc88c89d68a03aeb7abb<>1445048334
@@ -91,10 +79,6 @@ boxy_6.png::ImageTexture::1445048326::
 boxy_7.png::ImageTexture::1445048326::
 boxy_8.png::ImageTexture::1445048326::
 boxy_9.png::ImageTexture::1445048326::
-::res://Assets/sprites/Grass_256::1442692686
-grass_256.png::ImageTexture::1442590256::
-::res://Assets/sprites/Grass_256/grass_flower_tree_256::1442692646
-sprite_1.png::ImageTexture::1442692524::
 ::res://Assets/sprites/HealthBar_256::1442696930
 sprite_1.png::ImageTexture::1442692298::
 sprite_10.png::ImageTexture::1442692298::
@@ -124,8 +108,6 @@ sprite_6.png::ImageTexture::1442692298::
 sprite_7.png::ImageTexture::1442692298::
 sprite_8.png::ImageTexture::1442692298::
 sprite_9.png::ImageTexture::1442692298::
-::res://Assets/sprites/Lamp_256::1442682103
-Lamp_256.png::ImageTexture::1442590345::
 ::res://Assets/sprites/Snow::1444242677
 abstct.JPG::ImageTexture::1444241974::
 abstct_single.PNG::ImageTexture::1444241976::
@@ -141,8 +123,6 @@ rock_M.PNG::ImageTexture::1444241947::
 rock_S.PNG::ImageTexture::1444241947::
 rock_blk.PNG::ImageTexture::1444241942::
 tree.JPG::ImageTexture::1444241921::
-::res://Assets/sprites/Tree_256::1442682123
-Tree_256.png::ImageTexture::1442590128::
 ::res://Assets/sprites/grass_moving::1442760776
 grass_moving1.png::ImageTexture::1442760732::
 grass_moving2.png::ImageTexture::1442760732::
@@ -153,8 +133,8 @@ grass_moving6.png::ImageTexture::1442760732::
 grass_moving7.png::ImageTexture::1442760732::
 grass_moving8.png::ImageTexture::1442760732::
 grass_moving9.png::ImageTexture::1442760732::
-::res://Levels::1445055401
-Level1.xml::PackedScene::1445055401::
+::res://Levels::1445111941
+Level1.xml::PackedScene::1445111941::
 Level2.xml::PackedScene::1442692405::
 Level3.xml::PackedScene::1442695920::
 Menu.xml::PackedScene::1443494370::
