@@ -15,6 +15,7 @@ func _ready():
 	boxy = get_node("Boxy")
 	boxy.set_contact_monitor(true)
 	boxy.set_max_contacts_reported(true)
+	boxy.set_mode(2)
 	boxy_girl = get_node("Boxy Girl")
 	
 	ray = get_node("Boxy/RayCast2D")
@@ -25,7 +26,6 @@ func _ready():
 	restart_line = get_node("Restart Line")
 
 func _process(delta):
-	boxy.set_angular_velocity(0)
 	if on_ground():
 		if Input.is_action_pressed("ui_up"):
 			if not boxy_animation.is_playing():
