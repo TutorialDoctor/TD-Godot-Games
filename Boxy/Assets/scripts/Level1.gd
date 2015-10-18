@@ -1,5 +1,4 @@
 extends Node2D
-
 var boxy_animation
 var boxy
 var boxy_girl
@@ -9,20 +8,19 @@ var btn_restart
 var btn_quit
 var samples
 
-
 func _ready():
 	set_process(true)
 	btn_restart = get_node("Boxy/Controls/RESTART")
 	btn_restart.connect('pressed',self,'restart_game')
-	
 	btn_quit = get_node("Boxy/Controls/QUIT")
 	btn_quit.connect('pressed',self,'quit_game')
-	
 	boxy_animation = get_node("AnimationPlayer")
 	boxy = get_node("Boxy")
+	boxy.set_contact_monitor(true)
+	boxy.set_max_contacts_reported(true)
+	boxy_girl = get_node("Boxy Girl")
 	ray = get_node("Boxy/RayCast2D")
 	ray.add_exception(boxy)	
-	
 	samples = get_node("SamplePlayer")
 
 func _process(delta):
@@ -40,11 +38,13 @@ func _process(delta):
 		if Input.is_action_pressed('ui_right'):
 			boxy.set_axis_velocity(Vector2(speed,0))
 	
+	if boxy_girl in boxy.get_colliding_bodies():
+		print('Hey boxy girl!')
+		#get_tree().change_scene('res://Levels/Menu.xml')
+	
 func on_ground():
 	return ray.is_colliding()
-
 func restart_game():
 	get_tree().reload_current_scene()
-	
 func quit_game():
 	get_tree().quit()
