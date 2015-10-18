@@ -43,7 +43,7 @@ func _process(delta):
 		print('Hey boxy girl!')
 		#get_tree().change_scene('res://Levels/Menu.xml')
 	
-	if end_platform in boxy.get_colliding_bodies():
+	if restart_line in boxy.get_colliding_bodies():
 		get_tree().reload_current_scene()
 
 func on_ground():
