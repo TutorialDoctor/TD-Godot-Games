@@ -6,7 +6,8 @@ var ray
 var speed = 200
 var btn_restart
 var btn_quit
-var sounds
+var samples
+
 
 func _ready():
 	set_process(true)
@@ -21,7 +22,7 @@ func _ready():
 	ray = get_node("Boxy/RayCast2D")
 	ray.add_exception(boxy)	
 	
-	sounds = get_node("SamplePlayer")
+	samples = get_node("SamplePlayer")
 
 func _process(delta):
 	boxy.set_angular_velocity(0)
@@ -30,7 +31,7 @@ func _process(delta):
 			if not boxy_animation.is_playing():
 				boxy_animation.play('squash')
 				boxy.set_axis_velocity(Vector2(0,-1000))
-				sounds.play('jump')
+				samples.play('jump')
 	
 	if on_ground():
 		if Input.is_action_pressed('ui_left'):
