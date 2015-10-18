@@ -4,24 +4,25 @@ var boxy
 var boxy_girl
 var ray
 var speed = 200
-var btn_restart
-var btn_quit
+var restart_line
+
 var samples
 
 func _ready():
 	set_process(true)
-	btn_restart = get_node("Boxy/Controls/RESTART")
-	btn_restart.connect('pressed',self,'restart_game')
-	btn_quit = get_node("Boxy/Controls/QUIT")
-	btn_quit.connect('pressed',self,'quit_game')
+	
 	boxy_animation = get_node("AnimationPlayer")
 	boxy = get_node("Boxy")
 	boxy.set_contact_monitor(true)
 	boxy.set_max_contacts_reported(true)
 	boxy_girl = get_node("Boxy Girl")
+	
 	ray = get_node("Boxy/RayCast2D")
 	ray.add_exception(boxy)	
+	
 	samples = get_node("SamplePlayer")
+	
+	restart_line = get_node("Restart Line")
 
 func _process(delta):
 	boxy.set_angular_velocity(0)
@@ -42,9 +43,8 @@ func _process(delta):
 		print('Hey boxy girl!')
 		#get_tree().change_scene('res://Levels/Menu.xml')
 	
+	if end_platform in boxy.get_colliding_bodies():
+		get_tree().reload_current_scene()
+
 func on_ground():
 	return ray.is_colliding()
-func restart_game():
-	get_tree().reload_current_scene()
-func quit_game():
-	get_tree().quit()
