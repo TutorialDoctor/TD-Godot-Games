@@ -31,14 +31,6 @@
 
 	</resource>
 	<resource type="SampleLibrary" path="local://3">
-		<dictionary name="samples/kiss1" shared="false">
-			<string> "db" </string>
-			<real> 0 </real>
-			<string> "pitch" </string>
-			<real> 1 </real>
-			<string> "sample" </string>
-			<resource  resource_type="Sample" path="res://Assets/sounds/Samples/snd_boxy_girl/kiss1.wav">  </resource>
-		</dictionary>
 		<dictionary name="samples/femyawn_ed" shared="false">
 			<string> "db" </string>
 			<real> 0 </real>
@@ -46,6 +38,14 @@
 			<real> 1 </real>
 			<string> "sample" </string>
 			<resource  resource_type="Sample" path="res://Assets/sounds/Samples/snd_boxy_girl/femyawn_ed.wav">  </resource>
+		</dictionary>
+		<dictionary name="samples/kiss1" shared="false">
+			<string> "db" </string>
+			<real> 0 </real>
+			<string> "pitch" </string>
+			<real> 1 </real>
+			<string> "sample" </string>
+			<resource  resource_type="Sample" path="res://Assets/sounds/Samples/snd_boxy_girl/kiss1.wav">  </resource>
 		</dictionary>
 
 	</resource>
@@ -292,13 +292,13 @@
 				<resource  resource_type="Script" path="res://Assets/scripts/platformer.gd">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "Script" </string>
+					<string> "2D" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -610.762, -579.524 </vector2>
+							<vector2> 31.315, 317.683 </vector2>
 							<string> "snap_grid" </string>
 							<bool> True </bool>
 							<string> "snap_offset" </string>
@@ -318,7 +318,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 0.358487 </real>
+							<real> 1.507344 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
