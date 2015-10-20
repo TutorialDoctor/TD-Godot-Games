@@ -1,12 +1,12 @@
-::res://::1445112426
+::res://::1445203680
 icon.png::ImageTexture::1445048326::
 screenshot.png::ImageTexture::1445112025::
 ::res://Assets::1443834055
 ::res://Assets/fonts::1445052523
 chalk.fnt::Font::1445052523::font<>Assets/fonts/Chalkduster.ttf<>bd9805cba4fdbd10e6f9d097dab9225f<>1383202010
-::res://Assets/scripts::1445112265
+::res://Assets/scripts::1445205341
 GodotSnippets.gd::GDScript::1443494143::
-Level1.gd::GDScript::1445112265::
+Level1.gd::GDScript::1445205341::
 Level2.gd::GDScript::1443494383::
 Level3.gd::GDScript::1442695920::
 Menu.gd::GDScript::1443494370::
@@ -16,7 +16,7 @@ prog.gd::GDScript::1442692074::
 sound.gd::GDScript::1443494370::
 stream.gd::GDScript::1442763074::
 ::res://Assets/sounds::1445112085
-::res://Assets/sounds/Samples::1445053329
+::res://Assets/sounds/Samples::1445140185
 jump.wav::Sample::1418500583::
 ::res://Assets/sounds/Samples/Blips::1442688060
 samp_bip.wav::Sample::1393889080::
@@ -56,11 +56,18 @@ samp_m_hear.wav::Sample::1442677364::
 samp_m_see.wav::Sample::1442677345::
 samp_m_smell.wav::Sample::1442677404::
 samp_m_taste.wav::Sample::1442677418::
+::res://Assets/sounds/Samples/snd_boxy_girl::1445140401
+femyawn.smp::Sample::1445140261::sample<>Assets/sounds/Samples/snd_boxy_girl/femyawn.wav<>1df06bd1722cb67fc6be9648aced6414<>1444254956
+femyawn.wav::Sample::1444254956::
+femyawn_ed.wav::Sample::1445140401::
+giggles5.wav::Sample::1444254971::
+kiss1.wav::Sample::1444254968::
 ::res://Assets/sounds/Streams::1442688081
 ::res://Assets/sounds/Streams/Music::1445134105
 A minor Jazz.ogg::AudioStreamOGGVorbis::1445134113::
 Gentle Breeze.ogg::AudioStreamOGGVorbis::1445055305::
-::res://Assets/sprites::1445112074
+::res://Assets/sprites::1445204203
+heart.png::ImageTexture::1445204180::
 ::res://Assets/sprites/Boxy::1445048727
 Boxy.png::ImageTexture::1445048334::
 Boxy.tex::ImageTexture::1445048727::texture_2d<>Assets/sprites/Boxy/Boxy.png<>7f2d6a7f0581fc88c89d68a03aeb7abb<>1445048334
@@ -79,6 +86,8 @@ boxy_6.png::ImageTexture::1445048326::
 boxy_7.png::ImageTexture::1445048326::
 boxy_8.png::ImageTexture::1445048326::
 boxy_9.png::ImageTexture::1445048326::
+::res://Assets/sprites/BoxyGIrl::1445135068
+BoxyGirl.png::ImageTexture::1445135040::
 ::res://Assets/sprites/HealthBar_256::1442696930
 sprite_1.png::ImageTexture::1442692298::
 sprite_10.png::ImageTexture::1442692298::
@@ -133,8 +142,8 @@ grass_moving6.png::ImageTexture::1442760732::
 grass_moving7.png::ImageTexture::1442760732::
 grass_moving8.png::ImageTexture::1442760732::
 grass_moving9.png::ImageTexture::1442760732::
-::res://Levels::1445111941
-Level1.xml::PackedScene::1445111941::
+::res://Levels::1445205335
+Level1.xml::PackedScene::1445205335::
 Level2.xml::PackedScene::1442692405::
 Level3.xml::PackedScene::1442695920::
 Menu.xml::PackedScene::1443494370::
