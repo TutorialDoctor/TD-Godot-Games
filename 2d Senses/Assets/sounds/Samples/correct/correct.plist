@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>attackTime</key>
+	<real>9.9999999747524271e-07</real>
+	<key>category</key>
+	<integer>3</integer>
+	<key>changeAmount</key>
+	<real>0.20272000133991241</real>
+	<key>changeSpeed</key>
+	<real>0.61979997158050537</real>
+	<key>decayTime</key>
+	<real>0.44015997648239136</real>
+	<key>deltaSlide</key>
+	<real>0.0</real>
+	<key>duty</key>
+	<real>0.19854001700878143</real>
+	<key>dutySweep</key>
+	<real>0.0</real>
+	<key>highpassFilterCutoff</key>
+	<real>0.0</real>
+	<key>highpassFilterCutoffSweep</key>
+	<real>0.0</real>
+	<key>index</key>
+	<integer>-1</integer>
+	<key>lowpassFilterCutoff</key>
+	<real>1</real>
+	<key>lowpassFilterCutoffSweep</key>
+	<real>0.0</real>
+	<key>lowpassFilterResonance</key>
+	<real>0.0</real>
+	<key>minimumFrequencyCutoff</key>
+	<real>0.0</real>
+	<key>name</key>
+	<string>correct</string>
+	<key>phaserOffset</key>
+	<real>0.0</real>
+	<key>phaserSweep</key>
+	<real>0.0</real>
+	<key>rating</key>
+	<integer>-1</integer>
+	<key>repeatSpeed</key>
+	<real>0.0</real>
+	<key>slide</key>
+	<real>0.17249999940395355</real>
+	<key>squareDuty</key>
+	<real>0.39578002691268921</real>
+	<key>sustainPunch</key>
+	<real>0.39144003391265869</real>
+	<key>sustainTime</key>
+	<real>0.35020002722740173</real>
+	<key>vibratoDepth</key>
+	<real>0.61312997341156006</real>
+	<key>vibratoSpeed</key>
+	<real>0.44460001587867737</real>
+	<key>volume</key>
+	<real>0.5</real>
+	<key>waveBits</key>
+	<integer>16</integer>
+	<key>waveFrequency</key>
+	<integer>44100</integer>
+	<key>waveType</key>
+	<integer>0</integer>
+</dict>
+</plist>
