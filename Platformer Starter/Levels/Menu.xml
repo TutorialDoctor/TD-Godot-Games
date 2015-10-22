@@ -222,7 +222,7 @@
 				<real> 330 </real>
 				<real> 610 </real>
 				<real> 390 </real>
-				<string> "Play" </string>
+				<string> "Play Again" </string>
 				<resource name=""></resource>				<resource  resource_type="Script" path="res://Assets/scripts/btnToLevel.gd">  </resource>
 				<string> "res://Levels/Level1.xml" </string>
 				<vector2> 52, 32 </vector2>
