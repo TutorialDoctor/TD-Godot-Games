@@ -94,13 +94,17 @@ func next_level():
 func play_sample(a,b):
 	self.get_node(a).play(b)
 
-# See with x which is a Raycast2D node
+# Returns true if object x (by name) is seen (if they eyes raycast node is collidng with it).
 func see(x):
-	if x.is_colliding():
-		print('I see '+str(x.get_collider().get_name()))
-		label.set_text('I see ' + str(x.get_collider().get_name()))
+	if eyes.is_colliding():
+		if eyes.get_collider().get_name() == x:
+			print('I see '+str(eyes.get_collider().get_name()))
+			label.set_text('I see ' + str(eyes.get_collider().get_name()))
+			return true
+		else:
+			false
 
-# Returns true if object b feels object a. Also prints it.
+# Returns true if object b feels object a (if the two physics objects are colliding). Also prints it.
 func feel(a,b):
 	if is_collision_betweeen(b,a):
 		print('I feel ' + a.get_name())
@@ -116,11 +120,12 @@ func _process(delta):
 	reload_game(true)
 	quit_game(true)
 	
-	if is_collision_betweeen(player,computer):
+	if feel(computer,player):
 		player.set_axis_velocity(Vector2(0,-200))
 		play_sample('SamplePlayer','jump')
 	
-	see(eyes)
+	see('Computer')
+	see('Platform')
 	feel(ground,player)
 	
 	#see(eyes)

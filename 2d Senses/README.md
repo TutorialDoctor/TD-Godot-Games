@@ -2,4 +2,4 @@ Programming the 5 senses in 2D (WIP)
 
 October 21, 2015
 
-![](screenshot.png)
+![](screenshot.png =800x)

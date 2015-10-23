@@ -2,8 +2,7 @@
 # Tue Oct 13 20:23:16 EDT 2015
 extends Camera
 var sensitivity = 40
-var mouse_x
-var mouse_y
+
 func _ready():
 	set_process(true)
 	print(get_translation())
@@ -18,4 +17,5 @@ func _process(delta):
 	#print(mouse_2d)
 	#var mouse_3d = unproject_position(projection)
 	#print(mouse_3d)
+
 	
