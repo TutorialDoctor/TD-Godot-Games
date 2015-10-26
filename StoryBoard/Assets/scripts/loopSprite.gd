@@ -8,7 +8,7 @@ var current_frame = null
 
 # Speed: A tenth of a second is equal to one frame (60fps)
 # The lower the faster
-export var delay = .1 # Exported this property to the Inspector, so you can change it form there
+export var delay = 0 # Exported this property to the Inspector, so you can change it form there
 
 func _ready():
 	frames = self.get_sprite_frames()

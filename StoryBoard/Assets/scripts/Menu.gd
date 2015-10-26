@@ -1,8 +1,7 @@
 extends Control
 
 func _ready():
-	pass
-
+	OS.set_low_processor_usage_mode(true)
 func _process(delta):
 	pass
 
