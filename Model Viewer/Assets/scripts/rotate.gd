@@ -7,6 +7,8 @@
 # wwww.tutorialdoctor.weebly.com
 # @TutorialDoctor
 
+# Mary should go in another scene
+
 extends Spatial
 
 var rot_speed = .1
