@@ -6,3 +6,4 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 
 ## Video Tutorials
 - [Making a 2D Platformer](https://www.youtube.com/watch?v=Elw3KEz7TwQ)
+- ~~[Making a 3D Platformer]()~~
