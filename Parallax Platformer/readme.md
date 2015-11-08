@@ -1,6 +1,6 @@
 ## Parallax Platformer
 
-Just a modification to my Platformer [video tutorial]().
+Just a modification to my Platformer [video tutorial](https://www.youtube.com/watch?v=Elw3KEz7TwQ).
 
 Art was made with [@piskelapp](https://twitter.com/piskelapp).
 
