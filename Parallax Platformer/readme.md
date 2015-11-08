@@ -11,6 +11,6 @@ Art was made with [@piskelapp](https://twitter.com/piskelapp).
 - The foreground moves faster because the **scale** along the x-axis is higher. I think that's how it works in real life, or at least in movies.
 
 
-![](screenshot.png =800x)
+![](screenshot.png)
 
 [@TutorialDoctor](https://twitter.com/TutorialDoctor)
