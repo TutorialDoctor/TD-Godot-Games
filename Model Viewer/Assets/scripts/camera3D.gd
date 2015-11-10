@@ -66,6 +66,6 @@ func raise():
 func target(n):
 		look_at(n.get_translation(),Vector3(0,1,0))
 
-# Moves node "x" along the y axis
-func moveTarget(x):
-	x.set_translation(Vector3(x.get_translation()[0],height_slider.get_val(),x.get_translation()[2]))
+# Moves node "a" along the y axis
+func moveTarget(a):
+	a.set_translation(Vector3(a.get_translation()[0],height_slider.get_val(),a.get_translation()[2]))

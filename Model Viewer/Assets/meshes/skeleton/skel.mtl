@@ -1,0 +1,36 @@
+newmtl Spine
+Ns 50
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd P8Skeletons_Tex.jpg
+map_Bump  P8Skeletons_Skull-Bum.jpg
+d 1
+newmtl Disc
+Ns 14.2857
+Ka 0 0 0
+Kd 1 0.94902 0.87451
+Ks 0.172549 0.172549 0.172549
+d 1
+newmtl Limbs
+Ns 50
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd P8Skeletons_Tex.jpg
+map_Bump  P8Skeletons_Skull-Bum.jpg
+d 1
+newmtl Skull
+Ns 50
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd P8Skeletons_Tex.jpg
+map_Bump  P8Skeletons_Skull-Bum.jpg
+d 1
+newmtl Teeth
+Ns 9.09091
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.454902 0.454902 0.454902
+d 1
