@@ -1,6 +1,6 @@
 #-----------------------------
 # Godot Code Snippets (2D)    |
-# By the Tutorial Doctor      | 
+# By the Tutorial Doctor      |
 # Fri Sep 18 13:14:07 EDT 2015|
 #-----------------------------
 
@@ -71,7 +71,7 @@ func changeLevel(btn,lvl):
 
 
 # MAKE AN OBJECT JUMP ON KEY PRESS
-
+# comming soon...
 
 
 # LOOP AN ANIMATED SPRITE (TO BE TESTED)
@@ -82,7 +82,7 @@ func loopAnimation(x,d):
 	dt = dt + d
 	# I don't like the .1 for speed, so I could change this to dt = dt + delta*10, and set speed to 1.
 	# I will leave it for demonstration purposes
-	
+
 	# If the elapsed time is greater than one frame...
 	if(dt > speed):
 		# And if the current frame is equal to the last frame minus 1 (second to last frame)...
@@ -93,10 +93,10 @@ func loopAnimation(x,d):
 		else:
     	# Set the current frame to the next frame
         	x.set_frame(x.get_frame() + 1)
-		
+
 		# If you want the sprite to translate (as if walking forward), if it is a walking animation of course:
 		#x.set_pos(Vector2(x.get_pos().x + 1,x.get_pos().y))
-		
+
 		# Now, reset the elapsed time
 		dt = 0
 #Example Usage: loopAnimation(bird,delta)
@@ -105,7 +105,7 @@ func loopAnimation(x,d):
 
 
 # PRELOAD A SCENE FOR SCENE ISTANCING
-# First we preload (or load beforehand) the scene we would like to load to this scene. 
+# First we preload (or load beforehand) the scene we would like to load to this scene.
 var cube = preload('res://Levels/Cube.xml')
 
 func _ready():
@@ -123,7 +123,7 @@ var frame
 
 func _ready():
 	# Set the mode to open files
-	# MODE_OPEN_FILE = 0 
+	# MODE_OPEN_FILE = 0
 	set_mode(0)
 	set_process(true)
 	connect("confirmed",self,'print_path')
@@ -157,7 +157,7 @@ func load_asset():
 # IVENTORY ITEMS
 extends HButtonArray
 
-var editor 
+var editor
 var icon
 var frame
 
@@ -197,7 +197,8 @@ func chosen(x):
 	return get_button_text(get_selected()) == x
 
 
-# Look from 3D Camera Look
+	# LOOK FROM 3D CAMERA
+#__________________________
 
 extends Camera
 
@@ -216,3 +217,45 @@ func _process(delta):
 	#print(mouse_3d)
 	look_at(projection*sensitivity,Vector3(0,1,0))
 
+
+
+# FLY AROUND CAMERA
+
+
+	extends Spatial
+
+# Apply this script to a spatial node, and you have a fly around camera
+
+var yaw = 0
+var pitch = 0
+var view_sensitivity = .3
+var projection
+var camera
+
+
+func _ready():
+	set_process(true)
+	set_process_input(true)
+
+	camera = Camera.new()
+	camera.make_current()
+	add_child(camera)
+
+
+
+func _input(event):
+	if event.type == InputEvent.MOUSE_MOTION:
+		yaw = fmod(yaw - event.relative_x * view_sensitivity, 360)
+		pitch = max(min(pitch - event.relative_y * view_sensitivity, 90), -90)
+		set_rotation(Vector3(0, deg2rad(yaw), 0))
+		camera.set_rotation(Vector3(deg2rad(pitch), 0, 0))
+
+func _process(delta):
+	projection = camera.project_ray_normal(get_viewport().get_mouse_pos())
+
+	# Now I can move in that direction.
+	if Input.is_action_pressed("ui_up"):
+		set_translation(Vector3(get_translation()+projection))
+
+	if Input.is_action_pressed("ui_down"):
+		set_translation(Vector3(get_translation()-projection))
