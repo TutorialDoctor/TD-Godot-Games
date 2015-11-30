@@ -1,7 +1,7 @@
 extends Node2D
 # By the Tutorial Doctor
 # Sun Oct 18 22:22:10 EDT 2015
-
+var current_level
 #------------------------------------------------------------
 # First, make variables for all of the things that will be in your game
 var player
@@ -10,11 +10,14 @@ var player_samples
 var computer
 var computer_samples
 var ray
-var speed = 200
+export var move_speed = 200
 var ground
 var hearts
 var kissable = true
 var timer
+var player_sprite
+var label
+export var height_speed = -1000
 # This variable is exported so we can change it for each level
 export var next_level = ''
 #------------------------------------------------------------
@@ -25,7 +28,10 @@ export var next_level = ''
 func _ready():
 	# Make sure to always enable the _process() function. This is your game loop.
 	set_process(true)
-	
+	current_level = get_tree().get_current_scene().get_filename()
+	print(current_level)
+	label = Label.new()
+	label.set_text(current_level)
 	# Now we set nodes to those variables we created:
 	# Get the player node. It is a RigidBody node.
 	# The player node should have Sprite,CollisionShape2D, and RayCast2D nodes as children
@@ -41,6 +47,7 @@ func _ready():
 	player.set_mode(2)
 	# If you want the player to have sound effects, you have to store them in a sample player node
 	player_samples = get_node("SamplePlayer")
+	player.add_child(label)
 	
 	# The computer node is just a duplicate of the Player node.
 	computer = get_node("Computer")
@@ -62,6 +69,10 @@ func _ready():
 	
 	# Timer nodes are used to do things once a certain amount of time has passed. 
 	timer = get_node("Timer")
+	
+	# Player Sprite
+	player_sprite = get_node("Player/Sprite")
+	#player_sprite = get_node("Player/Sprite 2")
 #------------------------------------------------------------
 
 
@@ -90,7 +101,7 @@ func _process(delta):
 				# Then play the "squash" animation,
 				player_animation.play('squash') #not created yet
 				# Set the axis_velocity on the y axis to -1000,
-				player.set_axis_velocity(Vector2(0,-1000))
+				player.set_axis_velocity(Vector2(0,height_speed))
 				# And play the "jump" sample sound
 				player_samples.play('jump')
 	
@@ -99,11 +110,14 @@ func _process(delta):
 		# And if the "left" action is pressed...
 		if Input.is_action_pressed('ui_left'):
 			# Set the axis_velocity on the x axis to minus the speed variable.
-			player.set_axis_velocity(Vector2(-speed,0))
+			player.set_axis_velocity(Vector2(-move_speed,0))
+			#player_sprite.set('flip_h',true)
 		# And if the "right" action is pressed...
 		if Input.is_action_pressed('ui_right'):
 			# Set the axis_velocity on the x axis the speed variable.
-			player.set_axis_velocity(Vector2(speed,0))
+			player.set_axis_velocity(Vector2(move_speed,0))
+			#player_sprite.set('flip_h',false)
+	
 	
 	# If the computer RigidBody node is in the player's colliding_bodies (it is an array)...
 	if computer in player.get_colliding_bodies():
@@ -119,7 +133,7 @@ func _process(delta):
 			hearts.set('config/emitting',true)
 			# Make kissalbe = false as well (this will disable this whole conditional)
 			kissable = false
-			# Lastely, start the timer (It is set to 3 seconds) and will count down from that,
+			# Lastly, start the timer (It is set to 3 seconds) and will count down from that,
 			timer.start()
 			# And connect the "timeout" signal of the timer the next_level() function.
 			timer.connect('timeout',self,'next_level')
@@ -140,7 +154,8 @@ func _process(delta):
 	#82 is the scancode for the 'R' key under @GlobalScope in the API
 		# Reload the scene
 		get_tree().reload_current_scene()
-
+		
+			
 # AND THAT IS ALL YOU NEED FOR A PLATFORMER BASE GAME!!!
 
 # Duplicate this level and move the platforms around and you have a new level. 
