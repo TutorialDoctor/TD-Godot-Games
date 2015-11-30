@@ -1,4 +1,4 @@
-![](screenshot.png =800x)
+![](screenshot.png)
 
 A 2d platformer demo with pixel art and animations.
 Use this demo to learn how Godot handles spritesheets.
