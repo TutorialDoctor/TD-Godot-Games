@@ -3,17 +3,17 @@
 	<ext_resource path="res://Assets/Scripts/game.gd" type="Script"></ext_resource>
 	<ext_resource path="res://Assets/Sounds/Music/Vino.ogg" type="AudioStream"></ext_resource>
 	<ext_resource path="res://Assets/Sounds/sfx/jump.wav" type="Sample"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel_Art/Characters/chr_batman_5/256/chr_batman_5_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel_Art/Characters/chr_samurai/chr_samurai.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel_Art/Characters/chr_wonderWoman/chr_wonderWoman_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel_Art/Characters/chr_scythian_side/256/chr_scythian_side_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel_Art/Characters/chrs_animals/256/chrs_animals_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel_Art/Characters/chrs_blueHeros/256/chrs_blueHeros_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel_Art/Characters/chr_capeWoman/chr_capeWoman_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel_Art/Characters/chr_female_1/chr_female_1_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel_Art/Characters/chr_male_2/chr_male_2_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_batman_5/256/chr_batman_5_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_samurai/chr_samurai.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_wonderWoman/chr_wonderWoman_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_scythian_side/256/chr_scythian_side_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chrs_animals/256/chrs_animals_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chrs_blueHeros/256/chrs_blueHeros_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_capeWoman/chr_capeWoman_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_female_1/chr_female_1_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_male_2/chr_male_2_256.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Assets/Scripts/anim.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel_Art/Characters/chr_male_1/chr_male_1.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_male_1/chr_male_1.png" type="Texture"></ext_resource>
 	<ext_resource path="res://icon.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/large mountain.png" type="Texture"></ext_resource>
 	<resource type="SampleLibrary" path="local://0">
@@ -100,6 +100,27 @@
 
 	</resource>
 	<resource type="Animation" path="local://5">
+		<real name="length"> 0.4 </real>
+		<bool name="loop"> False </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> ".:frame" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="1"> 				0 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="1"> 				1 </real_array>
+			<string> "values" </string>
+			<array  len="1" shared="false">
+				<int> 2 </int>
+			</array>
+		</dictionary>
+
+	</resource>
+	<resource type="Animation" path="local://6">
 		<real name="length"> 1 </real>
 		<bool name="loop"> True </bool>
 		<real name="step"> 0.1 </real>
@@ -117,27 +138,6 @@
 			<array  len="2" shared="false">
 				<int> 9 </int>
 				<int> 9 </int>
-			</array>
-		</dictionary>
-
-	</resource>
-	<resource type="Animation" path="local://6">
-		<real name="length"> 0.4 </real>
-		<bool name="loop"> False </bool>
-		<real name="step"> 0.1 </real>
-		<string name="tracks/0/type"> "value" </string>
-		<node_path name="tracks/0/path"> ".:frame" </node_path>
-		<int name="tracks/0/interp"> 1 </int>
-		<dictionary name="tracks/0/keys" shared="false">
-			<string> "cont" </string>
-			<bool> False </bool>
-			<string> "times" </string>
-			<real_array  len="1"> 				0 </real_array>
-			<string> "transitions" </string>
-			<real_array  len="1"> 				1 </real_array>
-			<string> "values" </string>
-			<array  len="1" shared="false">
-				<int> 2 </int>
 			</array>
 		</dictionary>
 
@@ -300,9 +300,9 @@
 				<string> "next/idle" </string>
 				<string> "anims/crouch" </string>
 				<string> "next/crouch" </string>
-				<string> "anims/walk" </string>
 				<string> "anims/shock" </string>
 				<string> "next/shock" </string>
+				<string> "anims/walk" </string>
 				<string> "anims/jump" </string>
 				<string> "next/jump" </string>
 				<string> "CollisionShape2D" </string>
@@ -431,9 +431,9 @@
 			<string> "node_count" </string>
 			<int> 38 </int>
 			<string> "nodes" </string>
-			<int_array  len="1660"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, -1, 7, 2, 0, 16, 10, 17, 11, 18, 1, 19, 5, 20, 1, 21, 11, 0, 0, 0, 23, 22, -1, 15, 2, 0, 24, 3, 25, 12, 26, 5, 27, 2, 28, 5, 29, 5, 30, 5, 31, 13, 32, 13, 33, 13, 34, 13, 35, 14, 36, 5, 37, 5, 0, 0, 0, 1, 38, -1, 10, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 15, 8, 5, 9, 6, 10, 7, 11, 1, 0, 3, 0, 40, 39, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 16, 8, 5, 9, 6, 10, 7, 11, 1, 41, 17, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 52, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 21, 8, 5, 9, 6, 10, 7, 11, 1, 41, 22, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 23, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 53, -1, 21, 2, 0, 3, 11, 4, 2, 5, 2, 6, 3, 7, 24, 8, 5, 9, 6, 10, 7, 11, 1, 41, 25, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 23, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 54, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 26, 8, 5, 9, 6, 10, 7, 11, 1, 41, 27, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 55, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 28, 8, 5, 9, 6, 10, 7, 11, 1, 41, 29, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 56, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 30, 8, 5, 9, 6, 10, 7, 11, 1, 41, 31, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 32, 48, 3, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 57, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 33, 8, 5, 9, 6, 10, 7, 11, 1, 41, 31, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 32, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 58, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 34, 8, 5, 9, 6, 10, 7, 11, 1, 41, 35, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 7, 49, 19, 50, 11, 51, 20, 13, 36, 0, 11, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 37, 63, 38, 64, 1, 65, 2, 66, 39, 67, 40, 0, 3, 0, 40, 68, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 41, 8, 5, 9, 6, 10, 7, 11, 1, 41, 42, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 23, 48, 7, 49, 19, 50, 11, 51, 20, 13, 43, 0, 13, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 37, 63, 38, 64, 1, 65, 2, 66, 39, 67, 40, 0, 3, 0, 40, 69, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 44, 8, 5, 9, 6, 10, 7, 11, 1, 41, 45, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 0, 0, 71, 70, -1, 36, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 46, 8, 5, 9, 6, 10, 7, 11, 1, 72, 11, 73, 3, 74, 47, 75, 48, 76, 11, 77, 3, 78, 3, 79, 14, 80, 2, 81, 2, 82, 5, 83, 49, 84, 11, 85, 7, 86, 7, 87, 11, 88, 11, 89, 1, 90, 4, 91, 5, 92, 50, 93, 50, 12, 51, 13, 52, 94, 53, 95, 53, 0, 16, 0, 40, 40, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 54, 8, 5, 9, 6, 10, 7, 11, 1, 41, 55, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 56, 48, 57, 49, 19, 50, 11, 51, 20, 13, 58, 0, 17, 0, 59, 59, -1, 17, 2, 0, 60, 3, 61, 5, 62, 37, 63, 59, 96, 40, 97, 60, 98, 40, 99, 61, 100, 62, 101, 40, 102, 63, 103, 64, 64, 1, 65, 2, 66, 39, 67, 40, 0, 16, 0, 104, 104, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 65, 8, 5, 9, 66, 10, 7, 11, 1, 105, 47, 106, 11, 0, 16, 0, 107, 107, -1, 25, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 67, 8, 5, 9, 6, 10, 7, 11, 1, 42, 1, 108, 11, 109, 1, 110, 68, 111, 6, 112, 69, 113, 69, 114, 70, 115, 70, 116, 1, 117, 1, 118, 71, 119, 71, 120, 71, 121, 71, 0, 16, 0, 123, 122, -1, 13, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 72, 8, 5, 9, 6, 10, 7, 11, 1, 124, 1, 125, 73, 126, 3, 0, 16, 0, 128, 127, -1, 68, 2, 0, 3, 1, 4, 2, 5, 2, 129, 1, 6, 3, 7, 74, 8, 5, 9, 6, 10, 7, 11, 1, 130, 75, 131, 76, 132, 77, 133, 5, 134, 5, 135, 1, 136, 4, 137, 4, 138, 11, 139, 78, 140, 11, 141, 11, 142, 79, 143, 3, 144, 3, 145, 80, 146, 81, 147, 82, 148, 5, 149, 5, 150, 80, 151, 83, 152, 5, 153, 5, 154, 5, 155, 5, 156, 84, 157, 82, 158, 5, 159, 2, 160, 5, 161, 5, 162, 5, 163, 5, 164, 5, 165, 5, 166, 5, 167, 5, 168, 5, 169, 5, 170, 5, 171, 5, 172, 5, 173, 5, 174, 5, 175, 5, 176, 5, 177, 3, 178, 5, 179, 19, 180, 2, 181, 85, 182, 2, 183, 85, 184, 2, 185, 85, 186, 86, 0, 0, 0, 188, 187, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 87, 8, 5, 9, 6, 10, 7, 11, 1, 72, 11, 73, 3, 74, 88, 75, 89, 76, 11, 77, 3, 78, 3, 189, 4, 190, 5, 81, 2, 82, 5, 13, 90, 0, 23, 0, 40, 40, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 91, 8, 5, 9, 92, 10, 7, 11, 1, 41, 93, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 85, 50, 11, 51, 20, 0, 23, 0, 104, 104, -1, 12, 2, 0, 3, 11, 4, 2, 5, 2, 6, 3, 7, 94, 8, 5, 9, 95, 10, 7, 11, 1, 105, 88, 106, 11, 0, 0, 0, 192, 191, -1, 11, 2, 0, 193, 96, 43, 4, 194, 5, 195, 6, 196, 4, 197, 4, 198, 6, 199, 4, 200, 4, 13, 97, 0, 26, 0, 201, 201, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 202, 6, 203, 98, 0, 27, 0, 40, 40, -1, 21, 2, 0, 3, 1, 4, 99, 5, 2, 6, 3, 7, 100, 8, 5, 9, 6, 10, 7, 11, 1, 41, 101, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 0, 0, 205, 204, -1, 6, 2, 0, 193, 3, 43, 4, 194, 5, 195, 6, 13, 102, 0, 29, 0, 206, 206, -1, 18, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 207, 103, 208, 104, 209, 0, 210, 0, 211, 0, 212, 0, 213, 11, 214, 1, 215, 14, 216, 14, 217, 2, 218, 1, 219, 105, 0, 0, 0, 1, 220, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 106, 8, 5, 9, 6, 10, 7, 11, 1, 13, 107, 0, 31, 0, 40, 221, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 108, 8, 5, 9, 109, 10, 7, 11, 1, 41, 79, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 32, 49, 19, 50, 11, 51, 20, 13, 110, 0, 32, 0, 59, 59, -1, 10, 2, 0, 60, 3, 61, 5, 62, 37, 222, 111, 223, 112, 64, 1, 65, 2, 66, 39, 67, 112, 0, 31, 0, 40, 224, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 113, 8, 5, 9, 109, 10, 7, 11, 1, 41, 79, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 32, 49, 19, 50, 11, 51, 20, 13, 110, 0, 34, 0, 59, 59, -1, 10, 2, 0, 60, 3, 61, 5, 62, 37, 222, 111, 223, 112, 64, 1, 65, 2, 66, 39, 67, 112, 0, 31, 0, 40, 225, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 114, 8, 5, 9, 109, 10, 7, 11, 1, 41, 79, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 32, 49, 19, 50, 11, 51, 20, 13, 110, 0, 36, 0, 59, 59, -1, 10, 2, 0, 60, 3, 61, 5, 62, 37, 222, 111, 223, 112, 64, 1, 65, 2, 66, 39, 67, 112, 0 </int_array>
+			<int_array  len="1658"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, -1, 7, 2, 0, 16, 10, 17, 11, 18, 1, 19, 5, 20, 1, 21, 11, 0, 0, 0, 23, 22, -1, 15, 2, 0, 24, 3, 25, 12, 26, 5, 27, 2, 28, 5, 29, 5, 30, 5, 31, 13, 32, 13, 33, 13, 34, 13, 35, 14, 36, 5, 37, 5, 0, 0, 0, 1, 38, -1, 10, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 15, 8, 5, 9, 6, 10, 7, 11, 1, 0, 3, 0, 40, 39, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 16, 8, 5, 9, 6, 10, 7, 11, 1, 41, 17, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 52, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 21, 8, 5, 9, 6, 10, 7, 11, 1, 41, 22, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 23, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 53, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 24, 8, 5, 9, 6, 10, 7, 11, 1, 41, 25, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 23, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 54, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 26, 8, 5, 9, 6, 10, 7, 11, 1, 41, 27, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 55, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 28, 8, 5, 9, 6, 10, 7, 11, 1, 41, 29, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 56, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 30, 8, 5, 9, 6, 10, 7, 11, 1, 41, 31, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 32, 48, 3, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 57, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 33, 8, 5, 9, 6, 10, 7, 11, 1, 41, 31, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 32, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 58, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 34, 8, 5, 9, 6, 10, 7, 11, 1, 41, 35, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 7, 49, 19, 50, 11, 51, 20, 13, 36, 0, 11, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 37, 63, 38, 64, 1, 65, 2, 66, 39, 67, 40, 0, 3, 0, 40, 68, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 41, 8, 5, 9, 6, 10, 7, 11, 1, 41, 42, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 23, 48, 7, 49, 19, 50, 11, 51, 20, 13, 43, 0, 13, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 37, 63, 38, 64, 1, 65, 2, 66, 39, 67, 40, 0, 3, 0, 40, 69, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 44, 8, 5, 9, 6, 10, 7, 11, 1, 41, 45, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 0, 0, 71, 70, -1, 35, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 46, 8, 5, 9, 6, 10, 7, 11, 1, 72, 11, 73, 3, 74, 47, 75, 48, 76, 11, 77, 3, 78, 3, 79, 14, 80, 2, 81, 2, 82, 5, 83, 49, 84, 11, 85, 7, 86, 7, 87, 11, 88, 11, 89, 1, 90, 4, 91, 5, 92, 50, 93, 50, 12, 51, 94, 52, 95, 52, 0, 16, 0, 40, 40, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 53, 8, 5, 9, 6, 10, 7, 11, 1, 41, 54, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 55, 48, 56, 49, 19, 50, 11, 51, 20, 13, 57, 0, 17, 0, 59, 59, -1, 17, 2, 0, 60, 3, 61, 5, 62, 37, 63, 58, 96, 40, 97, 59, 98, 40, 99, 60, 100, 40, 101, 61, 102, 62, 103, 63, 64, 1, 65, 2, 66, 39, 67, 40, 0, 16, 0, 104, 104, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 64, 8, 5, 9, 65, 10, 7, 11, 1, 105, 47, 106, 11, 0, 16, 0, 107, 107, -1, 25, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 66, 8, 5, 9, 6, 10, 7, 11, 1, 42, 1, 108, 11, 109, 1, 110, 67, 111, 6, 112, 68, 113, 68, 114, 69, 115, 69, 116, 1, 117, 1, 118, 70, 119, 70, 120, 70, 121, 70, 0, 16, 0, 123, 122, -1, 13, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 71, 8, 5, 9, 6, 10, 7, 11, 1, 124, 1, 125, 72, 126, 3, 0, 16, 0, 128, 127, -1, 68, 2, 0, 3, 1, 4, 2, 5, 2, 129, 1, 6, 3, 7, 73, 8, 5, 9, 6, 10, 7, 11, 1, 130, 74, 131, 75, 132, 76, 133, 5, 134, 5, 135, 1, 136, 4, 137, 4, 138, 11, 139, 77, 140, 11, 141, 11, 142, 78, 143, 3, 144, 3, 145, 79, 146, 80, 147, 81, 148, 5, 149, 5, 150, 79, 151, 82, 152, 5, 153, 5, 154, 5, 155, 5, 156, 83, 157, 81, 158, 5, 159, 2, 160, 5, 161, 5, 162, 5, 163, 5, 164, 5, 165, 5, 166, 5, 167, 5, 168, 5, 169, 5, 170, 5, 171, 5, 172, 5, 173, 5, 174, 5, 175, 5, 176, 5, 177, 3, 178, 5, 179, 19, 180, 2, 181, 84, 182, 2, 183, 84, 184, 2, 185, 84, 186, 85, 0, 0, 0, 188, 187, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 86, 8, 5, 9, 6, 10, 7, 11, 1, 72, 11, 73, 3, 74, 87, 75, 88, 76, 11, 77, 3, 78, 3, 189, 4, 190, 5, 81, 2, 82, 5, 13, 89, 0, 23, 0, 40, 40, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 90, 8, 5, 9, 91, 10, 7, 11, 1, 41, 92, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 84, 50, 11, 51, 20, 0, 23, 0, 104, 104, -1, 12, 2, 0, 3, 11, 4, 2, 5, 2, 6, 3, 7, 93, 8, 5, 9, 94, 10, 7, 11, 1, 105, 87, 106, 11, 0, 0, 0, 192, 191, -1, 11, 2, 0, 193, 95, 43, 4, 194, 5, 195, 6, 196, 4, 197, 4, 198, 6, 199, 4, 200, 4, 13, 96, 0, 26, 0, 201, 201, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 202, 6, 203, 97, 0, 27, 0, 40, 40, -1, 21, 2, 0, 3, 1, 4, 98, 5, 2, 6, 3, 7, 99, 8, 5, 9, 6, 10, 7, 11, 1, 41, 100, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 0, 0, 205, 204, -1, 6, 2, 0, 193, 3, 43, 4, 194, 5, 195, 6, 13, 101, 0, 29, 0, 206, 206, -1, 18, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 207, 102, 208, 103, 209, 0, 210, 0, 211, 0, 212, 0, 213, 11, 214, 1, 215, 14, 216, 14, 217, 2, 218, 1, 219, 104, 0, 0, 0, 1, 220, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 105, 8, 5, 9, 6, 10, 7, 11, 1, 13, 106, 0, 31, 0, 40, 221, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 107, 8, 5, 9, 108, 10, 7, 11, 1, 41, 78, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 32, 49, 19, 50, 11, 51, 20, 13, 109, 0, 32, 0, 59, 59, -1, 10, 2, 0, 60, 3, 61, 5, 62, 37, 222, 110, 223, 111, 64, 1, 65, 2, 66, 39, 67, 111, 0, 31, 0, 40, 224, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 112, 8, 5, 9, 108, 10, 7, 11, 1, 41, 78, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 32, 49, 19, 50, 11, 51, 20, 13, 109, 0, 34, 0, 59, 59, -1, 10, 2, 0, 60, 3, 61, 5, 62, 37, 222, 110, 223, 111, 64, 1, 65, 2, 66, 39, 67, 111, 0, 31, 0, 40, 225, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 113, 8, 5, 9, 108, 10, 7, 11, 1, 41, 78, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 32, 49, 19, 50, 11, 51, 20, 13, 109, 0, 36, 0, 59, 59, -1, 10, 2, 0, 60, 3, 61, 5, 62, 37, 222, 110, 223, 111, 64, 1, 65, 2, 66, 39, 67, 111, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="115" shared="false">
+			<array  len="114" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -591,25 +591,25 @@
 				<int> 2 </int>
 				<vector2> -1.67023, -1.67017 </vector2>
 				<vector2> 630.161, 458.922 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel_Art/Characters/chr_batman_5/256/chr_batman_5_256.png">  </resource>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_batman_5/256/chr_batman_5_256.png">  </resource>
 				<int> 4 </int>
 				<color> 1, 1, 1, 1 </color>
 				<rect2> 0, 0, 0, 0 </rect2>
 				<vector2> -22.5173, 460.444 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel_Art/Characters/chr_samurai/chr_samurai.png">  </resource>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_samurai/chr_samurai.png">  </resource>
 				<int> 5 </int>
 				<vector2> 185.146, 458.921 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel_Art/Characters/chr_wonderWoman/chr_wonderWoman_256.png">  </resource>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_wonderWoman/chr_wonderWoman_256.png">  </resource>
 				<vector2> -289.105, 459.94 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel_Art/Characters/chr_scythian_side/256/chr_scythian_side_256.png">  </resource>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_scythian_side/256/chr_scythian_side_256.png">  </resource>
 				<vector2> 1628.94, 469.863 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel_Art/Characters/chrs_animals/256/chrs_animals_256.png">  </resource>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chrs_animals/256/chrs_animals_256.png">  </resource>
 				<vector2> 2537.68, 460.673 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel_Art/Characters/chrs_blueHeros/256/chrs_blueHeros_256.png">  </resource>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chrs_blueHeros/256/chrs_blueHeros_256.png">  </resource>
 				<int> 3 </int>
 				<vector2> 2246.17, 468.581 </vector2>
 				<vector2> 2848.27, 458.853 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel_Art/Characters/chr_capeWoman/chr_capeWoman_256.png">  </resource>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_capeWoman/chr_capeWoman_256.png">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
@@ -620,26 +620,22 @@
 				</array>
 				<string> "idle" </string>
 				<vector2> 970.827, 468.581 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel_Art/Characters/chr_female_1/chr_female_1_256.png">  </resource>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_female_1/chr_female_1_256.png">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
 				<vector2> 800.474, 460.844 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel_Art/Characters/chr_male_2/chr_male_2_256.png">  </resource>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_male_2/chr_male_2_256.png">  </resource>
 				<vector2> 372, 72 </vector2>
 				<resource  resource_type="Shape2D" path="local://2">  </resource>
 				<matrix32> 4.23077, -0, 0, 1, 6.96115, 121.123 </matrix32>
 				<real> 8 </real>
 				<real> -1 </real>
 				<resource  resource_type="Script" path="res://Assets/Scripts/anim.gd">  </resource>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
 				<int> 200 </int>
 				<vector2> -4, 3 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel_Art/Characters/chr_male_1/chr_male_1.png">  </resource>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_male_1/chr_male_1.png">  </resource>
 				<int> 15 </int>
 				<int> 6 </int>
 				<dictionary  shared="false">
