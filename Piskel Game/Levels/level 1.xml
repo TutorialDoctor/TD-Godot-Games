@@ -274,7 +274,7 @@
 				<string> "Female 1" </string>
 				<string> "Male 2" </string>
 				<string> "Spiderman" </string>
-				<string> "Spiderman1" </string>
+				<string> "Vader" </string>
 				<string> "Man" </string>
 				<string> "RigidBody2D" </string>
 				<string> "input/pickable" </string>
@@ -455,7 +455,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -1042.95, 11.9337 </vector2>
+							<vector2> -1037.95, 56.1837 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -475,7 +475,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 0.902501 </real>
+							<real> 1.108034 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
