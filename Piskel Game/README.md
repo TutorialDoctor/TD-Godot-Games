@@ -1,4 +1,3 @@
-THERE IS AN ISSUE WITH THIS GAME. FIXING IT NOW.
 ![](screenshot.png)
 
 A 2d platformer demo with pixel art and animations.
