@@ -1,10 +1,10 @@
-::res://::1448990677
+::res://::1448995561
 icon.png::ImageTexture::1448925517::
 screenshot.png::ImageTexture::1448925517::
 ::res://Assets::1448925517
-::res://Assets/Scripts::1448991721
-anim.gd::GDScript::1448991721::
-game.gd::GDScript::1448991721::
+::res://Assets/Scripts::1448996285
+anim.gd::GDScript::1448996285::
+game.gd::GDScript::1448996285::
 loopSprite.gd::GDScript::1448925517::
 ::res://Assets/Sounds::1448925517
 ::res://Assets/Sounds/Music::1448925517
@@ -14,7 +14,7 @@ jump.wav::Sample::1448925517::
 ::res://Assets/Sprites::1448990459
 chr_animal_walking_2.png::ImageTexture::1448925517::
 large mountain.png::ImageTexture::1448925517::
-::res://Assets/Sprites/Characters::1448990523
+::res://Assets/Sprites/Characters::1449004552
 ::res://Assets/Sprites/Characters/chr_base_5_f::1448990523
 ::res://Assets/Sprites/Characters/chr_base_5_f/1024::1448990523
 chr_base_5_f_1024.png::ImageTexture::1448990523::
@@ -68,6 +68,10 @@ chr_scythian_side_1024.png::ImageTexture::1448990523::
 chr_scythian_side_256.png::ImageTexture::1448991238::
 ::res://Assets/Sprites/Characters/chr_scythian_side/32::1448990523
 chr_scythian_side_32.png::ImageTexture::1448990523::
+::res://Assets/Sprites/Characters/chr_spiderman::1448995513
+chr_spiderman.png::ImageTexture::1448995486::
+::res://Assets/Sprites/Characters/chr_vader::1449004526
+chr_vader.png::ImageTexture::1449004520::
 ::res://Assets/Sprites/Characters/chr_wonderWoman::1448991238
 chr_wonderWoman_1024.png::ImageTexture::1448990523::
 chr_wonderWoman_256.png::ImageTexture::1448991238::
@@ -100,5 +104,5 @@ chrs_jackAndjill_1024.png::ImageTexture::1448990523::
 chrs_jackAndjill_256.png::ImageTexture::1448990523::
 ::res://Assets/Sprites/Characters/chrs_jackAndjill/32::1448990523
 chrs_jackAndjill_32.png::ImageTexture::1448990523::
-::res://Levels::1448991238
-level 1.xml::PackedScene::1448991238::
+::res://Levels::1448995612
+level 1.xml::PackedScene::1448995612::
