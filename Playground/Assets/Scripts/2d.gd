@@ -14,7 +14,7 @@ func _ready():
 	set_process(true)
 	_setup()
 	player = children[0]
-	sprite = player.get_node('Sprite')
+	sprite = get_node('Player/Sprite')
 	ground = children[1]
 	feet = player.get_node('Feet')
 	feet.add_exception(player)
