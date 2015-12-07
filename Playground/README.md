@@ -6,3 +6,6 @@ This demo allows you to type a text command and see graphics perform those comma
 Edit the code to add your own custom commmands. 
 
 ![](screenshot.png)
+
+# The Video
+https://www.youtube.com/watch?v=txKpVqBnG7Y&feature=youtu.be
