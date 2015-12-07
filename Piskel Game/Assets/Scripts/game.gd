@@ -4,6 +4,7 @@ extends Node2D
 # member variables here, example:
 # var a=2
 # var b="textvar"
+var punch
 
 func _ready():
 	set_process(true)
@@ -13,3 +14,4 @@ func _process(delta):
 		get_tree().quit()
 	if Input.is_key_pressed(82):
 		get_tree().reload_current_scene()
+

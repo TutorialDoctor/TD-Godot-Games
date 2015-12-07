@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="29" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+<resource_file type="PackedScene" subresource_count="46" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
 	<ext_resource path="res://Assets/Scripts/game.gd" type="Script"></ext_resource>
 	<ext_resource path="res://Assets/Sounds/Music/Vino.ogg" type="AudioStream"></ext_resource>
 	<ext_resource path="res://Assets/Sounds/sfx/jump.wav" type="Sample"></ext_resource>
+	<ext_resource path="res://Assets/Sounds/sfx/punch.wav" type="Sample"></ext_resource>
+	<ext_resource path="res://Assets/Scripts/labels.gd" type="Script"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chr_batman_5/256/chr_batman_5_256.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chr_samurai/chr_samurai.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chr_wonderWoman/chr_wonderWoman_256.png" type="Texture"></ext_resource>
@@ -14,10 +16,21 @@
 	<ext_resource path="res://Assets/Sprites/Characters/chr_male_2/chr_male_2_256.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chr_spiderman/chr_spiderman.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chr_vader/chr_vader.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_catWoman/chr_catWoman_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_minion/chr_minion_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_male_3/chr_male_3_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_male_karatekick/chr_male_karatekick_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_christian_ninja/christian_ninja.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_superman/chr_superman_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_flash/chr_flash_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chrs_ninjaturtles/chrs_ninjaturtules_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/props_studio/props_studio_256.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/prop_christmastree/prop_christmastree_256.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Assets/Scripts/anim.gd" type="Script"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chr_male_1/chr_male_1.png" type="Texture"></ext_resource>
-	<ext_resource path="res://icon.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/large mountain.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds1.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds2.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds3.png" type="Texture"></ext_resource>
 	<resource type="SampleLibrary" path="local://0">
 		<dictionary name="samples/jump" shared="false">
 			<string> "db" </string>
@@ -26,6 +39,14 @@
 			<real> 1 </real>
 			<string> "sample" </string>
 			<resource  resource_type="Sample" path="res://Assets/Sounds/sfx/jump.wav">  </resource>
+		</dictionary>
+		<dictionary name="samples/punch" shared="false">
+			<string> "db" </string>
+			<real> 0 </real>
+			<string> "pitch" </string>
+			<real> 1 </real>
+			<string> "sample" </string>
+			<resource  resource_type="Sample" path="res://Assets/Sounds/sfx/punch.wav">  </resource>
 		</dictionary>
 
 	</resource>
@@ -52,12 +73,144 @@
 		</dictionary>
 
 	</resource>
-	<resource type="RectangleShape2D" path="local://2">
+	<resource type="Animation" path="local://2">
+		<string name="resource/name"> "tail" </string>
+		<real name="length"> 1 </real>
+		<bool name="loop"> True </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> ".:frame" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 0.0224609, 1 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<int> 0 </int>
+				<int> 0 </int>
+				<int> 5 </int>
+			</array>
+		</dictionary>
+
+	</resource>
+	<resource type="Animation" path="local://3">
+		<string name="resource/name"> "jump" </string>
+		<real name="length"> 2 </real>
+		<bool name="loop"> True </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> ".:frame" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 2 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<int> 8 </int>
+				<int> 0 </int>
+			</array>
+		</dictionary>
+
+	</resource>
+	<resource type="Animation" path="local://4">
+		<string name="resource/name"> "kick" </string>
+		<real name="length"> 1 </real>
+		<bool name="loop"> True </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> ".:frame" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 1 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<int> 0 </int>
+				<int> 7 </int>
+			</array>
+		</dictionary>
+		<string name="tracks/1/type"> "value" </string>
+		<node_path name="tracks/1/path"> "../../SFX:play/play" </node_path>
+		<int name="tracks/1/interp"> 1 </int>
+		<dictionary name="tracks/1/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 0.6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<string> "" </string>
+				<string> "punch" </string>
+			</array>
+		</dictionary>
+
+	</resource>
+	<resource type="Animation" path="local://5">
+		<string name="resource/name"> "sword" </string>
+		<real name="length"> 0.5 </real>
+		<bool name="loop"> True </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> ".:frame" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 0.5 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<int> 0 </int>
+				<int> 3 </int>
+			</array>
+		</dictionary>
+
+	</resource>
+	<resource type="Animation" path="local://6">
+		<string name="resource/name"> "lightup" </string>
+		<real name="length"> 1 </real>
+		<bool name="loop"> True </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> ".:frame" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 1 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<int> 3 </int>
+				<int> 4 </int>
+			</array>
+		</dictionary>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://7">
 		<real name="custom_solver_bias"> 0 </real>
 		<vector2 name="extents"> 10, 10 </vector2>
 
 	</resource>
-	<resource type="Animation" path="local://3">
+	<resource type="Animation" path="local://8">
 		<real name="length"> 0.5 </real>
 		<bool name="loop"> True </bool>
 		<real name="step"> 0.1 </real>
@@ -79,7 +232,7 @@
 		</dictionary>
 
 	</resource>
-	<resource type="Animation" path="local://4">
+	<resource type="Animation" path="local://9">
 		<real name="length"> 0.7 </real>
 		<bool name="loop"> False </bool>
 		<real name="step"> 0.1 </real>
@@ -101,31 +254,24 @@
 				<int> 6 </int>
 			</array>
 		</dictionary>
-
-	</resource>
-	<resource type="Animation" path="local://5">
-		<real name="length"> 0.75 </real>
-		<bool name="loop"> True </bool>
-		<real name="step"> 0.1 </real>
-		<string name="tracks/0/type"> "value" </string>
-		<node_path name="tracks/0/path"> ".:frame" </node_path>
-		<int name="tracks/0/interp"> 1 </int>
-		<dictionary name="tracks/0/keys" shared="false">
+		<string name="tracks/1/type"> "value" </string>
+		<node_path name="tracks/1/path"> "../../SFX:play/play" </node_path>
+		<int name="tracks/1/interp"> 1 </int>
+		<dictionary name="tracks/1/keys" shared="false">
 			<string> "cont" </string>
-			<bool> True </bool>
+			<bool> False </bool>
 			<string> "times" </string>
-			<real_array  len="2"> 				0, 0.75 </real_array>
+			<real_array  len="1"> 				0 </real_array>
 			<string> "transitions" </string>
-			<real_array  len="2"> 				1, 1 </real_array>
+			<real_array  len="1"> 				1 </real_array>
 			<string> "values" </string>
-			<array  len="2" shared="false">
-				<int> 7 </int>
-				<int> 8 </int>
+			<array  len="1" shared="false">
+				<string> "jump" </string>
 			</array>
 		</dictionary>
 
 	</resource>
-	<resource type="Animation" path="local://6">
+	<resource type="Animation" path="local://10">
 		<real name="length"> 0.4 </real>
 		<bool name="loop"> False </bool>
 		<real name="step"> 0.1 </real>
@@ -146,7 +292,7 @@
 		</dictionary>
 
 	</resource>
-	<resource type="Animation" path="local://7">
+	<resource type="Animation" path="local://11">
 		<real name="length"> 1 </real>
 		<bool name="loop"> True </bool>
 		<real name="step"> 0.1 </real>
@@ -168,14 +314,9 @@
 		</dictionary>
 
 	</resource>
-	<resource type="RectangleShape2D" path="local://8">
-		<real name="custom_solver_bias"> 0 </real>
-		<vector2 name="extents"> 10, 10 </vector2>
-
-	</resource>
-	<resource type="Animation" path="local://9">
-		<real name="length"> 3 </real>
-		<bool name="loop"> False </bool>
+	<resource type="Animation" path="local://12">
+		<real name="length"> 0.75 </real>
+		<bool name="loop"> True </bool>
 		<real name="step"> 0.1 </real>
 		<string name="tracks/0/type"> "value" </string>
 		<node_path name="tracks/0/path"> ".:frame" </node_path>
@@ -184,15 +325,20 @@
 			<string> "cont" </string>
 			<bool> True </bool>
 			<string> "times" </string>
-			<real_array  len="2"> 				0, 3 </real_array>
+			<real_array  len="2"> 				0, 0.75 </real_array>
 			<string> "transitions" </string>
 			<real_array  len="2"> 				1, 1 </real_array>
 			<string> "values" </string>
 			<array  len="2" shared="false">
-				<int> 0 </int>
-				<int> 3 </int>
+				<int> 7 </int>
+				<int> 8 </int>
 			</array>
 		</dictionary>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://13">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 10, 10 </vector2>
 
 	</resource>
 	<main_resource>
@@ -202,7 +348,7 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="230">
+			<string_array  len="243">
 				<string> "Game" </string>
 				<string> "Node2D" </string>
 				<string> "_import_path" </string>
@@ -277,6 +423,22 @@
 				<string> "Vader" </string>
 				<string> "Trooper" </string>
 				<string> "Chewbacca" </string>
+				<string> "Cat Woman" </string>
+				<string> "anims/tail" </string>
+				<string> "Minion" </string>
+				<string> "anims/jump" </string>
+				<string> "Male 3" </string>
+				<string> "Male Karate" </string>
+				<string> "anims/kick" </string>
+				<string> "Christian Ninja" </string>
+				<string> "anims/sword" </string>
+				<string> "Superguy" </string>
+				<string> "Mr Flash" </string>
+				<string> "Ninja Turtules" </string>
+				<string> "Props" </string>
+				<string> "Studio" </string>
+				<string> "Christmas Tree" </string>
+				<string> "anims/lightup" </string>
 				<string> "Man" </string>
 				<string> "RigidBody2D" </string>
 				<string> "input/pickable" </string>
@@ -304,13 +466,12 @@
 				<string> "move_speed" </string>
 				<string> "jump_height" </string>
 				<string> "next/idle" </string>
-				<string> "anims/jump" </string>
 				<string> "next/jump" </string>
-				<string> "anims/crouch" </string>
-				<string> "next/crouch" </string>
 				<string> "anims/shock" </string>
 				<string> "next/shock" </string>
 				<string> "anims/walk" </string>
+				<string> "anims/crouch" </string>
+				<string> "next/crouch" </string>
 				<string> "CollisionShape2D" </string>
 				<string> "shape" </string>
 				<string> "trigger" </string>
@@ -398,7 +559,7 @@
 				<string> "StaticBody2D" </string>
 				<string> "constant_linear_velocity" </string>
 				<string> "constant_angular_velocity" </string>
-				<string> "City Parallax" </string>
+				<string> "Mountain" </string>
 				<string> "ParallaxBackground" </string>
 				<string> "layer" </string>
 				<string> "rotation" </string>
@@ -411,6 +572,10 @@
 				<string> "ParallaxLayer" </string>
 				<string> "motion/scale" </string>
 				<string> "motion/mirroring" </string>
+				<string> "Sprite1" </string>
+				<string> "Sprite2" </string>
+				<string> "Sprite3" </string>
+				<string> "Sprite4" </string>
 				<string> "Controls" </string>
 				<string> "CanvasLayer" </string>
 				<string> "RichTextLabel" </string>
@@ -427,19 +592,13 @@
 				<string> "size_flags/stretch_ratio" </string>
 				<string> "bbcode/enabled" </string>
 				<string> "bbcode/bbcode" </string>
-				<string> "Bushes" </string>
-				<string> "Bush" </string>
-				<string> "anims/blink" </string>
-				<string> "next/blink" </string>
-				<string> "Bush1" </string>
-				<string> "Bush2" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 42 </int>
+			<int> 55 </int>
 			<string> "nodes" </string>
-			<int_array  len="1856"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, -1, 7, 2, 0, 16, 10, 17, 11, 18, 1, 19, 5, 20, 1, 21, 11, 0, 0, 0, 23, 22, -1, 15, 2, 0, 24, 3, 25, 12, 26, 5, 27, 2, 28, 5, 29, 5, 30, 5, 31, 13, 32, 13, 33, 13, 34, 13, 35, 14, 36, 5, 37, 5, 0, 0, 0, 1, 38, -1, 10, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 15, 8, 5, 9, 6, 10, 7, 11, 1, 0, 3, 0, 40, 39, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 16, 8, 5, 9, 6, 10, 7, 11, 1, 41, 17, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 52, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 21, 8, 5, 9, 6, 10, 7, 11, 1, 41, 22, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 23, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 53, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 24, 8, 5, 9, 6, 10, 7, 11, 1, 41, 25, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 23, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 54, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 26, 8, 5, 9, 6, 10, 7, 11, 1, 41, 27, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 55, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 28, 8, 5, 9, 6, 10, 7, 11, 1, 41, 29, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 56, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 30, 8, 5, 9, 6, 10, 7, 11, 1, 41, 31, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 32, 48, 3, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 57, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 33, 8, 5, 9, 6, 10, 7, 11, 1, 41, 31, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 32, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 58, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 34, 8, 5, 9, 6, 10, 7, 11, 1, 41, 35, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 7, 49, 19, 50, 11, 51, 20, 13, 36, 0, 11, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 37, 63, 38, 64, 1, 65, 2, 66, 39, 67, 40, 0, 3, 0, 40, 68, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 41, 8, 5, 9, 6, 10, 7, 11, 1, 41, 42, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 23, 48, 7, 49, 19, 50, 11, 51, 20, 13, 43, 0, 13, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 37, 63, 38, 64, 1, 65, 2, 66, 39, 67, 40, 0, 3, 0, 40, 69, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 44, 8, 5, 9, 6, 10, 7, 11, 1, 41, 45, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 70, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 46, 8, 5, 9, 6, 10, 7, 11, 1, 41, 47, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 71, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 48, 8, 5, 9, 6, 10, 7, 11, 1, 41, 49, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 32, 48, 7, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 72, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 50, 8, 5, 9, 6, 10, 7, 11, 1, 41, 49, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 32, 48, 3, 49, 19, 50, 11, 51, 20, 0, 3, 0, 40, 73, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 51, 8, 5, 9, 6, 10, 7, 11, 1, 41, 49, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 32, 48, 14, 49, 19, 50, 11, 51, 20, 0, 0, 0, 75, 74, -1, 36, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 52, 8, 5, 9, 6, 10, 7, 11, 1, 76, 11, 77, 3, 78, 53, 79, 54, 80, 11, 81, 3, 82, 3, 83, 14, 84, 2, 85, 2, 86, 5, 87, 55, 88, 11, 89, 7, 90, 7, 91, 11, 92, 11, 93, 1, 94, 4, 95, 5, 96, 56, 97, 56, 12, 57, 13, 58, 98, 59, 99, 59, 0, 20, 0, 40, 40, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 60, 8, 5, 9, 6, 10, 7, 11, 1, 41, 61, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 62, 48, 63, 49, 19, 50, 11, 51, 20, 13, 64, 0, 21, 0, 59, 59, -1, 17, 2, 0, 60, 3, 61, 5, 62, 37, 63, 65, 100, 40, 101, 66, 102, 67, 103, 68, 104, 40, 105, 69, 106, 40, 107, 70, 64, 1, 65, 2, 66, 39, 67, 40, 0, 20, 0, 108, 108, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 71, 8, 5, 9, 72, 10, 7, 11, 1, 109, 53, 110, 11, 0, 20, 0, 111, 111, -1, 25, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 73, 8, 5, 9, 6, 10, 7, 11, 1, 42, 1, 112, 11, 113, 1, 114, 74, 115, 6, 116, 75, 117, 75, 118, 76, 119, 76, 120, 1, 121, 1, 122, 77, 123, 77, 124, 77, 125, 77, 0, 20, 0, 127, 126, -1, 13, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 78, 8, 5, 9, 6, 10, 7, 11, 1, 128, 1, 129, 79, 130, 3, 0, 20, 0, 132, 131, -1, 68, 2, 0, 3, 1, 4, 2, 5, 2, 133, 1, 6, 3, 7, 80, 8, 5, 9, 6, 10, 7, 11, 1, 134, 81, 135, 82, 136, 83, 137, 5, 138, 5, 139, 1, 140, 4, 141, 4, 142, 11, 143, 84, 144, 11, 145, 11, 146, 85, 147, 3, 148, 3, 149, 86, 150, 87, 151, 88, 152, 5, 153, 5, 154, 86, 155, 89, 156, 5, 157, 5, 158, 5, 159, 5, 160, 90, 161, 88, 162, 5, 163, 2, 164, 5, 165, 5, 166, 5, 167, 5, 168, 5, 169, 5, 170, 5, 171, 5, 172, 5, 173, 5, 174, 5, 175, 5, 176, 5, 177, 5, 178, 5, 179, 5, 180, 5, 181, 3, 182, 5, 183, 19, 184, 2, 185, 91, 186, 2, 187, 91, 188, 2, 189, 91, 190, 92, 0, 0, 0, 192, 191, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 93, 8, 5, 9, 6, 10, 7, 11, 1, 76, 11, 77, 3, 78, 94, 79, 95, 80, 11, 81, 3, 82, 3, 193, 4, 194, 5, 85, 2, 86, 5, 13, 96, 0, 27, 0, 40, 40, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 97, 8, 5, 9, 98, 10, 7, 11, 1, 41, 99, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 91, 50, 11, 51, 20, 0, 27, 0, 108, 108, -1, 12, 2, 0, 3, 11, 4, 2, 5, 2, 6, 3, 7, 100, 8, 5, 9, 101, 10, 7, 11, 1, 109, 94, 110, 11, 0, 0, 0, 196, 195, -1, 11, 2, 0, 197, 102, 43, 4, 198, 5, 199, 6, 200, 4, 201, 4, 202, 6, 203, 4, 204, 4, 13, 103, 0, 30, 0, 205, 205, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 206, 6, 207, 104, 0, 31, 0, 40, 40, -1, 21, 2, 0, 3, 1, 4, 105, 5, 2, 6, 3, 7, 106, 8, 5, 9, 6, 10, 7, 11, 1, 41, 107, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 19, 50, 11, 51, 20, 0, 0, 0, 209, 208, -1, 6, 2, 0, 197, 3, 43, 4, 198, 5, 199, 6, 13, 108, 0, 33, 0, 210, 210, -1, 18, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 211, 109, 212, 110, 213, 0, 214, 0, 215, 0, 216, 0, 217, 11, 218, 1, 219, 14, 220, 14, 221, 2, 222, 1, 223, 111, 0, 0, 0, 1, 224, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 112, 8, 5, 9, 6, 10, 7, 11, 1, 13, 113, 0, 35, 0, 40, 225, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 114, 8, 5, 9, 115, 10, 7, 11, 1, 41, 85, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 32, 49, 19, 50, 11, 51, 20, 13, 116, 0, 36, 0, 59, 59, -1, 10, 2, 0, 60, 3, 61, 5, 62, 37, 226, 117, 227, 118, 64, 1, 65, 2, 66, 39, 67, 118, 0, 35, 0, 40, 228, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 119, 8, 5, 9, 115, 10, 7, 11, 1, 41, 85, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 32, 49, 19, 50, 11, 51, 20, 13, 116, 0, 38, 0, 59, 59, -1, 10, 2, 0, 60, 3, 61, 5, 62, 37, 226, 117, 227, 118, 64, 1, 65, 2, 66, 39, 67, 118, 0, 35, 0, 40, 229, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 120, 8, 5, 9, 115, 10, 7, 11, 1, 41, 85, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 18, 48, 32, 49, 19, 50, 11, 51, 20, 13, 116, 0, 40, 0, 59, 59, -1, 10, 2, 0, 60, 3, 61, 5, 62, 37, 226, 117, 227, 118, 64, 1, 65, 2, 66, 39, 67, 118, 0 </int_array>
+			<int_array  len="2441"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, -1, 7, 2, 0, 16, 10, 17, 11, 18, 1, 19, 5, 20, 1, 21, 11, 0, 0, 0, 23, 22, -1, 15, 2, 0, 24, 12, 25, 13, 26, 5, 27, 2, 28, 5, 29, 5, 30, 5, 31, 14, 32, 14, 33, 14, 34, 14, 35, 7, 36, 5, 37, 5, 0, 0, 0, 1, 38, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 15, 8, 5, 9, 6, 10, 7, 11, 1, 12, 16, 13, 17, 0, 3, 0, 40, 39, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 18, 8, 5, 9, 6, 10, 7, 11, 1, 41, 19, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 20, 48, 7, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 52, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 23, 8, 5, 9, 6, 10, 7, 11, 1, 41, 24, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 25, 48, 7, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 53, -1, 21, 2, 0, 3, 11, 4, 2, 5, 2, 6, 3, 7, 26, 8, 5, 9, 6, 10, 7, 11, 1, 41, 27, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 25, 48, 7, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 54, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 28, 8, 5, 9, 6, 10, 7, 11, 1, 41, 29, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 55, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 30, 8, 5, 9, 6, 10, 7, 11, 1, 41, 31, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 56, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 32, 8, 5, 9, 6, 10, 7, 11, 1, 41, 33, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 34, 48, 3, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 57, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 35, 8, 5, 9, 6, 10, 7, 11, 1, 41, 33, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 34, 48, 7, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 58, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 36, 8, 5, 9, 6, 10, 7, 11, 1, 41, 37, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 20, 48, 7, 49, 21, 50, 11, 51, 22, 13, 38, 0, 11, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 39, 63, 40, 64, 1, 65, 2, 66, 41, 67, 42, 0, 3, 0, 40, 68, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 43, 8, 5, 9, 6, 10, 7, 11, 1, 41, 44, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 25, 48, 7, 49, 21, 50, 11, 51, 22, 13, 45, 0, 13, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 39, 63, 40, 64, 1, 65, 2, 66, 41, 67, 42, 0, 3, 0, 40, 69, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 46, 8, 5, 9, 6, 10, 7, 11, 1, 41, 47, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 70, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 48, 8, 5, 9, 6, 10, 7, 11, 1, 41, 49, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 71, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 50, 8, 5, 9, 6, 10, 7, 11, 1, 41, 51, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 34, 48, 7, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 72, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 52, 8, 5, 9, 6, 10, 7, 11, 1, 41, 51, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 34, 48, 3, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 73, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 53, 8, 5, 9, 6, 10, 7, 11, 1, 41, 51, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 34, 48, 12, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 74, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 54, 8, 5, 9, 6, 10, 7, 11, 1, 41, 55, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 56, 48, 25, 49, 21, 50, 11, 51, 22, 13, 57, 0, 20, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 39, 75, 58, 64, 1, 65, 2, 66, 41, 67, 59, 0, 3, 0, 40, 76, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 60, 8, 5, 9, 6, 10, 7, 11, 1, 41, 61, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 62, 48, 7, 49, 21, 50, 11, 51, 22, 13, 63, 0, 22, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 39, 77, 64, 64, 1, 65, 2, 66, 41, 67, 65, 0, 3, 0, 40, 78, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 66, 8, 5, 9, 6, 10, 7, 11, 1, 41, 67, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 79, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 68, 8, 5, 9, 6, 10, 7, 11, 1, 41, 69, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 70, 48, 20, 49, 21, 50, 11, 51, 22, 13, 71, 0, 25, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 39, 80, 72, 64, 1, 65, 2, 66, 41, 67, 73, 0, 3, 0, 40, 81, -1, 22, 2, 0, 3, 11, 4, 2, 5, 2, 6, 3, 7, 74, 8, 5, 9, 6, 10, 7, 11, 1, 41, 75, 42, 1, 43, 4, 44, 1, 45, 11, 46, 3, 47, 20, 48, 7, 49, 21, 50, 11, 51, 22, 13, 76, 0, 27, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 39, 82, 77, 64, 1, 65, 2, 66, 41, 67, 78, 0, 3, 0, 40, 83, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 79, 8, 5, 9, 6, 10, 7, 11, 1, 41, 80, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 84, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 81, 8, 5, 9, 6, 10, 7, 11, 1, 41, 82, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 3, 0, 40, 85, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 83, 8, 5, 9, 6, 10, 7, 11, 1, 41, 84, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 0, 0, 1, 86, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 13, 85, 0, 32, 0, 40, 87, -1, 21, 2, 0, 3, 11, 4, 2, 5, 2, 6, 3, 7, 86, 8, 5, 9, 6, 10, 7, 11, 1, 41, 87, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 32, 0, 40, 88, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 88, 8, 5, 9, 6, 10, 7, 11, 1, 41, 89, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 25, 48, 20, 49, 21, 50, 11, 51, 22, 13, 90, 0, 34, 0, 59, 59, -1, 9, 2, 0, 60, 3, 61, 5, 62, 39, 89, 91, 64, 1, 65, 2, 66, 41, 67, 92, 0, 0, 0, 91, 90, -1, 35, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 93, 8, 5, 9, 6, 10, 7, 11, 1, 92, 11, 93, 3, 94, 94, 95, 95, 96, 11, 97, 3, 98, 3, 99, 12, 100, 2, 101, 2, 102, 5, 103, 96, 104, 11, 105, 7, 106, 7, 107, 11, 108, 11, 109, 1, 110, 4, 111, 5, 112, 97, 113, 97, 12, 98, 114, 99, 115, 99, 0, 36, 0, 40, 40, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 100, 8, 5, 9, 6, 10, 7, 11, 1, 41, 101, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 102, 48, 56, 49, 21, 50, 11, 51, 22, 0, 37, 0, 59, 59, -1, 17, 2, 0, 60, 3, 61, 5, 62, 39, 63, 103, 116, 42, 77, 104, 117, 105, 118, 106, 119, 42, 120, 107, 121, 108, 122, 42, 64, 1, 65, 2, 66, 41, 67, 42, 0, 36, 0, 123, 123, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 109, 8, 5, 9, 110, 10, 7, 11, 1, 124, 94, 125, 11, 0, 36, 0, 126, 126, -1, 25, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 111, 8, 5, 9, 6, 10, 7, 11, 1, 42, 1, 127, 11, 128, 1, 129, 112, 130, 6, 131, 113, 132, 113, 133, 114, 134, 114, 135, 1, 136, 1, 137, 115, 138, 115, 139, 115, 140, 115, 0, 36, 0, 142, 141, -1, 13, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 116, 8, 5, 9, 6, 10, 7, 11, 1, 143, 1, 144, 117, 145, 3, 0, 36, 0, 147, 146, -1, 68, 2, 0, 3, 1, 4, 2, 5, 2, 148, 1, 6, 3, 7, 118, 8, 5, 9, 6, 10, 7, 11, 1, 149, 119, 150, 120, 151, 121, 152, 5, 153, 5, 154, 1, 155, 4, 156, 4, 157, 11, 158, 122, 159, 11, 160, 11, 161, 123, 162, 3, 163, 3, 164, 124, 165, 125, 166, 126, 167, 5, 168, 5, 169, 124, 170, 127, 171, 5, 172, 5, 173, 5, 174, 5, 175, 128, 176, 126, 177, 5, 178, 2, 179, 5, 180, 5, 181, 5, 182, 5, 183, 5, 184, 5, 185, 5, 186, 5, 187, 5, 188, 5, 189, 5, 190, 5, 191, 5, 192, 5, 193, 5, 194, 5, 195, 5, 196, 3, 197, 5, 198, 21, 199, 2, 200, 129, 201, 2, 202, 129, 203, 2, 204, 129, 205, 130, 0, 0, 0, 207, 206, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 131, 8, 5, 9, 6, 10, 7, 11, 1, 92, 11, 93, 3, 94, 132, 95, 133, 96, 11, 97, 3, 98, 3, 208, 4, 209, 5, 101, 2, 102, 5, 13, 134, 0, 43, 0, 40, 40, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 135, 8, 5, 9, 136, 10, 7, 11, 1, 41, 87, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 62, 48, 70, 49, 137, 50, 11, 51, 22, 0, 43, 0, 123, 123, -1, 12, 2, 0, 3, 11, 4, 2, 5, 2, 6, 3, 7, 138, 8, 5, 9, 139, 10, 7, 11, 1, 124, 132, 125, 11, 0, 0, 0, 211, 210, -1, 11, 2, 0, 212, 140, 43, 4, 213, 5, 214, 6, 215, 4, 216, 4, 217, 6, 218, 4, 219, 4, 13, 141, 0, 46, 0, 220, 220, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 142, 8, 5, 9, 6, 10, 7, 11, 1, 221, 143, 222, 144, 0, 47, 0, 40, 40, -1, 21, 2, 0, 3, 1, 4, 145, 5, 2, 6, 3, 7, 146, 8, 5, 9, 6, 10, 7, 11, 1, 41, 147, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 47, 0, 40, 223, -1, 21, 2, 0, 3, 1, 4, 145, 5, 2, 6, 3, 7, 148, 8, 5, 9, 6, 10, 7, 11, 1, 41, 149, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 47, 0, 40, 224, -1, 21, 2, 0, 3, 1, 4, 145, 5, 2, 6, 3, 7, 150, 8, 5, 9, 6, 10, 7, 11, 1, 41, 151, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 47, 0, 40, 225, -1, 21, 2, 0, 3, 1, 4, 145, 5, 2, 6, 3, 7, 152, 8, 5, 9, 6, 10, 7, 11, 1, 41, 151, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 47, 0, 40, 226, -1, 21, 2, 0, 3, 1, 4, 145, 5, 2, 6, 3, 7, 153, 8, 5, 9, 6, 10, 7, 11, 1, 41, 147, 42, 1, 43, 4, 44, 11, 45, 11, 46, 3, 47, 3, 48, 7, 49, 21, 50, 11, 51, 22, 0, 0, 0, 228, 227, -1, 5, 2, 0, 212, 3, 43, 4, 213, 5, 214, 6, 0, 53, 0, 229, 229, -1, 18, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 230, 154, 231, 155, 232, 0, 233, 0, 234, 0, 235, 0, 236, 11, 237, 1, 238, 12, 239, 12, 240, 2, 241, 1, 242, 156, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="121" shared="false">
+			<array  len="157" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -451,13 +610,13 @@
 				<resource  resource_type="Script" path="res://Assets/Scripts/game.gd">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "2D" </string>
+					<string> "Script" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -1440.17, -466.616 </vector2>
+							<vector2> -1556.7, -720.74 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -477,7 +636,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 0.663421 </real>
+							<real> 0.358487 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -576,9 +735,10 @@
 							<string> "current" </string>
 							<int> 0 </int>
 							<string> "sources" </string>
-							<array  len="2" shared="false">
+							<array  len="3" shared="false">
 								<string> "res://Assets/Scripts/anim.gd" </string>
 								<string> "res://Assets/Scripts/game.gd" </string>
+								<string> "res://Assets/Scripts/labels.gd" </string>
 							</array>
 						</dictionary>
 					</dictionary>
@@ -592,11 +752,16 @@
 				</dictionary>
 				<resource  resource_type="AudioStream" path="res://Assets/Sounds/Music/Vino.ogg">  </resource>
 				<bool> False </bool>
+				<int> 2 </int>
 				<resource  resource_type="SampleLibrary" path="local://0">  </resource>
 				<nil>  </nil>
-				<int> 2 </int>
 				<vector2> -1.67023, -1.67017 </vector2>
-				<vector2> 630.161, 458.922 </vector2>
+				<resource  resource_type="Script" path="res://Assets/Scripts/labels.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 630.558, 459.716 </vector2>
 				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_batman_5/256/chr_batman_5_256.png">  </resource>
 				<int> 4 </int>
 				<color> 1, 1, 1, 1 </color>
@@ -633,37 +798,85 @@
 				</dictionary>
 				<vector2> 800.474, 460.844 </vector2>
 				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_male_2/chr_male_2_256.png">  </resource>
-				<vector2> -528.386, 454.856 </vector2>
+				<vector2> -528.386, 460.002 </vector2>
 				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_spiderman/chr_spiderman.png">  </resource>
-				<vector2> -797.638, 458.18 </vector2>
+				<vector2> -797.638, 461.12 </vector2>
 				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_vader/chr_vader.png">  </resource>
-				<vector2> -978.518, 456.673 </vector2>
+				<vector2> -978.254, 459.308 </vector2>
 				<vector2> -1142.82, 459.687 </vector2>
-				<vector2> 372, 72 </vector2>
-				<resource  resource_type="Shape2D" path="local://2">  </resource>
-				<matrix32> 4.23077, -0, 0, 1, 6.96115, 121.123 </matrix32>
-				<real> 8 </real>
-				<real> -1 </real>
-				<resource  resource_type="Script" path="res://Assets/Scripts/anim.gd">  </resource>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<int> 200 </int>
-				<vector2> -4, 3 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_male_1/chr_male_1.png">  </resource>
-				<int> 15 </int>
+				<vector2> 3028.61, 465.198 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_catWoman/chr_catWoman_256.png">  </resource>
 				<int> 6 </int>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
+				<resource  resource_type="Animation" path="local://2">  </resource>
+				<string> "tail" </string>
+				<vector2> 256.23, 456.489 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_minion/chr_minion_256.png">  </resource>
+				<int> 9 </int>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
 				<resource  resource_type="Animation" path="local://3">  </resource>
+				<string> "jump" </string>
+				<vector2> 3242.42, 458.856 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_male_3/chr_male_3_256.png">  </resource>
+				<vector2> 109.151, 458.743 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_male_karatekick/chr_male_karatekick_256.png">  </resource>
+				<int> 8 </int>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
 				<resource  resource_type="Animation" path="local://4">  </resource>
-				<string> "" </string>
+				<string> "kick" </string>
+				<vector2> 339.885, 457.662 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_christian_ninja/christian_ninja.png">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
 				<resource  resource_type="Animation" path="local://5">  </resource>
+				<string> "sword" </string>
+				<vector2> 475, 459 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_superman/chr_superman_256.png">  </resource>
+				<vector2> 3350.41, 459.436 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_flash/chr_flash_256.png">  </resource>
+				<vector2> 3973.12, 458.188 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chrs_ninjaturtles/chrs_ninjaturtules_256.png">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> -2549.48, 460.087 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Props/props_studio/props_studio_256.png">  </resource>
+				<vector2> -1552.01, 459.061 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Props/prop_christmastree/prop_christmastree_256.png">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
 				<resource  resource_type="Animation" path="local://6">  </resource>
-				<resource  resource_type="Animation" path="local://7">  </resource>
+				<string> "lightup" </string>
+				<vector2> 372, 72 </vector2>
+				<resource  resource_type="Shape2D" path="local://7">  </resource>
+				<matrix32> 4.23077, -0, 0, 1, 6.96115, 121.123 </matrix32>
+				<real> 8 </real>
+				<real> -1 </real>
+				<resource  resource_type="Script" path="res://Assets/Scripts/anim.gd">  </resource>
+				<int> 200 </int>
+				<vector2> -4, 3 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_male_1/chr_male_1.png">  </resource>
+				<int> 15 </int>
+				<resource  resource_type="Animation" path="local://8">  </resource>
+				<resource  resource_type="Animation" path="local://9">  </resource>
+				<string> "" </string>
+				<resource  resource_type="Animation" path="local://10">  </resource>
+				<resource  resource_type="Animation" path="local://11">  </resource>
+				<resource  resource_type="Animation" path="local://12">  </resource>
 				<vector2> 6.96115, 121.123 </vector2>
 				<vector2> 4.23077, 1 </vector2>
 				<vector2> 10, 0 </vector2>
@@ -686,15 +899,15 @@
 				<color> 0, 0, 0, 1 </color>
 				<vector2_array  len="0"> 					 </vector2_array>
 				<vector2> 272, 472 </vector2>
-				<resource  resource_type="Shape2D" path="local://8">  </resource>
+				<resource  resource_type="Shape2D" path="local://13">  </resource>
 				<matrix32> 1000, -0, 0, 1, -8.53308, 121 </matrix32>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
-				<vector2> 107, 308 </vector2>
-				<vector2> 1000, 6.09375 </vector2>
-				<resource  resource_type="Texture" path="res://icon.png">  </resource>
+				<vector2> 107, 468.551 </vector2>
+				<vector2> 1000, 2.77 </vector2>
+				<color> 0.743669, 0.333202, 0.136364, 1 </color>
 				<vector2> -8.53308, 121 </vector2>
 				<vector2> 1000, 1 </vector2>
 				<int> -1 </int>
@@ -702,32 +915,21 @@
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
-				<vector2> 4000, 0 </vector2>
+				<vector2> 42.5153, -36.9781 </vector2>
+				<vector2> 2, 1 </vector2>
+				<vector2> 3000, 0 </vector2>
 				<real> 0.6 </real>
 				<vector2> -581.328, 44.2377 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/large mountain.png">  </resource>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds1.png">  </resource>
+				<vector2> -144.562, 236.989 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds2.png">  </resource>
+				<vector2> -921.718, 261.595 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds3.png">  </resource>
+				<vector2> 512.966, 101.258 </vector2>
+				<vector2> 1212.45, 301.445 </vector2>
 				<real> 118 </real>
-				<real> 87 </real>
-				<string> "W, - Jump&#000a;A -Move  Left&#000a;D - Move Right&#000a;S- Crouch&#000a;&#000a;Up - Shock" </string>
-				<vector2> -137.387, -18.4549 </vector2>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<vector2> 301.1, 527.912 </vector2>
-				<vector2> 0.7, 0.7 </vector2>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<resource  resource_type="Animation" path="local://9">  </resource>
-				<string> "blink" </string>
-				<vector2> 448.74, 595.58 </vector2>
-				<vector2> 631.239, 527.912 </vector2>
+				<real> 115 </real>
+				<string> "W, - Jump&#000a;A -Move  Left&#000a;D - Move Right&#000a;S- Crouch&#000a;&#000a;Up - Shock&#000a;&#000a;Q or Esc- Quit" </string>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>

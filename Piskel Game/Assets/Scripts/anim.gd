@@ -33,7 +33,10 @@ func _process(delta):
 			animations.play('idle')
 		if Input.is_action_pressed('up'):
 			animations.play('jump')
-			sfx.play('jump')
+			#sfx.play('jump') (this sound is now played in the animation player)
+			# There is an issue with overlpaping sounds cutting one another off.
+			# The issue still occurs even though I have changed the voices, and moved the sound to the animation player
+			# I am sure a bit of code can fix this though. 
 			apply_impulse(get_pos(),Vector2(0,-jump_height))
 		if Input.is_action_pressed('down'):
 			animations.play('crouch')
