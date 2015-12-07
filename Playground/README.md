@@ -8,4 +8,4 @@ Edit the code to add your own custom commmands.
 ![](screenshot.png)
 
 # The Video
-https://www.youtube.com/watch?v=txKpVqBnG7Y&feature=youtu.be
+[Watch the Video](https://www.youtube.com/watch?v=txKpVqBnG7Y&feature=youtu.be)
