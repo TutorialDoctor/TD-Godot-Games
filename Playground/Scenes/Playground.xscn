@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="13" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+<resource_file type="PackedScene" subresource_count="10" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
 	<ext_resource path="res://Assets/Scripts/Playground.gd" type="Script"></ext_resource>
 	<ext_resource path="res://Assets/Scripts/2d.gd" type="Script"></ext_resource>
 	<ext_resource path="res://icon.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Assets/Scripts/gui..gd" type="Script"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel-Art/Characters/chr_batman_5/256/chr_batman_5_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel-Art/Characters/chr_female_1/chr_female_1_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Piskel-Art/Characters/chr_male_2/chr_male_2_256.png" type="Texture"></ext_resource>
 	<ext_resource path="res://icon.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Assets/Sounds/sfx/commands.wav" type="Sample"></ext_resource>
 	<ext_resource path="res://Assets/Sounds/sfx/playground_welcome.wav" type="Sample"></ext_resource>
@@ -16,14 +13,6 @@
 
 	</resource>
 	<resource type="SampleLibrary" path="local://1">
-		<dictionary name="samples/commands" shared="false">
-			<string> "db" </string>
-			<real> 0 </real>
-			<string> "pitch" </string>
-			<real> 1 </real>
-			<string> "sample" </string>
-			<resource  resource_type="Sample" path="res://Assets/Sounds/sfx/commands.wav">  </resource>
-		</dictionary>
 		<dictionary name="samples/playground_welcome" shared="false">
 			<string> "db" </string>
 			<real> 0 </real>
@@ -31,6 +20,14 @@
 			<real> 1 </real>
 			<string> "sample" </string>
 			<resource  resource_type="Sample" path="res://Assets/Sounds/sfx/playground_welcome.wav">  </resource>
+		</dictionary>
+		<dictionary name="samples/commands" shared="false">
+			<string> "db" </string>
+			<real> 0 </real>
+			<string> "pitch" </string>
+			<real> 1 </real>
+			<string> "sample" </string>
+			<resource  resource_type="Sample" path="res://Assets/Sounds/sfx/commands.wav">  </resource>
 		</dictionary>
 
 	</resource>
@@ -360,8 +357,6 @@
 				<dictionary  shared="false">
 					<string> "_edit_lock_" </string>
 					<bool> True </bool>
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
 				</dictionary>
 				<resource  resource_type="Texture" path="res://icon.png">  </resource>
 				<color> 1, 1, 1, 1 </color>
@@ -517,16 +512,10 @@
 					<bool> True </bool>
 				</dictionary>
 				<array  len="2" shared="false">
-					<string_array  len="4">
-						<string> "chr_batman_5_256" </string>
-						<string> "chr_female_1_256" </string>
-						<string> "chr_male_2_256" </string>
+					<string_array  len="1">
 						<string> "icon" </string>
 					</string_array>
-					<array  len="4" shared="false">
-						<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel-Art/Characters/chr_batman_5/256/chr_batman_5_256.png">  </resource>
-						<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel-Art/Characters/chr_female_1/chr_female_1_256.png">  </resource>
-						<resource  resource_type="Texture" path="res://Assets/Sprites/Piskel-Art/Characters/chr_male_2/chr_male_2_256.png">  </resource>
+					<array  len="1" shared="false">
 						<resource  resource_type="Texture" path="res://icon.png">  </resource>
 					</array>
 				</array>
