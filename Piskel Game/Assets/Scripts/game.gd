@@ -1,13 +1,13 @@
 
 extends Node2D
 
-# member variables here, example:
-# var a=2
-# var b="textvar"
-var punch
+
+var sfx
 
 func _ready():
 	set_process(true)
+	sfx = get_node('SFX')
+	sfx.play('playground_welcome')
 
 func _process(delta):
 	if Input.is_key_pressed(81) or Input.is_key_pressed(16777217):
