@@ -1,4 +1,4 @@
-A very simple (and probably wrong) way to do a 1st person camera.
+A simple demo using my FPS controller.
 Tweak it however you like. Mesh was thrown together.
 
 ![](screenshot.png)
