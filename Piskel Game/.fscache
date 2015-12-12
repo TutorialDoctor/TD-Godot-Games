@@ -1,21 +1,22 @@
-::res://::1449375880
+::res://::1449521536
 icon.png::ImageTexture::1448925517::
-screenshot.png::ImageTexture::1448925517::
+screenshot.png::ImageTexture::1449520895::
 ::res://Assets::1448925517
-::res://Assets/Scripts::1449376208
-anim.gd::GDScript::1449376208::
-game.gd::GDScript::1449376208::
+::res://Assets/Scripts::1449523766
+anim.gd::GDScript::1449523766::
+game.gd::GDScript::1449523766::
+labels.gd::GDScript::1449523766::
 loopSprite.gd::GDScript::1448925517::
 ::res://Assets/Sounds::1448925517
 ::res://Assets/Sounds/Music::1448925517
 Vino.ogg::AudioStreamOGGVorbis::1448925517::
-::res://Assets/Sounds/sfx::1449286168
+::res://Assets/Sounds/sfx::1449454022
 jump.wav::Sample::1448925517::
 punch.wav::Sample::1370673508::
 ::res://Assets/Sprites::1449115397
 chr_animal_walking_2.png::ImageTexture::1448925517::
 large mountain.png::ImageTexture::1448925517::
-::res://Assets/Sprites/Characters::1449449144
+::res://Assets/Sprites/Characters::1449532229
 ::res://Assets/Sprites/Characters/chr_base_5_f::1448990523
 ::res://Assets/Sprites/Characters/chr_base_5_f/1024::1448990523
 chr_base_5_f_1024.png::ImageTexture::1448990523::
@@ -114,6 +115,8 @@ chrs_blueHeros_1024.png::ImageTexture::1448990523::
 chrs_blueHeros_256.png::ImageTexture::1448991238::
 ::res://Assets/Sprites/Characters/chrs_blueHeros/32::1448990523
 chrs_blueHeros_32.png::ImageTexture::1448990523::
+::res://Assets/Sprites/Characters/chrs_frozen::1449532206
+chrs_frozen_256.png::ImageTexture::1449532202::
 ::res://Assets/Sprites/Characters/chrs_jackAndjill::1448990523
 ::res://Assets/Sprites/Characters/chrs_jackAndjill/1024::1448990523
 chrs_jackAndjill_1024.png::ImageTexture::1448990523::
@@ -178,5 +181,5 @@ clouds2.png::ImageTexture::1448507088::
 clouds3.png::ImageTexture::1448507088::
 ::res://Assets/Sprites/Props/props_studio::1449115368
 props_studio_256.png::ImageTexture::1449115362::
-::res://Levels::1449376045
-level 1.xml::PackedScene::1449376045::
+::res://Levels::1449521549
+level 1.xml::PackedScene::1449521549::
