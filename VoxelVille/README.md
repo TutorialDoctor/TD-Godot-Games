@@ -1,9 +1,9 @@
-Thank you @mikelovesrobots and @epthtracy.
+Thank you [@mikelovesrobots](https://twitter.com/mikelovesrobots) and [@epthtracy](https://twitter.com/ephtracy).
 
-Voxelville with @godotengine and MagicaVoxel. 
+Voxelville with the [Godot](http://www.godotengine.org/projects/godot-engine) game engine and MagicaVoxel.
 
 First person camera code is a dissection of the FPS test demo. 
 
-@TutorialDoctor
+[@TutorialDoctor](https://twitter.com/TutorialDoctor)
 
 ![](screenshot.png)
