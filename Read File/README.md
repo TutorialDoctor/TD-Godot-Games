@@ -1,0 +1,1 @@
+This demo demonstrates how to load text from a file into a RichTextLabel. It also demonstrates how you might dynamically resize a node to fit the current screen size.

@@ -10,20 +10,14 @@ func _ready():
 	sfx.play('playground_welcome')
 
 func _process(delta):
-	if Input.is_key_pressed(81) or Input.is_key_pressed(16777217):
+	if Input.is_key_pressed(KEY_Q) or Input.is_key_pressed(KEY_ESCAPE):
 		get_tree().quit()
-	if Input.is_key_pressed(82):
+	if Input.is_key_pressed(KEY_R):
 		get_tree().reload_current_scene()
-
-	if Input.is_key_pressed(80):
-		get_tree().set_pause(true)
-	if Input.is_key_pressed(85):
-		get_tree().set_pause(false)
 
 
 func _on_Pause_pressed():
 	get_tree().set_pause(true)
-
 
 
 func _on_Unpause_pressed():
