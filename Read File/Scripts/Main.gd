@@ -12,6 +12,7 @@ func _ready():
 	
 	set_process(true)
 	OS.set_low_processor_usage_mode(true)
+	
 
 func _process(delta):
 	label.set('rect/size',get_viewport_rect().size)
