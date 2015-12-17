@@ -1,0 +1,9 @@
+#
+# Alias OBJ Material File
+# Exported using Whaat's UV Tools
+
+newmtl SketchUV Texture
+Ka 0.000000 0.000000 0.000000
+Kd 0.223529411764706 0.603921568627451 0.611764705882353
+Ks 0.330000 0.330000 0.330000
+map_Kd texture_grid.jpg
