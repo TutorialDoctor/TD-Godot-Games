@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="4" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<ext_resource path="res://Assets/scripts/ship.gd" type="Script"></ext_resource>
+	<ext_resource path="res://Assets/sprites/ship.png" type="Texture"></ext_resource>
+	<resource type="RectangleShape2D" path="local://0">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 10, 10 </vector2>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "names" </string>
+			<string_array  len="103">
+				<string> "Ship" </string>
+				<string> "Area2D" </string>
+				<string> "_import_path" </string>
+				<string> "visibility/visible" </string>
+				<string> "visibility/opacity" </string>
+				<string> "visibility/self_opacity" </string>
+				<string> "visibility/light_mask" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/rot" </string>
+				<string> "transform/scale" </string>
+				<string> "z/z" </string>
+				<string> "z/relative" </string>
+				<string> "input/pickable" </string>
+				<string> "shape_count" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "gravity_point" </string>
+				<string> "gravity_vec" </string>
+				<string> "gravity" </string>
+				<string> "linear_damp" </string>
+				<string> "angular_damp" </string>
+				<string> "monitoring" </string>
+				<string> "monitorable" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "script/script" </string>
+				<string> "__meta__" </string>
+				<string> "Sprite" </string>
+				<string> "visibility/blend_mode" </string>
+				<string> "texture" </string>
+				<string> "centered" </string>
+				<string> "offset" </string>
+				<string> "flip_h" </string>
+				<string> "flip_v" </string>
+				<string> "vframes" </string>
+				<string> "hframes" </string>
+				<string> "frame" </string>
+				<string> "modulate" </string>
+				<string> "region" </string>
+				<string> "region_rect" </string>
+				<string> "Particles2D" </string>
+				<string> "config/amount" </string>
+				<string> "config/lifetime" </string>
+				<string> "config/time_scale" </string>
+				<string> "config/preprocess" </string>
+				<string> "config/emit_timeout" </string>
+				<string> "config/emitting" </string>
+				<string> "config/offset" </string>
+				<string> "config/half_extents" </string>
+				<string> "config/local_space" </string>
+				<string> "config/explosiveness" </string>
+				<string> "config/flip_h" </string>
+				<string> "config/flip_v" </string>
+				<string> "config/texture" </string>
+				<string> "config/h_frames" </string>
+				<string> "config/v_frames" </string>
+				<string> "params/direction" </string>
+				<string> "params/spread" </string>
+				<string> "params/linear_velocity" </string>
+				<string> "params/spin_velocity" </string>
+				<string> "params/orbit_velocity" </string>
+				<string> "params/gravity_direction" </string>
+				<string> "params/gravity_strength" </string>
+				<string> "params/radial_accel" </string>
+				<string> "params/tangential_accel" </string>
+				<string> "params/damping" </string>
+				<string> "params/initial_angle" </string>
+				<string> "params/initial_size" </string>
+				<string> "params/final_size" </string>
+				<string> "params/hue_variation" </string>
+				<string> "params/anim_speed_scale" </string>
+				<string> "params/anim_initial_pos" </string>
+				<string> "randomness/direction" </string>
+				<string> "randomness/spread" </string>
+				<string> "randomness/linear_velocity" </string>
+				<string> "randomness/spin_velocity" </string>
+				<string> "randomness/orbit_velocity" </string>
+				<string> "randomness/gravity_direction" </string>
+				<string> "randomness/gravity_strength" </string>
+				<string> "randomness/radial_accel" </string>
+				<string> "randomness/tangential_accel" </string>
+				<string> "randomness/damping" </string>
+				<string> "randomness/initial_angle" </string>
+				<string> "randomness/initial_size" </string>
+				<string> "randomness/final_size" </string>
+				<string> "randomness/hue_variation" </string>
+				<string> "randomness/anim_speed_scale" </string>
+				<string> "randomness/anim_initial_pos" </string>
+				<string> "color_phases/count" </string>
+				<string> "phase_0/pos" </string>
+				<string> "phase_0/color" </string>
+				<string> "phase_1/pos" </string>
+				<string> "phase_1/color" </string>
+				<string> "phase_2/pos" </string>
+				<string> "phase_2/color" </string>
+				<string> "phase_3/pos" </string>
+				<string> "phase_3/color" </string>
+				<string> "emission_points" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "shape" </string>
+				<string> "trigger" </string>
+				<string> "Position2D" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 5 </int>
+			<string> "nodes" </string>
+			<int_array  len="313"> 				-1, -1, 1, 0, -1, 26, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 1, 13, 3, 14, 8, 15, 9, 16, 10, 17, 10, 18, 11, 19, 12, 20, 13, 21, 2, 22, 1, 23, 1, 24, 3, 25, 3, 26, 14, 27, 15, 0, 0, 0, 28, 28, -1, 23, 2, 0, 3, 1, 4, 2, 5, 2, 29, 16, 6, 3, 7, 17, 8, 5, 9, 6, 10, 7, 11, 1, 30, 18, 31, 1, 32, 17, 33, 10, 34, 10, 35, 3, 36, 3, 37, 7, 38, 19, 39, 10, 40, 20, 27, 21, 0, 1, 0, 41, 41, -1, 67, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 22, 8, 5, 9, 6, 10, 7, 11, 1, 42, 23, 43, 24, 44, 25, 45, 5, 46, 5, 47, 10, 48, 17, 49, 17, 50, 10, 51, 2, 52, 10, 53, 10, 54, 26, 55, 3, 56, 3, 57, 5, 58, 24, 59, 27, 60, 5, 61, 5, 62, 5, 63, 28, 64, 5, 65, 5, 66, 5, 67, 5, 68, 24, 69, 29, 70, 5, 71, 2, 72, 5, 73, 5, 74, 5, 75, 5, 76, 5, 77, 5, 78, 5, 79, 5, 80, 5, 81, 5, 82, 5, 83, 5, 84, 5, 85, 5, 86, 5, 87, 5, 88, 5, 89, 3, 90, 5, 91, 19, 92, 2, 93, 30, 94, 2, 95, 30, 96, 2, 97, 30, 98, 31, 0, 0, 0, 99, 99, -1, 13, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 32, 8, 5, 9, 33, 10, 7, 11, 1, 100, 8, 101, 10, 27, 34, 0, 0, 0, 102, 102, -1, 10, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 35, 8, 5, 9, 6, 10, 7, 11, 1, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="36" shared="false">
+				<node_path> "" </node_path>
+				<bool> True </bool>
+				<real> 1 </real>
+				<int> 1 </int>
+				<vector2> 422, 222 </vector2>
+				<real> 0 </real>
+				<vector2> 1, 1 </vector2>
+				<int> 0 </int>
+				<resource  resource_type="Shape2D" path="local://0">  </resource>
+				<matrix32> 46.5385, -0, 0, 30.7692, 5, 80 </matrix32>
+				<bool> False </bool>
+				<vector2> 0, 1 </vector2>
+				<real> 98 </real>
+				<real> 0.1 </real>
+				<resource  resource_type="Script" path="res://Assets/scripts/ship.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -878.001, -540.829 </vector2>
+							<string> "snap_grid" </string>
+							<bool> True </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 0.54036 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+						<string> "Script" </string>
+						<dictionary  shared="false">
+							<string> "current" </string>
+							<int> 0 </int>
+							<string> "sources" </string>
+							<array  len="1" shared="false">
+								<string> "res://Assets/scripts/ship.gd" </string>
+							</array>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<int> 4 </int>
+				<vector2> 0, 0 </vector2>
+				<resource  resource_type="Texture" path="res://Assets/sprites/ship.png">  </resource>
+				<color> 1, 1, 1, 1 </color>
+				<rect2> 0, 0, 0, 0 </rect2>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 0, 400 </vector2>
+				<int> 32 </int>
+				<real> 20 </real>
+				<real> 5 </real>
+				<resource name=""></resource>				<real> 30 </real>
+				<real> 9.8 </real>
+				<real> 100 </real>
+				<color> 0, 0, 0, 1 </color>
+				<vector2_array  len="0"> 					 </vector2_array>
+				<vector2> 5, 80 </vector2>
+				<vector2> 46.5385, 30.7692 </vector2>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 8, -472 </vector2>
+			</array>
+			<string> "version" </string>
+			<int> 1 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>

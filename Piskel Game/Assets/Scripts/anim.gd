@@ -17,6 +17,13 @@ func _ready():
 	feet = get_node("Feet")
 	feet.add_exception(self)
 	
+	
+	# Testing instance stuff
+	#print(get_instance_ID())
+	#var inst = instance_from_id(get_instance_ID())
+	#get_parent().add_child(inst)
+	#print(inst.get_instance_ID())
+	#inst.queue_free()
 
 func _process(delta):
 	if Input.is_action_pressed("ui_down"):
@@ -47,4 +54,5 @@ func _process(delta):
 			sprite.set('flip_h',false)
 		if Input.is_action_pressed('down'):
 			animations.play('crouch')
+
 
