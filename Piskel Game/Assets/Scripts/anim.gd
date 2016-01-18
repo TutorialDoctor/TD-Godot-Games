@@ -7,7 +7,7 @@ var animations
 var timer
 export var move_speed = 0
 export var jump_height = 0
-
+export var next_level =''
 
 func _ready():
 	set_process(true)
@@ -56,3 +56,8 @@ func _process(delta):
 			animations.play('crouch')
 
 
+
+# This function was generated using the node connections option.
+# A collisioin shape had to be added to Area2d for it to work.
+func _on_Area2D_body_enter( body ):
+	get_tree().change_scene(next_level)

@@ -3,12 +3,15 @@ extends Node2D
 
 
 var sfx
+var player
 
 func _ready():
 	set_process(true)
 	sfx = get_node('SFX')
 	sfx.play('playground_welcome')
+	player = get_node("Man")
 
+	
 func _process(delta):
 	if Input.is_key_pressed(KEY_Q) or Input.is_key_pressed(KEY_ESCAPE):
 		get_tree().quit()
