@@ -8,3 +8,4 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [Making a 2D Platformer with Godot](https://www.youtube.com/watch?v=Elw3KEz7TwQ)
 - [Creating Pixel People](https://www.youtube.com/watch?v=gYaIvDQpTtY&feature=youtu.be)
 - [Roll a Ball in Godot](https://www.youtube.com/watch?v=vJ-XxNjGXlM)
+- [How to Upscale Pixelart](https://www.youtube.com/watch?v=N4sQhkSdESU)
