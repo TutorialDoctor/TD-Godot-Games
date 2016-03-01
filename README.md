@@ -19,3 +19,4 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [Castlevania Clone](https://github.com/Algorithmus/CastlevaniaClone)
 - [Inventory](https://github.com/RodZill4/godot_inventory)
 - [Bunnymark](https://github.com/jotson/godot-bunnymark)
+- [Bombs](https://github.com/randyyaj/Bombs)
