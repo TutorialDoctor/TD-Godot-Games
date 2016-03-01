@@ -15,3 +15,4 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 
 - [PlatShoot](https://github.com/Calinou/platshoot)
 - [Minecraft Clone](https://github.com/toger5/Godot-Voxel-Game-MineCraftClone)
+- [Text Interface](https://github.com/henriquelalves/GodotTIE)
