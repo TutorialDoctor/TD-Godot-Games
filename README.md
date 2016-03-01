@@ -10,3 +10,8 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [Roll a Ball in Godot](https://www.youtube.com/watch?v=vJ-XxNjGXlM)
 - [How to Upscale Pixelart](https://www.youtube.com/watch?v=N4sQhkSdESU)
 - ~~[Animating Pixelart Comming Soon]()~~
+
+## Games from other Godot users:
+
+- [PlatShoot](https://github.com/Calinou/platshoot)
+- [Minecraft Clone](https://github.com/toger5/Godot-Voxel-Game-MineCraftClone)
