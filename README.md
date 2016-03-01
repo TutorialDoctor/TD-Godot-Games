@@ -11,9 +11,10 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [How to Upscale Pixelart](https://www.youtube.com/watch?v=N4sQhkSdESU)
 - ~~[Animating Pixelart Comming Soon]()~~
 
-## Games from other Godot users:
+## Games/Projects from other Godot users:
 
 - [PlatShoot](https://github.com/Calinou/platshoot)
 - [Minecraft Clone](https://github.com/toger5/Godot-Voxel-Game-MineCraftClone)
 - [Text Interface](https://github.com/henriquelalves/GodotTIE)
 - [Castlevania Clone](https://github.com/Algorithmus/CastlevaniaClone)
+- [Inventory](https://github.com/RodZill4/godot_inventory)
