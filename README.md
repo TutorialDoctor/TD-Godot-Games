@@ -21,3 +21,4 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [Bunnymark](https://github.com/jotson/godot-bunnymark)
 - [Bombs](https://github.com/randyyaj/Bombs)
 - [Wangu](https://github.com/YeOldeDM/wangu)
+- [Tetris](https://github.com/yichen0831/TetrisGodot)
