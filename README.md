@@ -24,3 +24,4 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [Tetris](https://github.com/yichen0831/TetrisGodot)
 - [Cool Menu Test](https://github.com/fadyosman/godot-menu)
 - [2D RPG](https://github.com/vnen/godot-rpg2d)
+- [2D car game](https://github.com/M4N1AC/CarGame)
