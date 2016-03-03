@@ -19,7 +19,7 @@ Credits:
 
 
 Notes:
-It will work with animated 3d models, since all you are doing is changing the diffuse parameter of a particular mesh object.
+It will work with animated 3d models since all you are doing is changing the diffuse parameter of a particular mesh object.
 
 ToDo:
 - Hair and clothes objects with morph targets
