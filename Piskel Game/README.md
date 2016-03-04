@@ -9,4 +9,4 @@ Check out my [Piskel Art](https://github.com/TutorialDoctor/Piskel-Art) repo for
 
 ## Games like this:
 
-- [Plan Be](http://gamejolt.com/games/plan-be/86295)
+- [I'm alright](http://gamejolt.com/games/i-m-alright/108592)
