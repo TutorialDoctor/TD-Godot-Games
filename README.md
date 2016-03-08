@@ -27,6 +27,7 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [2D car game](https://github.com/M4N1AC/CarGame)
 - [Castles](https://github.com/Mikepicker/Castles)
 - [3D Procedural generation](https://github.com/pjimenezmateo/procedural)
+- [Strange Puzzle Game](https://github.com/henriquelalves/Ambrigram)
 
 ## Shaders for Godot
 
