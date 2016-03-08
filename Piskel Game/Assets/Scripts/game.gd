@@ -10,7 +10,7 @@ func _ready():
 	sfx = get_node('SFX')
 	sfx.play('playground_welcome')
 	player = get_node("Man")
-
+	print(self)
 	
 func _process(delta):
 	if Input.is_key_pressed(KEY_Q) or Input.is_key_pressed(KEY_ESCAPE):

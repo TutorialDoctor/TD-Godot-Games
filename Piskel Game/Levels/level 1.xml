@@ -1,72 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="67" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
-	<ext_resource path="res://Assets/Scripts/game.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Assets/Sounds/Music/Vino.ogg" type="AudioStream"></ext_resource>
-	<ext_resource path="res://Assets/Sounds/sfx/jump.wav" type="Sample"></ext_resource>
-	<ext_resource path="res://Assets/Sounds/sfx/punch.wav" type="Sample"></ext_resource>
-	<ext_resource path="res://Assets/Scripts/labels.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_batman_5/256/chr_batman_5_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_samurai/chr_samurai.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_wonderWoman/chr_wonderWoman_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_scythian_side/256/chr_scythian_side_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chrs_animals/256/chrs_animals_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chrs_blueHeros/256/chrs_blueHeros_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_capeWoman/chr_capeWoman_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_female_1/chr_female_1_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_male_2/chr_male_2_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_spiderman/chr_spiderman.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_vader/chr_vader.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_catWoman/chr_catWoman_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_minion/chr_minion_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_male_3/chr_male_3_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_male_karatekick/chr_male_karatekick_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_christian_ninja/christian_ninja.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_superman/chr_superman_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_flash/chr_flash_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chrs_ninjaturtles/chrs_ninjaturtules_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chrs_frozen/chrs_frozen_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_cowboyman/chr_cowboyman_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_firstpresident/chr_firstpresident_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_cowboy_64/chr_cowboy_64_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chrs_gymteachers/chrs_gymteachers_64.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_flash/chr_flash.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_m_ragged/chr_m_ragged.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_dancer/chr_f_dancer.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_captainAmerica/chr_captainAmerica.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_barbie/chr_f_barbie.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_spidermanRegular_64/chr_spidermanRegular_64.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_ballerina_64/chr_f_ballerina_64.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_kaley/chr_f_kaley_64.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_m_daley_64/chr_m_daley_64.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chrs_disney_64/chrs_wreckItRalph_64.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Props/props_studio/props_studio_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Props/prop_christmastree/prop_christmastree_256.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Props/prop_blackhole/prop_blackhole.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Scripts/blackhole.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Assets/Scripts/anim.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_male_1/chr_male_1.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Props/prop_speechBubble/prop_speechBubble.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Fonts/comic2.fnt" type="Font"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds1.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds2.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds3.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Assets/Scripts/canvas_controls.gd" type="Script"></ext_resource>
-	<resource type="SampleLibrary" path="local://0">
-		<dictionary name="samples/punch" shared="false">
-			<string> "db" </string>
-			<real> 0 </real>
-			<string> "pitch" </string>
-			<real> 1 </real>
-			<string> "sample" </string>
-			<resource  resource_type="Sample" path="res://Assets/Sounds/sfx/punch.wav">  </resource>
-		</dictionary>
+<resource_file type="PackedScene" subresource_count="68" version="2.0" version_name="Godot Engine v2.0.stable.custom_build">
+	<ext_resource path="res://Assets/Sprites/Characters/chr_capeWoman/chr_capeWoman_256.png" type="Texture" index="11"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_minion/chr_minion_256.png" type="Texture" index="17"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_male_karatekick/chr_male_karatekick_256.png" type="Texture" index="19"></ext_resource>
+	<ext_resource path="res://Assets/Scripts/game.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://Assets/Scripts/cam_shake.gd" type="Script" index="45"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_catWoman/chr_catWoman_256.png" type="Texture" index="16"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chrs_ninjaturtles/chrs_ninjaturtules_256.png" type="Texture" index="23"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_spidermanRegular_64/chr_spidermanRegular_64.png" type="Texture" index="34"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_m_daley_64/chr_m_daley_64.png" type="Texture" index="37"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/prop_christmastree/prop_christmastree_256.png" type="Texture" index="40"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/prop_blackhole/prop_blackhole.png" type="Texture" index="41"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_male_1/chr_male_1.png" type="Texture" index="44"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chrs_animals/256/chrs_animals_256.png" type="Texture" index="9"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_batman_5/256/chr_batman_5_256.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://Assets/Sounds/Music/Vino.ogg" type="AudioStream" index="1"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_wonderWoman/chr_wonderWoman_256.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chrs_blueHeros/256/chrs_blueHeros_256.png" type="Texture" index="10"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_scythian_side/256/chr_scythian_side_256.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_samurai/chr_samurai.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_male_2/chr_male_2_256.png" type="Texture" index="13"></ext_resource>
+	<ext_resource path="res://Assets/Scripts/labels.gd" type="Script" index="4"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/prop_speechBubble/prop_speechBubble.png" type="Texture" index="46"></ext_resource>
+	<ext_resource path="res://Assets/Fonts/comic2.fnt" type="Font" index="47"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_superman/chr_superman_256.png" type="Texture" index="21"></ext_resource>
+	<ext_resource path="res://Assets/Sounds/sfx/jump.wav" type="Sample" index="2"></ext_resource>
+	<ext_resource path="res://Assets/Sounds/sfx/punch.wav" type="Sample" index="3"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_female_1/chr_female_1_256.png" type="Texture" index="12"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_flash/chr_flash_256.png" type="Texture" index="22"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chrs_frozen/chrs_frozen_256.png" type="Texture" index="24"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_cowboyman/chr_cowboyman_256.png" type="Texture" index="25"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_firstpresident/chr_firstpresident_256.png" type="Texture" index="26"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_cowboy_64/chr_cowboy_64_256.png" type="Texture" index="27"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chrs_gymteachers/chrs_gymteachers_64.png" type="Texture" index="28"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_m_ragged/chr_m_ragged.png" type="Texture" index="30"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_flash/chr_flash.png" type="Texture" index="29"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_dancer/chr_f_dancer.png" type="Texture" index="31"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_captainAmerica/chr_captainAmerica.png" type="Texture" index="32"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_barbie/chr_f_barbie.png" type="Texture" index="33"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_ballerina_64/chr_f_ballerina_64.png" type="Texture" index="35"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_kaley/chr_f_kaley_64.png" type="Texture" index="36"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chrs_disney_64/chrs_wreckItRalph_64.png" type="Texture" index="38"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/props_studio/props_studio_256.png" type="Texture" index="39"></ext_resource>
+	<ext_resource path="res://Assets/Scripts/anim.gd" type="Script" index="43"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds1.png" type="Texture" index="48"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds3.png" type="Texture" index="50"></ext_resource>
+	<ext_resource path="res://Assets/Scripts/blackhole.gd" type="Script" index="42"></ext_resource>
+	<ext_resource path="res://Assets/Scripts/canvas_controls.gd" type="Script" index="51"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds2.png" type="Texture" index="49"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_christian_ninja/christian_ninja.png" type="Texture" index="20"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_spiderman/chr_spiderman.png" type="Texture" index="14"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_vader/chr_vader.png" type="Texture" index="15"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_male_3/chr_male_3_256.png" type="Texture" index="18"></ext_resource>
+	<resource type="SampleLibrary" path="local://15">
 		<dictionary name="samples/jump" shared="false">
 			<string> "db" </string>
 			<real> 0 </real>
 			<string> "pitch" </string>
 			<real> 1 </real>
 			<string> "sample" </string>
-			<resource  resource_type="Sample" path="res://Assets/Sounds/sfx/jump.wav">  </resource>
+			<resource  external="2">  </resource>
+		</dictionary>
+		<dictionary name="samples/punch" shared="false">
+			<string> "db" </string>
+			<real> 0 </real>
+			<string> "pitch" </string>
+			<real> 1 </real>
+			<string> "sample" </string>
+			<resource  external="3">  </resource>
 		</dictionary>
 
 	</resource>
@@ -235,6 +236,28 @@
 		<vector2 name="extents"> 10, 10 </vector2>
 
 	</resource>
+	<resource type="Animation" path="local://11">
+		<real name="length"> 0.75 </real>
+		<bool name="loop"> True </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> ".:frame" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 0.75 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<int> 7 </int>
+				<int> 8 </int>
+			</array>
+		</dictionary>
+
+	</resource>
 	<resource type="Animation" path="local://9">
 		<real name="length"> 0.5 </real>
 		<bool name="loop"> True </bool>
@@ -296,28 +319,6 @@
 		</dictionary>
 
 	</resource>
-	<resource type="Animation" path="local://11">
-		<real name="length"> 0.75 </real>
-		<bool name="loop"> True </bool>
-		<real name="step"> 0.1 </real>
-		<string name="tracks/0/type"> "value" </string>
-		<node_path name="tracks/0/path"> ".:frame" </node_path>
-		<int name="tracks/0/interp"> 1 </int>
-		<dictionary name="tracks/0/keys" shared="false">
-			<string> "cont" </string>
-			<bool> True </bool>
-			<string> "times" </string>
-			<real_array  len="2"> 				0, 0.75 </real_array>
-			<string> "transitions" </string>
-			<real_array  len="2"> 				1, 1 </real_array>
-			<string> "values" </string>
-			<array  len="2" shared="false">
-				<int> 7 </int>
-				<int> 8 </int>
-			</array>
-		</dictionary>
-
-	</resource>
 	<resource type="Animation" path="local://12">
 		<real name="length"> 0.4 </real>
 		<bool name="loop"> False </bool>
@@ -371,34 +372,28 @@
 			<string> "conn_count" </string>
 			<int> 3 </int>
 			<string> "conns" </string>
-			<int_array  len="18"> 				54, 56, 303, 302, 2, 0, 79, 0, 305, 304, 2, 0, 80, 0, 305, 306, 2, 0 </int_array>
+			<int_array  len="18"> 				54, 56, 242, 241, 2, 0, 79, 0, 244, 243, 2, 0, 80, 0, 244, 245, 2, 0 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
 			<string> "names" </string>
-			<string_array  len="307">
+			<string_array  len="246">
 				<string> "Game" </string>
-				<string> "Node2D" </string>
-				<string> "_import_path" </string>
-				<string> "visibility/visible" </string>
-				<string> "visibility/opacity" </string>
-				<string> "visibility/self_opacity" </string>
-				<string> "visibility/light_mask" </string>
-				<string> "transform/pos" </string>
-				<string> "transform/rot" </string>
-				<string> "transform/scale" </string>
-				<string> "z/z" </string>
-				<string> "z/relative" </string>
 				<string> "script/script" </string>
 				<string> "__meta__" </string>
+				<string> "Node2D" </string>
 				<string> "Music" </string>
-				<string> "StreamPlayer" </string>
 				<string> "stream/stream" </string>
 				<string> "stream/play" </string>
 				<string> "stream/loop" </string>
 				<string> "stream/volume_db" </string>
 				<string> "stream/autoplay" </string>
 				<string> "stream/paused" </string>
+				<string> "stream/loop_restart_time" </string>
+				<string> "stream/buffering_ms" </string>
+				<string> "StreamPlayer" </string>
 				<string> "SFX" </string>
-				<string> "SamplePlayer" </string>
-				<string> "config/voices" </string>
+				<string> "config/polyphony" </string>
 				<string> "config/samples" </string>
 				<string> "default/volume_db" </string>
 				<string> "default/pitch_scale" </string>
@@ -412,26 +407,21 @@
 				<string> "default/reverb_room" </string>
 				<string> "default/reverb_send" </string>
 				<string> "default/chorus_send" </string>
+				<string> "SamplePlayer" </string>
 				<string> "Other Characters" </string>
+				<string> "transform/pos" </string>
 				<string> "Batman" </string>
-				<string> "Sprite" </string>
 				<string> "visibility/blend_mode" </string>
 				<string> "texture" </string>
-				<string> "centered" </string>
-				<string> "offset" </string>
-				<string> "flip_h" </string>
-				<string> "flip_v" </string>
-				<string> "vframes" </string>
 				<string> "hframes" </string>
-				<string> "frame" </string>
-				<string> "modulate" </string>
-				<string> "region" </string>
-				<string> "region_rect" </string>
+				<string> "Sprite" </string>
 				<string> "Samurai" </string>
 				<string> "Wonder Lady" </string>
+				<string> "visibility/visible" </string>
 				<string> "Scythian" </string>
 				<string> "Animals" </string>
 				<string> "Hero1" </string>
+				<string> "frame" </string>
 				<string> "Hero2" </string>
 				<string> "Hero3" </string>
 				<string> "AnimationPlayer" </string>
@@ -457,6 +447,7 @@
 				<string> "Male Karate" </string>
 				<string> "anims/kick" </string>
 				<string> "Christian Ninja" </string>
+				<string> "flip_h" </string>
 				<string> "anims/sword" </string>
 				<string> "Superguy" </string>
 				<string> "Mr Flash" </string>
@@ -467,27 +458,13 @@
 				<string> "margin/top" </string>
 				<string> "margin/right" </string>
 				<string> "margin/bottom" </string>
-				<string> "focus_neighbour/left" </string>
-				<string> "focus_neighbour/top" </string>
-				<string> "focus_neighbour/right" </string>
-				<string> "focus_neighbour/bottom" </string>
 				<string> "focus/ignore_mouse" </string>
 				<string> "focus/stop_mouse" </string>
 				<string> "size_flags/horizontal" </string>
-				<string> "size_flags/stretch_ratio" </string>
-				<string> "range/min" </string>
-				<string> "range/max" </string>
-				<string> "range/step" </string>
-				<string> "range/page" </string>
-				<string> "range/value" </string>
-				<string> "range/exp_edit" </string>
-				<string> "rounded_values" </string>
 				<string> "text" </string>
-				<string> "align" </string>
-				<string> "valign" </string>
-				<string> "autowrap" </string>
-				<string> "uppercase" </string>
 				<string> "percent_visible" </string>
+				<string> "lines_skipped" </string>
+				<string> "max_lines_visible" </string>
 				<string> "Cowman" </string>
 				<string> "First President" </string>
 				<string> "Cowboy 64" </string>
@@ -508,25 +485,22 @@
 				<string> "anims/lightup" </string>
 				<string> "Black Hole" </string>
 				<string> "Area2D" </string>
+				<string> "transform/scale" </string>
 				<string> "input/pickable" </string>
-				<string> "shape_count" </string>
 				<string> "shapes/0/shape" </string>
 				<string> "shapes/0/transform" </string>
 				<string> "shapes/0/trigger" </string>
-				<string> "gravity_point" </string>
 				<string> "gravity_vec" </string>
 				<string> "gravity" </string>
 				<string> "linear_damp" </string>
 				<string> "angular_damp" </string>
-				<string> "monitoring" </string>
-				<string> "monitorable" </string>
-				<string> "collision/layers" </string>
-				<string> "collision/mask" </string>
 				<string> "CollisionShape2D" </string>
 				<string> "shape" </string>
 				<string> "trigger" </string>
+				<string> "_update_shape_index" </string>
 				<string> "Man" </string>
-				<string> "RigidBody2D" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
 				<string> "mode" </string>
 				<string> "mass" </string>
 				<string> "friction" </string>
@@ -545,17 +519,18 @@
 				<string> "move_speed" </string>
 				<string> "jump_height" </string>
 				<string> "next_level" </string>
+				<string> "RigidBody2D" </string>
+				<string> "anims/crouch" </string>
+				<string> "anims/shock" </string>
+				<string> "anims/walk" </string>
+				<string> "next/crouch" </string>
 				<string> "next/idle" </string>
 				<string> "next/jump" </string>
-				<string> "anims/crouch" </string>
-				<string> "next/crouch" </string>
-				<string> "anims/shock" </string>
 				<string> "next/shock" </string>
-				<string> "anims/walk" </string>
 				<string> "Camera2D" </string>
+				<string> "anchor_mode" </string>
 				<string> "rotating" </string>
 				<string> "current" </string>
-				<string> "smoothing" </string>
 				<string> "zoom" </string>
 				<string> "limit/left" </string>
 				<string> "limit/top" </string>
@@ -563,33 +538,25 @@
 				<string> "limit/bottom" </string>
 				<string> "drag_margin/h_enabled" </string>
 				<string> "drag_margin/v_enabled" </string>
+				<string> "smoothing/enable" </string>
+				<string> "smoothing/speed" </string>
 				<string> "drag_margin/left" </string>
 				<string> "drag_margin/top" </string>
 				<string> "drag_margin/right" </string>
 				<string> "drag_margin/bottom" </string>
 				<string> "Feet" </string>
-				<string> "RayCast2D" </string>
 				<string> "enabled" </string>
 				<string> "cast_to" </string>
 				<string> "layer_mask" </string>
+				<string> "type_mask" </string>
+				<string> "RayCast2D" </string>
 				<string> "Smoke" </string>
-				<string> "Particles2D" </string>
 				<string> "visibility/behind_parent" </string>
 				<string> "config/amount" </string>
 				<string> "config/lifetime" </string>
 				<string> "config/time_scale" </string>
-				<string> "config/preprocess" </string>
-				<string> "config/emit_timeout" </string>
-				<string> "config/emitting" </string>
-				<string> "config/offset" </string>
-				<string> "config/half_extents" </string>
 				<string> "config/local_space" </string>
 				<string> "config/explosiveness" </string>
-				<string> "config/flip_h" </string>
-				<string> "config/flip_v" </string>
-				<string> "config/texture" </string>
-				<string> "config/h_frames" </string>
-				<string> "config/v_frames" </string>
 				<string> "params/direction" </string>
 				<string> "params/spread" </string>
 				<string> "params/linear_velocity" </string>
@@ -606,42 +573,19 @@
 				<string> "params/hue_variation" </string>
 				<string> "params/anim_speed_scale" </string>
 				<string> "params/anim_initial_pos" </string>
-				<string> "randomness/direction" </string>
-				<string> "randomness/spread" </string>
-				<string> "randomness/linear_velocity" </string>
-				<string> "randomness/spin_velocity" </string>
-				<string> "randomness/orbit_velocity" </string>
-				<string> "randomness/gravity_direction" </string>
-				<string> "randomness/gravity_strength" </string>
-				<string> "randomness/radial_accel" </string>
-				<string> "randomness/tangential_accel" </string>
-				<string> "randomness/damping" </string>
-				<string> "randomness/initial_angle" </string>
-				<string> "randomness/initial_size" </string>
-				<string> "randomness/final_size" </string>
-				<string> "randomness/hue_variation" </string>
-				<string> "randomness/anim_speed_scale" </string>
-				<string> "randomness/anim_initial_pos" </string>
-				<string> "color_phases/count" </string>
-				<string> "phase_0/pos" </string>
-				<string> "phase_0/color" </string>
-				<string> "phase_1/pos" </string>
-				<string> "phase_1/color" </string>
-				<string> "phase_2/pos" </string>
-				<string> "phase_2/color" </string>
-				<string> "phase_3/pos" </string>
-				<string> "phase_3/color" </string>
-				<string> "emission_points" </string>
+				<string> "Particles2D" </string>
 				<string> "Bubble" </string>
 				<string> "custom_fonts/font" </string>
 				<string> "custom_colors/font_color" </string>
+				<string> "autowrap" </string>
 				<string> "Ground" </string>
-				<string> "StaticBody2D" </string>
 				<string> "constant_linear_velocity" </string>
 				<string> "constant_angular_velocity" </string>
+				<string> "StaticBody2D" </string>
+				<string> "modulate" </string>
 				<string> "Mountain" </string>
-				<string> "ParallaxBackground" </string>
 				<string> "layer" </string>
+				<string> "offset" </string>
 				<string> "rotation" </string>
 				<string> "scale" </string>
 				<string> "scroll/offset" </string>
@@ -649,9 +593,12 @@
 				<string> "scroll/base_scale" </string>
 				<string> "scroll/limit_begin" </string>
 				<string> "scroll/limit_end" </string>
+				<string> "scroll/ignore_camera_zoom" </string>
+				<string> "ParallaxBackground" </string>
 				<string> "ParallaxLayer" </string>
 				<string> "motion/scale" </string>
 				<string> "motion/mirroring" </string>
+				<string> "visibility/opacity" </string>
 				<string> "Sprite1" </string>
 				<string> "Sprite2" </string>
 				<string> "Sprite3" </string>
@@ -660,19 +607,15 @@
 				<string> "CanvasLayer" </string>
 				<string> "Button" </string>
 				<string> "size_flags/vertical" </string>
-				<string> "disabled" </string>
 				<string> "toggle_mode" </string>
-				<string> "is_pressed" </string>
-				<string> "click_on_press" </string>
-				<string> "icon" </string>
 				<string> "flat" </string>
-				<string> "clip_text" </string>
 				<string> "WindowDialog" </string>
 				<string> "popup/exclusive" </string>
 				<string> "window/title" </string>
 				<string> "RichTextLabel" </string>
 				<string> "bbcode/enabled" </string>
 				<string> "bbcode/bbcode" </string>
+				<string> "visible_characters" </string>
 				<string> "Pause" </string>
 				<string> "Unpause" </string>
 				<string> "process/pause_mode" </string>
@@ -684,196 +627,51 @@
 			</string_array>
 			<string> "node_count" </string>
 			<int> 81 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
 			<string> "nodes" </string>
-			<int_array  len="3863"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, -1, 7, 2, 0, 16, 10, 17, 11, 18, 1, 19, 5, 20, 1, 21, 11, 0, 0, 0, 23, 22, -1, 15, 2, 0, 24, 12, 25, 13, 26, 5, 27, 2, 28, 5, 29, 5, 30, 5, 31, 14, 32, 14, 33, 14, 34, 14, 35, 7, 36, 5, 37, 5, 0, 0, 0, 1, 38, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 15, 8, 5, 9, 6, 10, 7, 11, 1, 12, 16, 13, 17, 0, 3, 0, 40, 39, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 19, 8, 5, 9, 6, 10, 7, 11, 1, 42, 20, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 18, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 53, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 23, 8, 5, 9, 6, 10, 7, 11, 1, 42, 24, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 25, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 54, -1, 22, 2, 0, 3, 11, 4, 2, 5, 2, 41, 18, 6, 3, 7, 26, 8, 5, 9, 6, 10, 7, 11, 1, 42, 27, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 25, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 55, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 28, 8, 5, 9, 6, 10, 7, 11, 1, 42, 29, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 56, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 30, 8, 5, 9, 6, 10, 7, 11, 1, 42, 31, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 57, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 32, 8, 5, 9, 6, 10, 7, 11, 1, 42, 33, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 34, 49, 3, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 58, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 35, 8, 5, 9, 6, 10, 7, 11, 1, 42, 33, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 34, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 59, -1, 23, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 36, 8, 5, 9, 6, 10, 7, 11, 1, 42, 37, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 18, 49, 7, 50, 21, 51, 11, 52, 22, 13, 38, 0, 11, 0, 60, 60, -1, 9, 2, 0, 61, 3, 62, 5, 63, 39, 64, 40, 65, 1, 66, 2, 67, 41, 68, 42, 0, 3, 0, 40, 69, -1, 23, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 43, 8, 5, 9, 6, 10, 7, 11, 1, 42, 44, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 25, 49, 7, 50, 21, 51, 11, 52, 22, 13, 45, 0, 13, 0, 60, 60, -1, 9, 2, 0, 61, 3, 62, 5, 63, 39, 64, 40, 65, 1, 66, 2, 67, 41, 68, 42, 0, 3, 0, 40, 70, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 46, 8, 5, 9, 6, 10, 7, 11, 1, 42, 47, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 71, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 48, 8, 5, 9, 6, 10, 7, 11, 1, 42, 49, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 72, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 50, 8, 5, 9, 6, 10, 7, 11, 1, 42, 51, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 34, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 73, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 52, 8, 5, 9, 6, 10, 7, 11, 1, 42, 51, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 34, 49, 3, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 74, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 53, 8, 5, 9, 6, 10, 7, 11, 1, 42, 51, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 34, 49, 12, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 75, -1, 23, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 54, 8, 5, 9, 6, 10, 7, 11, 1, 42, 55, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 56, 49, 25, 50, 21, 51, 11, 52, 22, 13, 57, 0, 20, 0, 60, 60, -1, 9, 2, 0, 61, 3, 62, 5, 63, 39, 76, 58, 65, 1, 66, 2, 67, 41, 68, 59, 0, 3, 0, 40, 77, -1, 23, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 60, 8, 5, 9, 6, 10, 7, 11, 1, 42, 61, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 62, 49, 7, 50, 21, 51, 11, 52, 22, 13, 63, 0, 22, 0, 60, 60, -1, 9, 2, 0, 61, 3, 62, 5, 63, 39, 78, 64, 65, 1, 66, 2, 67, 41, 68, 65, 0, 3, 0, 40, 79, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 66, 8, 5, 9, 6, 10, 7, 11, 1, 42, 67, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 80, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 68, 8, 5, 9, 6, 10, 7, 11, 1, 42, 69, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 70, 49, 18, 50, 21, 51, 11, 52, 22, 0, 25, 0, 60, 60, -1, 9, 2, 0, 61, 3, 62, 5, 63, 39, 81, 71, 65, 1, 66, 2, 67, 41, 68, 72, 0, 3, 0, 40, 82, -1, 23, 2, 0, 3, 11, 4, 2, 5, 2, 41, 18, 6, 3, 7, 73, 8, 5, 9, 6, 10, 7, 11, 1, 42, 74, 43, 1, 44, 4, 45, 1, 46, 11, 47, 3, 48, 18, 49, 7, 50, 21, 51, 11, 52, 22, 13, 75, 0, 27, 0, 60, 60, -1, 9, 2, 0, 61, 3, 62, 5, 63, 39, 83, 76, 65, 1, 66, 2, 67, 41, 68, 77, 0, 3, 0, 40, 84, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 78, 8, 5, 9, 6, 10, 7, 11, 1, 42, 79, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 85, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 80, 8, 5, 9, 6, 10, 7, 11, 1, 42, 81, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 86, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 82, 8, 5, 9, 6, 10, 7, 11, 1, 42, 83, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 87, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 84, 8, 5, 9, 6, 10, 7, 11, 1, 42, 85, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 88, 88, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 89, 86, 90, 87, 91, 88, 92, 89, 93, 0, 94, 0, 95, 0, 96, 0, 97, 1, 98, 1, 99, 12, 100, 2, 101, 5, 102, 2, 103, 2, 104, 2, 105, 5, 106, 11, 107, 11, 108, 90, 109, 7, 110, 7, 111, 11, 112, 11, 113, 91, 0, 3, 0, 40, 114, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 92, 8, 5, 9, 6, 10, 7, 11, 1, 42, 93, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 115, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 94, 8, 5, 9, 6, 10, 7, 11, 1, 42, 95, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 116, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 96, 8, 5, 9, 6, 10, 7, 11, 1, 42, 97, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 117, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 98, 8, 5, 9, 6, 10, 7, 11, 1, 42, 99, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 118, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 100, 8, 5, 9, 6, 10, 7, 11, 1, 42, 101, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 119, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 102, 8, 5, 9, 6, 10, 7, 11, 1, 42, 103, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 120, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 104, 8, 5, 9, 6, 10, 7, 11, 1, 42, 105, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 121, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 106, 8, 5, 9, 6, 10, 7, 11, 1, 42, 107, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 122, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 108, 8, 5, 9, 6, 10, 7, 11, 1, 42, 109, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 123, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 110, 8, 5, 9, 6, 10, 7, 11, 1, 42, 111, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 124, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 112, 8, 5, 9, 6, 10, 7, 11, 1, 42, 113, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 125, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 114, 8, 5, 9, 6, 10, 7, 11, 1, 42, 115, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 126, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 116, 8, 5, 9, 6, 10, 7, 11, 1, 42, 117, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 3, 0, 40, 127, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 118, 8, 5, 9, 6, 10, 7, 11, 1, 42, 119, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 0, 0, 1, 128, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 13, 120, 0, 48, 0, 40, 129, -1, 21, 2, 0, 3, 11, 4, 2, 5, 2, 6, 3, 7, 121, 8, 5, 9, 6, 10, 7, 11, 1, 42, 122, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 48, 0, 40, 130, -1, 23, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 123, 8, 5, 9, 6, 10, 7, 11, 1, 42, 124, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 25, 49, 18, 50, 21, 51, 11, 52, 22, 13, 125, 0, 50, 0, 60, 60, -1, 9, 2, 0, 61, 3, 62, 5, 63, 39, 131, 126, 65, 1, 66, 2, 67, 41, 68, 127, 0, 48, 0, 40, 132, -1, 23, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 128, 8, 5, 9, 6, 10, 7, 11, 1, 42, 129, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 12, 130, 0, 52, 0, 60, 60, -1, 9, 2, 0, 61, 3, 62, 5, 63, 39, 131, 126, 65, 1, 66, 2, 67, 41, 68, 127, 0, 52, 0, 133, 133, -1, 24, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 131, 8, 5, 9, 132, 10, 7, 11, 1, 134, 1, 135, 3, 136, 133, 137, 134, 138, 11, 139, 11, 140, 135, 141, 136, 142, 137, 143, 2, 144, 1, 145, 1, 146, 3, 147, 3, 0, 54, 0, 148, 148, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 138, 8, 5, 9, 139, 10, 7, 11, 1, 149, 133, 150, 11, 0, 0, 0, 152, 151, -1, 37, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 140, 8, 5, 9, 6, 10, 7, 11, 1, 134, 11, 135, 3, 136, 141, 137, 142, 138, 11, 146, 3, 147, 3, 153, 12, 154, 2, 155, 2, 156, 5, 157, 143, 158, 11, 159, 7, 160, 7, 161, 11, 162, 11, 163, 1, 164, 4, 165, 5, 166, 91, 167, 91, 12, 144, 13, 145, 168, 146, 169, 146, 170, 147, 0, 56, 0, 40, 40, -1, 23, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 148, 8, 5, 9, 6, 10, 7, 11, 1, 42, 149, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 150, 49, 56, 50, 21, 51, 11, 52, 22, 13, 151, 0, 57, 0, 60, 60, -1, 17, 2, 0, 61, 3, 62, 5, 63, 39, 64, 152, 171, 42, 78, 153, 172, 154, 173, 155, 174, 42, 175, 156, 176, 42, 177, 157, 65, 1, 66, 2, 67, 41, 68, 42, 0, 56, 0, 148, 148, -1, 13, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 158, 8, 5, 9, 159, 10, 7, 11, 1, 149, 141, 150, 11, 13, 160, 0, 56, 0, 178, 178, -1, 26, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 161, 8, 5, 9, 6, 10, 7, 11, 1, 43, 1, 179, 11, 180, 1, 181, 162, 182, 6, 183, 163, 184, 163, 185, 164, 186, 164, 187, 1, 188, 1, 189, 165, 190, 165, 191, 165, 192, 165, 13, 166, 0, 56, 0, 194, 193, -1, 14, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 167, 8, 5, 9, 6, 10, 7, 11, 1, 195, 1, 196, 168, 197, 3, 13, 169, 0, 56, 0, 199, 198, -1, 69, 2, 0, 3, 1, 4, 2, 5, 2, 200, 1, 6, 3, 7, 170, 8, 5, 9, 6, 10, 7, 11, 1, 201, 171, 202, 172, 203, 173, 204, 5, 205, 5, 206, 1, 207, 4, 208, 4, 209, 11, 210, 174, 211, 11, 212, 11, 213, 175, 214, 3, 215, 3, 216, 176, 217, 177, 218, 178, 219, 5, 220, 5, 221, 176, 222, 179, 223, 5, 224, 5, 225, 5, 226, 5, 227, 180, 228, 178, 229, 5, 230, 2, 231, 5, 232, 5, 233, 5, 234, 5, 235, 5, 236, 5, 237, 5, 238, 5, 239, 5, 240, 5, 241, 5, 242, 5, 243, 5, 244, 5, 245, 5, 246, 5, 247, 5, 248, 3, 249, 5, 250, 21, 251, 2, 252, 181, 253, 2, 254, 181, 255, 2, 256, 181, 257, 182, 13, 183, 0, 56, 0, 40, 258, -1, 23, 2, 0, 3, 1, 4, 2, 5, 2, 41, 18, 6, 3, 7, 184, 8, 5, 9, 185, 10, 7, 11, 1, 42, 186, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 13, 187, 0, 63, 0, 88, 88, -1, 32, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 89, 188, 90, 189, 91, 190, 92, 191, 93, 0, 94, 0, 95, 0, 96, 0, 97, 1, 98, 1, 99, 12, 100, 2, 259, 192, 260, 181, 101, 5, 102, 173, 103, 2, 104, 2, 105, 5, 106, 11, 107, 11, 108, 193, 109, 7, 110, 7, 111, 1, 112, 11, 113, 91, 0, 0, 0, 262, 261, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 194, 8, 5, 9, 6, 10, 7, 11, 1, 134, 11, 135, 3, 136, 195, 137, 196, 138, 11, 146, 3, 147, 3, 263, 4, 264, 5, 155, 2, 156, 5, 13, 197, 0, 65, 0, 40, 40, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 198, 8, 5, 9, 199, 10, 7, 11, 1, 42, 122, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 62, 49, 70, 50, 200, 51, 11, 52, 22, 0, 65, 0, 148, 148, -1, 12, 2, 0, 3, 11, 4, 2, 5, 2, 6, 3, 7, 201, 8, 5, 9, 202, 10, 7, 11, 1, 149, 195, 150, 11, 0, 0, 0, 266, 265, -1, 11, 2, 0, 267, 203, 44, 4, 268, 5, 269, 6, 270, 4, 271, 4, 272, 6, 273, 4, 274, 4, 13, 204, 0, 68, 0, 275, 275, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 205, 8, 5, 9, 6, 10, 7, 11, 1, 276, 206, 277, 207, 0, 69, 0, 40, 40, -1, 21, 2, 0, 3, 1, 4, 208, 5, 2, 6, 3, 7, 209, 8, 5, 9, 6, 10, 7, 11, 1, 42, 210, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 69, 0, 40, 278, -1, 21, 2, 0, 3, 1, 4, 208, 5, 2, 6, 3, 7, 211, 8, 5, 9, 6, 10, 7, 11, 1, 42, 212, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 69, 0, 40, 279, -1, 21, 2, 0, 3, 1, 4, 208, 5, 2, 6, 3, 7, 213, 8, 5, 9, 6, 10, 7, 11, 1, 42, 214, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 69, 0, 40, 280, -1, 21, 2, 0, 3, 1, 4, 208, 5, 2, 6, 3, 7, 215, 8, 5, 9, 6, 10, 7, 11, 1, 42, 214, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 69, 0, 40, 281, -1, 21, 2, 0, 3, 1, 4, 208, 5, 2, 6, 3, 7, 216, 8, 5, 9, 6, 10, 7, 11, 1, 42, 210, 43, 1, 44, 4, 45, 11, 46, 11, 47, 3, 48, 3, 49, 7, 50, 21, 51, 11, 52, 22, 0, 0, 0, 283, 282, -1, 7, 2, 0, 267, 3, 44, 4, 268, 5, 269, 6, 12, 217, 13, 218, 0, 75, 0, 284, 284, -1, 28, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 89, 219, 90, 219, 91, 220, 92, 221, 93, 0, 94, 0, 95, 0, 96, 0, 97, 11, 98, 1, 99, 12, 285, 12, 100, 2, 286, 11, 287, 11, 288, 11, 289, 11, 108, 222, 290, 175, 291, 11, 292, 11, 109, 3, 13, 223, 0, 76, 0, 293, 293, -1, 20, 2, 0, 3, 11, 4, 224, 5, 2, 6, 3, 89, 219, 90, 225, 91, 226, 92, 227, 93, 0, 94, 0, 95, 0, 96, 0, 97, 11, 98, 1, 99, 12, 285, 12, 100, 2, 294, 11, 295, 154, 0, 77, 0, 296, 296, -1, 19, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 91, 228, 92, 229, 93, 0, 94, 0, 95, 0, 96, 0, 97, 11, 98, 1, 99, 12, 285, 12, 100, 2, 297, 1, 298, 230, 13, 231, 0, 75, 0, 284, 299, -1, 27, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 89, 219, 90, 232, 91, 233, 92, 234, 93, 0, 94, 0, 95, 0, 96, 0, 97, 11, 98, 1, 99, 12, 285, 12, 100, 2, 286, 11, 287, 11, 288, 11, 289, 11, 108, 235, 290, 175, 291, 11, 292, 11, 109, 3, 0, 75, 0, 284, 300, -1, 28, 2, 0, 301, 12, 3, 1, 4, 2, 5, 2, 6, 3, 89, 219, 90, 236, 91, 233, 92, 237, 93, 0, 94, 0, 95, 0, 96, 0, 97, 11, 98, 1, 99, 12, 285, 12, 100, 2, 286, 11, 287, 11, 288, 11, 289, 11, 108, 238, 290, 175, 291, 11, 292, 11, 109, 3, 0 </int_array>
+			<int_array  len="1583"> 				-1, -1, 3, 0, -1, 2, 1, 0, 2, 1, 0, 0, 0, 13, 4, -1, 8, 5, 2, 6, 3, 7, 4, 8, 5, 9, 4, 10, 3, 11, 5, 12, 6, 0, 0, 0, 29, 14, -1, 14, 15, 7, 16, 8, 17, 5, 18, 9, 19, 5, 20, 5, 21, 5, 22, 10, 23, 5, 24, 5, 25, 5, 26, 10, 27, 5, 28, 5, 0, 0, 0, 3, 30, -1, 3, 31, 11, 1, 12, 2, 13, 0, 3, 0, 36, 32, -1, 4, 33, 14, 31, 15, 34, 16, 35, 14, 0, 3, 0, 36, 37, -1, 4, 33, 14, 31, 17, 34, 18, 35, 19, 0, 3, 0, 36, 38, -1, 5, 39, 3, 33, 14, 31, 20, 34, 21, 35, 19, 0, 3, 0, 36, 40, -1, 3, 33, 14, 31, 22, 34, 23, 0, 3, 0, 36, 41, -1, 3, 33, 14, 31, 24, 34, 25, 0, 3, 0, 36, 42, -1, 5, 33, 14, 31, 26, 34, 27, 35, 28, 43, 7, 0, 3, 0, 36, 44, -1, 4, 33, 14, 31, 29, 34, 27, 35, 28, 0, 3, 0, 36, 45, -1, 5, 33, 14, 31, 30, 34, 31, 35, 14, 2, 32, 0, 11, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 50, 34, 51, 4, 52, 9, 53, 35, 54, 36, 0, 3, 0, 36, 55, -1, 5, 33, 14, 31, 37, 34, 38, 35, 19, 2, 39, 0, 13, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 50, 34, 51, 4, 52, 9, 53, 35, 54, 36, 0, 3, 0, 36, 56, -1, 3, 33, 14, 31, 40, 34, 41, 0, 3, 0, 36, 57, -1, 3, 33, 14, 31, 42, 34, 43, 0, 3, 0, 36, 58, -1, 4, 33, 14, 31, 44, 34, 45, 35, 28, 0, 3, 0, 36, 59, -1, 5, 33, 14, 31, 46, 34, 45, 35, 28, 43, 7, 0, 3, 0, 36, 60, -1, 5, 33, 14, 31, 47, 34, 45, 35, 28, 43, 48, 0, 3, 0, 36, 61, -1, 6, 33, 14, 31, 49, 34, 50, 35, 51, 43, 19, 2, 52, 0, 20, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 62, 53, 51, 4, 52, 9, 53, 35, 54, 54, 0, 3, 0, 36, 63, -1, 5, 33, 14, 31, 55, 34, 56, 35, 57, 2, 58, 0, 22, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 64, 59, 51, 4, 52, 9, 53, 35, 54, 60, 0, 3, 0, 36, 65, -1, 3, 33, 14, 31, 61, 34, 62, 0, 3, 0, 36, 66, -1, 5, 33, 14, 31, 63, 34, 64, 35, 65, 43, 14, 0, 25, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 67, 66, 51, 4, 52, 9, 53, 35, 54, 67, 0, 3, 0, 36, 68, -1, 7, 39, 3, 33, 14, 31, 68, 34, 69, 69, 4, 35, 14, 2, 70, 0, 27, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 70, 71, 51, 4, 52, 9, 53, 35, 54, 72, 0, 3, 0, 36, 71, -1, 3, 33, 14, 31, 73, 34, 74, 0, 3, 0, 36, 72, -1, 3, 33, 14, 31, 75, 34, 76, 0, 3, 0, 36, 73, -1, 3, 33, 14, 31, 77, 34, 78, 0, 3, 0, 36, 74, -1, 3, 33, 14, 31, 79, 34, 80, 0, 3, 0, 75, 75, -1, 12, 33, 14, 76, 81, 77, 82, 78, 83, 79, 84, 80, 4, 81, 4, 82, 48, 83, 85, 84, 9, 85, 10, 86, 86, 0, 3, 0, 36, 87, -1, 3, 33, 14, 31, 87, 34, 88, 0, 3, 0, 36, 88, -1, 3, 33, 14, 31, 89, 34, 90, 0, 3, 0, 36, 89, -1, 3, 33, 14, 31, 91, 34, 92, 0, 3, 0, 36, 90, -1, 3, 33, 14, 31, 93, 34, 94, 0, 3, 0, 36, 91, -1, 3, 33, 14, 31, 95, 34, 96, 0, 3, 0, 36, 92, -1, 3, 33, 14, 31, 97, 34, 98, 0, 3, 0, 36, 93, -1, 3, 33, 14, 31, 99, 34, 100, 0, 3, 0, 36, 94, -1, 3, 33, 14, 31, 101, 34, 102, 0, 3, 0, 36, 95, -1, 3, 33, 14, 31, 103, 34, 104, 0, 3, 0, 36, 96, -1, 3, 33, 14, 31, 105, 34, 106, 0, 3, 0, 36, 97, -1, 3, 33, 14, 31, 107, 34, 108, 0, 3, 0, 36, 98, -1, 3, 33, 14, 31, 109, 34, 110, 0, 3, 0, 36, 99, -1, 3, 33, 14, 31, 111, 34, 112, 0, 3, 0, 36, 100, -1, 3, 33, 14, 31, 113, 34, 114, 0, 0, 0, 3, 101, -1, 1, 2, 115, 0, 48, 0, 36, 102, -1, 3, 39, 3, 31, 116, 34, 117, 0, 48, 0, 36, 103, -1, 6, 33, 14, 31, 118, 34, 119, 35, 19, 43, 14, 2, 120, 0, 50, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 104, 121, 51, 4, 52, 9, 53, 35, 54, 122, 0, 48, 0, 36, 105, -1, 4, 33, 14, 31, 123, 34, 124, 1, 125, 0, 52, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 104, 121, 51, 4, 52, 9, 53, 35, 54, 122, 0, 52, 0, 106, 106, -1, 10, 31, 126, 107, 127, 108, 4, 109, 128, 110, 129, 111, 3, 112, 130, 113, 131, 114, 132, 115, 9, 0, 54, 0, 116, 116, -1, 5, 31, 133, 107, 134, 117, 128, 118, 3, 119, 86, 0, 0, 0, 141, 120, -1, 26, 31, 135, 108, 3, 109, 136, 110, 137, 111, 3, 121, 7, 122, 7, 123, 48, 124, 9, 125, 9, 126, 5, 127, 138, 128, 3, 129, 10, 130, 10, 131, 3, 132, 3, 133, 4, 134, 139, 135, 5, 136, 140, 137, 140, 1, 141, 138, 142, 139, 6, 140, 143, 0, 56, 0, 36, 36, -1, 6, 33, 14, 31, 144, 34, 145, 35, 146, 43, 51, 2, 147, 0, 57, 0, 46, 46, -1, 16, 47, 7, 48, 5, 49, 33, 142, 148, 50, 149, 64, 150, 143, 151, 144, 152, 145, 36, 146, 36, 147, 153, 148, 36, 51, 4, 52, 9, 53, 35, 54, 36, 0, 56, 0, 116, 116, -1, 6, 31, 154, 107, 155, 117, 136, 118, 3, 119, 86, 2, 156, 0, 56, 0, 149, 149, -1, 19, 31, 157, 150, 7, 151, 3, 152, 4, 153, 158, 154, 159, 155, 159, 156, 160, 157, 160, 158, 4, 159, 4, 160, 4, 161, 161, 162, 162, 163, 162, 164, 162, 165, 162, 1, 163, 2, 164, 0, 56, 0, 171, 166, -1, 6, 31, 165, 167, 4, 168, 166, 169, 7, 170, 146, 2, 167, 0, 56, 0, 195, 172, -1, 24, 173, 4, 31, 168, 174, 169, 175, 170, 176, 171, 177, 3, 178, 172, 179, 173, 180, 174, 181, 175, 182, 5, 183, 5, 184, 173, 185, 176, 186, 5, 187, 5, 188, 5, 189, 5, 190, 177, 191, 175, 192, 5, 193, 9, 194, 5, 2, 178, 0, 56, 0, 36, 196, -1, 5, 33, 14, 31, 179, 107, 180, 34, 181, 2, 182, 0, 63, 0, 75, 75, -1, 14, 76, 183, 77, 184, 78, 185, 79, 186, 80, 4, 81, 4, 82, 48, 197, 187, 198, 188, 83, 189, 199, 4, 84, 9, 85, 10, 86, 86, 0, 0, 0, 203, 200, -1, 12, 31, 190, 108, 3, 109, 191, 110, 192, 111, 3, 121, 7, 122, 7, 201, 139, 202, 5, 125, 9, 126, 5, 2, 193, 0, 65, 0, 36, 36, -1, 6, 31, 194, 107, 195, 34, 117, 35, 57, 43, 65, 204, 196, 0, 65, 0, 116, 116, -1, 6, 39, 3, 31, 197, 107, 198, 117, 191, 118, 3, 119, 86, 0, 0, 0, 216, 205, -1, 11, 206, 86, 207, 139, 208, 5, 209, 158, 210, 139, 211, 139, 212, 158, 213, 139, 214, 139, 215, 3, 2, 199, 0, 68, 0, 217, 217, -1, 3, 31, 200, 218, 201, 219, 202, 0, 69, 0, 36, 36, -1, 3, 220, 203, 31, 204, 34, 205, 0, 69, 0, 36, 221, -1, 3, 220, 203, 31, 206, 34, 207, 0, 69, 0, 36, 222, -1, 3, 220, 203, 31, 208, 34, 209, 0, 69, 0, 36, 223, -1, 3, 220, 203, 31, 210, 34, 209, 0, 69, 0, 36, 224, -1, 3, 220, 203, 31, 211, 34, 205, 0, 0, 0, 226, 225, -1, 6, 206, 7, 207, 139, 208, 5, 209, 158, 1, 212, 2, 213, 0, 75, 0, 227, 227, -1, 12, 76, 214, 77, 214, 78, 215, 79, 216, 80, 3, 81, 4, 82, 48, 228, 48, 229, 3, 83, 217, 230, 3, 2, 218, 0, 76, 0, 231, 231, -1, 12, 39, 3, 220, 219, 76, 214, 77, 220, 78, 221, 79, 222, 80, 3, 81, 4, 82, 48, 228, 48, 232, 3, 233, 153, 0, 77, 0, 234, 234, -1, 10, 78, 223, 79, 224, 80, 3, 81, 4, 82, 48, 228, 48, 235, 4, 236, 225, 237, 86, 2, 226, 0, 75, 0, 227, 238, -1, 11, 76, 214, 77, 227, 78, 228, 79, 229, 80, 3, 81, 4, 82, 48, 228, 48, 229, 3, 83, 230, 230, 3, 0, 75, 0, 227, 239, -1, 12, 240, 48, 76, 214, 77, 231, 78, 228, 79, 232, 80, 3, 81, 4, 82, 48, 228, 48, 229, 3, 83, 233, 230, 3, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="239" shared="false">
-				<node_path> "" </node_path>
-				<bool> True </bool>
-				<real> 1 </real>
-				<int> 1 </int>
-				<vector2> 0, 0 </vector2>
-				<real> 0 </real>
-				<vector2> 1, 1 </vector2>
-				<int> 0 </int>
-				<resource  resource_type="Script" path="res://Assets/Scripts/game.gd">  </resource>
+			<array  len="234" shared="false">
+				<resource  external="0">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "2D" </string>
-					<string> "__editor_plugin_states__" </string>
-					<dictionary  shared="false">
-						<string> "2D" </string>
-						<dictionary  shared="false">
-							<string> "ofs" </string>
-							<vector2> -1947.93, -462.818 </vector2>
-							<string> "snap_grid" </string>
-							<bool> True </bool>
-							<string> "snap_offset" </string>
-							<vector2> 0, 0 </vector2>
-							<string> "snap_pixel" </string>
-							<bool> False </bool>
-							<string> "snap_relative" </string>
-							<bool> False </bool>
-							<string> "snap_rotation" </string>
-							<bool> False </bool>
-							<string> "snap_rotation_offset" </string>
-							<real> 0 </real>
-							<string> "snap_rotation_step" </string>
-							<real> 0.261799 </real>
-							<string> "snap_show_grid" </string>
-							<bool> False </bool>
-							<string> "snap_step" </string>
-							<vector2> 10, 10 </vector2>
-							<string> "zoom" </string>
-							<real> 0.487677 </real>
-						</dictionary>
-						<string> "3D" </string>
-						<dictionary  shared="false">
-							<string> "ambient_light_color" </string>
-							<color> 0.15, 0.15, 0.15, 1 </color>
-							<string> "default_light" </string>
-							<bool> True </bool>
-							<string> "default_srgb" </string>
-							<bool> False </bool>
-							<string> "deflight_rot_x" </string>
-							<real> 0.942478 </real>
-							<string> "deflight_rot_y" </string>
-							<real> 0.628319 </real>
-							<string> "fov" </string>
-							<real> 45 </real>
-							<string> "show_grid" </string>
-							<bool> True </bool>
-							<string> "show_origin" </string>
-							<bool> True </bool>
-							<string> "viewport_mode" </string>
-							<int> 1 </int>
-							<string> "viewports" </string>
-							<array  len="4" shared="false">
-								<dictionary  shared="false">
-									<string> "distance" </string>
-									<real> 18.643831 </real>
-									<string> "listener" </string>
-									<bool> True </bool>
-									<string> "pos" </string>
-									<vector3> 0, 0, 0 </vector3>
-									<string> "use_environment" </string>
-									<bool> False </bool>
-									<string> "use_orthogonal" </string>
-									<bool> False </bool>
-									<string> "x_rot" </string>
-									<real> 0 </real>
-									<string> "y_rot" </string>
-									<real> 0 </real>
-								</dictionary>
-								<dictionary  shared="false">
-									<string> "distance" </string>
-									<real> 4 </real>
-									<string> "listener" </string>
-									<bool> False </bool>
-									<string> "pos" </string>
-									<vector3> 0, 0, 0 </vector3>
-									<string> "use_environment" </string>
-									<bool> False </bool>
-									<string> "use_orthogonal" </string>
-									<bool> False </bool>
-									<string> "x_rot" </string>
-									<real> 0 </real>
-									<string> "y_rot" </string>
-									<real> 0 </real>
-								</dictionary>
-								<dictionary  shared="false">
-									<string> "distance" </string>
-									<real> 4 </real>
-									<string> "listener" </string>
-									<bool> False </bool>
-									<string> "pos" </string>
-									<vector3> 0, 0, 0 </vector3>
-									<string> "use_environment" </string>
-									<bool> False </bool>
-									<string> "use_orthogonal" </string>
-									<bool> False </bool>
-									<string> "x_rot" </string>
-									<real> 0 </real>
-									<string> "y_rot" </string>
-									<real> 0 </real>
-								</dictionary>
-								<dictionary  shared="false">
-									<string> "distance" </string>
-									<real> 4 </real>
-									<string> "listener" </string>
-									<bool> False </bool>
-									<string> "pos" </string>
-									<vector3> 0, 0, 0 </vector3>
-									<string> "use_environment" </string>
-									<bool> False </bool>
-									<string> "use_orthogonal" </string>
-									<bool> False </bool>
-									<string> "x_rot" </string>
-									<real> 0 </real>
-									<string> "y_rot" </string>
-									<real> 0 </real>
-								</dictionary>
-							</array>
-							<string> "zfar" </string>
-							<real> 500 </real>
-							<string> "znear" </string>
-							<real> 0.1 </real>
-						</dictionary>
-						<string> "Script" </string>
-						<dictionary  shared="false">
-							<string> "current" </string>
-							<int> 0 </int>
-							<string> "sources" </string>
-							<array  len="5" shared="false">
-								<string> "res://Assets/Scripts/anim.gd" </string>
-								<string> "res://Assets/Scripts/game.gd" </string>
-								<string> "res://Assets/Scripts/labels.gd" </string>
-								<string> "res://Assets/Scripts/canvas_controls.gd" </string>
-								<string> "res://Assets/Scripts/blackhole.gd" </string>
-							</array>
-						</dictionary>
-					</dictionary>
-					<string> "__editor_run_settings__" </string>
-					<dictionary  shared="false">
-						<string> "custom_args" </string>
-						<string> "-l $scene" </string>
-						<string> "run_mode" </string>
-						<int> 0 </int>
-					</dictionary>
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
+					<string> "Script" </string>
 				</dictionary>
-				<resource  resource_type="AudioStream" path="res://Assets/Sounds/Music/Vino.ogg">  </resource>
+				<resource  external="1">  </resource>
 				<bool> False </bool>
-				<int> 2 </int>
-				<resource  resource_type="SampleLibrary" path="local://0">  </resource>
-				<nil>  </nil>
+				<bool> True </bool>
+				<real> 0 </real>
+				<int> 500 </int>
+				<int> 1 </int>
+				<resource  resource_type="SampleLibrary" path="local://15">  </resource>
+				<real> 1 </real>
+				<int> 0 </int>
 				<vector2> -1.67023, -1.67017 </vector2>
-				<resource  resource_type="Script" path="res://Assets/Scripts/labels.gd">  </resource>
+				<resource  external="4">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
 				<int> 4 </int>
 				<vector2> 630.558, 459.716 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_batman_5/256/chr_batman_5_256.png">  </resource>
-				<color> 1, 1, 1, 1 </color>
-				<rect2> 0, 0, 0, 0 </rect2>
+				<resource  external="5">  </resource>
 				<vector2> -22.5173, 460.444 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_samurai/chr_samurai.png">  </resource>
+				<resource  external="6">  </resource>
 				<int> 5 </int>
 				<vector2> 185.146, 458.921 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_wonderWoman/chr_wonderWoman_256.png">  </resource>
+				<resource  external="7">  </resource>
 				<vector2> -289.105, 459.94 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_scythian_side/256/chr_scythian_side_256.png">  </resource>
+				<resource  external="8">  </resource>
 				<vector2> 1628.94, 469.863 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chrs_animals/256/chrs_animals_256.png">  </resource>
+				<resource  external="9">  </resource>
 				<vector2> 2537.68, 460.673 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chrs_blueHeros/256/chrs_blueHeros_256.png">  </resource>
+				<resource  external="10">  </resource>
 				<int> 3 </int>
 				<vector2> 2246.17, 468.581 </vector2>
 				<vector2> 2848.27, 458.853 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_capeWoman/chr_capeWoman_256.png">  </resource>
+				<resource  external="11">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
@@ -884,21 +682,22 @@
 				</array>
 				<string> "idle" </string>
 				<vector2> 970.827, 468.581 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_female_1/chr_female_1_256.png">  </resource>
+				<resource  external="12">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
 				<vector2> 800.474, 460.844 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_male_2/chr_male_2_256.png">  </resource>
+				<resource  external="13">  </resource>
 				<vector2> -528.386, 460.002 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_spiderman/chr_spiderman.png">  </resource>
+				<resource  external="14">  </resource>
 				<vector2> -797.638, 461.12 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_vader/chr_vader.png">  </resource>
+				<resource  external="15">  </resource>
 				<vector2> -978.254, 459.308 </vector2>
 				<vector2> -1142.82, 459.687 </vector2>
+				<int> 2 </int>
 				<vector2> 3028.61, 465.198 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_catWoman/chr_catWoman_256.png">  </resource>
+				<resource  external="16">  </resource>
 				<int> 6 </int>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
@@ -907,7 +706,7 @@
 				<resource  resource_type="Animation" path="local://2">  </resource>
 				<string> "tail" </string>
 				<vector2> 256.23, 456.489 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_minion/chr_minion_256.png">  </resource>
+				<resource  external="17">  </resource>
 				<int> 9 </int>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
@@ -916,14 +715,14 @@
 				<resource  resource_type="Animation" path="local://3">  </resource>
 				<string> "jump" </string>
 				<vector2> 3242.42, 458.856 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_male_3/chr_male_3_256.png">  </resource>
+				<resource  external="18">  </resource>
 				<vector2> 109.151, 458.743 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_male_karatekick/chr_male_karatekick_256.png">  </resource>
+				<resource  external="19">  </resource>
 				<int> 8 </int>
 				<resource  resource_type="Animation" path="local://4">  </resource>
 				<string> "kick" </string>
 				<vector2> 339.885, 457.662 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_christian_ninja/christian_ninja.png">  </resource>
+				<resource  external="20">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
@@ -931,55 +730,55 @@
 				<resource  resource_type="Animation" path="local://5">  </resource>
 				<string> "sword" </string>
 				<vector2> 475, 459 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_superman/chr_superman_256.png">  </resource>
+				<resource  external="21">  </resource>
 				<vector2> 3350.41, 459.436 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_flash/chr_flash_256.png">  </resource>
+				<resource  external="22">  </resource>
 				<vector2> 3973.12, 458.188 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chrs_ninjaturtles/chrs_ninjaturtules_256.png">  </resource>
+				<resource  external="23">  </resource>
 				<vector2> 4712.34, 460.525 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chrs_frozen/chrs_frozen_256.png">  </resource>
+				<resource  external="24">  </resource>
 				<real> 4952 </real>
 				<real> 452 </real>
 				<real> 5002 </real>
 				<real> 472 </real>
 				<string> "64 x 64" </string>
-				<real> -1 </real>
+				<int> -1 </int>
 				<vector2> 5079.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chr_cowboyman/chr_cowboyman_256.png">  </resource>
+				<resource  external="25">  </resource>
 				<vector2> 5249.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chr_firstpresident/chr_firstpresident_256.png">  </resource>
+				<resource  external="26">  </resource>
 				<vector2> 5439.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chr_cowboy_64/chr_cowboy_64_256.png">  </resource>
+				<resource  external="27">  </resource>
 				<vector2> 5747.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chrs_gymteachers/chrs_gymteachers_64.png">  </resource>
+				<resource  external="28">  </resource>
 				<vector2> 6079.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chr_flash/chr_flash.png">  </resource>
+				<resource  external="29">  </resource>
 				<vector2> 6249.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chr_m_ragged/chr_m_ragged.png">  </resource>
+				<resource  external="30">  </resource>
 				<vector2> 6419.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chr_f_dancer/chr_f_dancer.png">  </resource>
+				<resource  external="31">  </resource>
 				<vector2> 6579.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chr_captainAmerica/chr_captainAmerica.png">  </resource>
+				<resource  external="32">  </resource>
 				<vector2> 6739.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chr_f_barbie/chr_f_barbie.png">  </resource>
+				<resource  external="33">  </resource>
 				<vector2> 6949.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chr_spidermanRegular_64/chr_spidermanRegular_64.png">  </resource>
+				<resource  external="34">  </resource>
 				<vector2> 7229.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chr_f_ballerina_64/chr_f_ballerina_64.png">  </resource>
+				<resource  external="35">  </resource>
 				<vector2> 7369.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chr_f_kaley/chr_f_kaley_64.png">  </resource>
+				<resource  external="36">  </resource>
 				<vector2> 7489.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chr_m_daley_64/chr_m_daley_64.png">  </resource>
+				<resource  external="37">  </resource>
 				<vector2> 7659.67, 459.67 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/64x64/chrs_disney_64/chrs_wreckItRalph_64.png">  </resource>
+				<resource  external="38">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
 				<vector2> -2549.48, 460.087 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Props/props_studio/props_studio_256.png">  </resource>
+				<resource  external="39">  </resource>
 				<vector2> -1552.01, 459.061 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Props/prop_christmastree/prop_christmastree_256.png">  </resource>
+				<resource  external="40">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
@@ -987,8 +786,8 @@
 				<resource  resource_type="Animation" path="local://6">  </resource>
 				<string> "lightup" </string>
 				<vector2> -1902, 428 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Props/prop_blackhole/prop_blackhole.png">  </resource>
-				<resource  resource_type="Script" path="res://Assets/Scripts/blackhole.gd">  </resource>
+				<resource  external="41">  </resource>
+				<resource  external="42">  </resource>
 				<vector2> 29, -5.99998 </vector2>
 				<vector2> 1.78125, 2.5625 </vector2>
 				<resource  resource_type="Shape2D" path="local://7">  </resource>
@@ -1002,15 +801,13 @@
 				<resource  resource_type="Shape2D" path="local://8">  </resource>
 				<matrix32> 4.23077, -0, 0, 1, 6.96115, 121.123 </matrix32>
 				<real> 8 </real>
-				<resource  resource_type="Script" path="res://Assets/Scripts/anim.gd">  </resource>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<int> 200 </int>
+				<vector2> 0, 0 </vector2>
+				<real> -1 </real>
+				<resource  external="43">  </resource>
+				<int> 300 </int>
 				<string> "res://Levels/level 2.xml" </string>
 				<vector2> -4, 3 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Characters/chr_male_1/chr_male_1.png">  </resource>
+				<resource  external="44">  </resource>
 				<int> 15 </int>
 				<dictionary  shared="false">
 					<string> "_edit_lock_" </string>
@@ -1018,12 +815,12 @@
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
+				<resource  resource_type="Animation" path="local://11">  </resource>
 				<resource  resource_type="Animation" path="local://9">  </resource>
 				<resource  resource_type="Animation" path="local://10">  </resource>
-				<string> "" </string>
-				<resource  resource_type="Animation" path="local://11">  </resource>
 				<resource  resource_type="Animation" path="local://12">  </resource>
 				<resource  resource_type="Animation" path="local://13">  </resource>
+				<string> "" </string>
 				<vector2> 6.96115, 121.123 </vector2>
 				<vector2> 4.23077, 1 </vector2>
 				<dictionary  shared="false">
@@ -1031,10 +828,12 @@
 					<bool> True </bool>
 				</dictionary>
 				<vector2> 10, 0 </vector2>
-				<real> 0.5 </real>
+				<vector2> 1, 1 </vector2>
 				<int> -10000000 </int>
 				<int> 10000000 </int>
+				<real> 0.5 </real>
 				<real> 0.2 </real>
+				<resource  external="45">  </resource>
 				<dictionary  shared="false">
 					<string> "_edit_lock_" </string>
 					<bool> True </bool>
@@ -1050,20 +849,18 @@
 				<real> 1.5 </real>
 				<real> 2 </real>
 				<real> 0.4 </real>
-				<resource name=""></resource>				<real> 180 </real>
+				<real> 180 </real>
 				<real> 100 </real>
 				<real> 9 </real>
 				<real> 9.8 </real>
 				<real> 3 </real>
-				<color> 0, 0, 0, 1 </color>
-				<vector2_array  len="0"> 					 </vector2_array>
 				<dictionary  shared="false">
 					<string> "_edit_lock_" </string>
 					<bool> True </bool>
 				</dictionary>
 				<vector2> 76.4, -133.6 </vector2>
 				<vector2> 0.5, 0.5 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Props/prop_speechBubble/prop_speechBubble.png">  </resource>
+				<resource  external="46">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
@@ -1072,7 +869,8 @@
 				<real> -77 </real>
 				<real> 123 </real>
 				<real> -40 </real>
-				<resource  resource_type="Font" path="res://Assets/Fonts/comic2.fnt">  </resource>
+				<resource  external="47">  </resource>
+				<color> 0, 0, 0, 1 </color>
 				<string> "Hello, I am Nikolas Mcfly" </string>
 				<vector2> 272, 472 </vector2>
 				<resource  resource_type="Shape2D" path="local://14">  </resource>
@@ -1086,7 +884,6 @@
 				<color> 0.743669, 0.333202, 0.136364, 1 </color>
 				<vector2> -8.53308, 121 </vector2>
 				<vector2> 1000, 1 </vector2>
-				<int> -1 </int>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
@@ -1096,14 +893,14 @@
 				<vector2> 3000, 0 </vector2>
 				<real> 0.6 </real>
 				<vector2> -581.328, 44.2377 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds1.png">  </resource>
+				<resource  external="48">  </resource>
 				<vector2> -144.562, 236.989 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds2.png">  </resource>
+				<resource  external="49">  </resource>
 				<vector2> -921.718, 261.595 </vector2>
-				<resource  resource_type="Texture" path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds3.png">  </resource>
+				<resource  external="50">  </resource>
 				<vector2> 512.966, 101.258 </vector2>
 				<vector2> 1212.45, 301.445 </vector2>
-				<resource  resource_type="Script" path="res://Assets/Scripts/canvas_controls.gd">  </resource>
+				<resource  external="51">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
@@ -1136,7 +933,7 @@
 				<string> "Unpause" </string>
 			</array>
 			<string> "version" </string>
-			<int> 1 </int>
+			<int> 2 </int>
 		</dictionary>
 
 	</main_resource>
