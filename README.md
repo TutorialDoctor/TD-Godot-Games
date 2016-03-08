@@ -8,3 +8,20 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [Making a 2D Platformer with Godot](https://www.youtube.com/watch?v=Elw3KEz7TwQ)
 - [Creating Pixel People](https://www.youtube.com/watch?v=gYaIvDQpTtY&feature=youtu.be)
 - [Roll a Ball in Godot](https://www.youtube.com/watch?v=vJ-XxNjGXlM)
+
+## Games/Projects from other Godot users:
+
+- [PlatShoot](https://github.com/Calinou/platshoot)
+- [Minecraft Clone](https://github.com/toger5/Godot-Voxel-Game-MineCraftClone)
+- [Text Interface](https://github.com/henriquelalves/GodotTIE)
+- [Castlevania Clone](https://github.com/Algorithmus/CastlevaniaClone)
+- [Inventory](https://github.com/RodZill4/godot_inventory)
+- [Bunnymark](https://github.com/jotson/godot-bunnymark)
+- [Bombs](https://github.com/randyyaj/Bombs)
+- [Wangu](https://github.com/YeOldeDM/wangu)
+- [Tetris](https://github.com/yichen0831/TetrisGodot)
+- [Cool Menu Test](https://github.com/fadyosman/godot-menu)
+- [2D RPG](https://github.com/vnen/godot-rpg2d)
+- [2D car game](https://github.com/M4N1AC/CarGame)
+- [Castles](https://github.com/Mikepicker/Castles)
+- [3D Procedural generation](https://github.com/pjimenezmateo/procedural)
