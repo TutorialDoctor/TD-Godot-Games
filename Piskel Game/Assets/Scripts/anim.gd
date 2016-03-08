@@ -8,6 +8,8 @@ var timer
 export var move_speed = 0
 export var jump_height = 0
 export var next_level =''
+var shake_cam
+var can_stomp = true
 
 func _ready():
 	set_process(true)
@@ -16,7 +18,7 @@ func _ready():
 	sfx = get_parent().get_node("SFX")
 	feet = get_node("Feet")
 	feet.add_exception(self)
-	
+	shake_cam = get_parent().get_node("Man/Camera2D")
 	
 	# Testing instance stuff
 	#print(get_instance_ID())
@@ -46,14 +48,14 @@ func _process(delta):
 			apply_impulse(get_pos(),Vector2(0,-jump_height))
 		if Input.is_action_pressed('down'):
 			animations.play('crouch')
+			shake_cam.shake(.2,15,100)
 		if Input.is_action_pressed('left'):
 			set_axis_velocity(Vector2(-move_speed,0))
 			sprite.set('flip_h',true)
 		if Input.is_action_pressed('right'):
 			set_axis_velocity(Vector2(move_speed,0))
 			sprite.set('flip_h',false)
-		if Input.is_action_pressed('down'):
-			animations.play('crouch')
+
 
 
 

@@ -2,11 +2,12 @@
 <resource_file type="PackedScene" subresource_count="68" version="2.0" version_name="Godot Engine v2.0.stable.custom_build">
 	<ext_resource path="res://Assets/Sprites/Characters/chr_capeWoman/chr_capeWoman_256.png" type="Texture" index="11"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chr_minion/chr_minion_256.png" type="Texture" index="17"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_male_karatekick/chr_male_karatekick_256.png" type="Texture" index="19"></ext_resource>
 	<ext_resource path="res://Assets/Scripts/game.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://Assets/Scripts/anim.gd" type="Script" index="43"></ext_resource>
 	<ext_resource path="res://Assets/Scripts/cam_shake.gd" type="Script" index="45"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_catWoman/chr_catWoman_256.png" type="Texture" index="16"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_male_karatekick/chr_male_karatekick_256.png" type="Texture" index="19"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chrs_ninjaturtles/chrs_ninjaturtules_256.png" type="Texture" index="23"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_catWoman/chr_catWoman_256.png" type="Texture" index="16"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_spidermanRegular_64/chr_spidermanRegular_64.png" type="Texture" index="34"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_m_daley_64/chr_m_daley_64.png" type="Texture" index="37"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Props/prop_christmastree/prop_christmastree_256.png" type="Texture" index="40"></ext_resource>
@@ -18,40 +19,39 @@
 	<ext_resource path="res://Assets/Sprites/Characters/chr_wonderWoman/chr_wonderWoman_256.png" type="Texture" index="7"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chrs_blueHeros/256/chrs_blueHeros_256.png" type="Texture" index="10"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chr_scythian_side/256/chr_scythian_side_256.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_male_3/chr_male_3_256.png" type="Texture" index="18"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_vader/chr_vader.png" type="Texture" index="15"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_spiderman/chr_spiderman.png" type="Texture" index="14"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds2.png" type="Texture" index="49"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_christian_ninja/christian_ninja.png" type="Texture" index="20"></ext_resource>
+	<ext_resource path="res://Assets/Scripts/blackhole.gd" type="Script" index="42"></ext_resource>
+	<ext_resource path="res://Assets/Scripts/canvas_controls.gd" type="Script" index="51"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds3.png" type="Texture" index="50"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds1.png" type="Texture" index="48"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Props/props_studio/props_studio_256.png" type="Texture" index="39"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chrs_disney_64/chrs_wreckItRalph_64.png" type="Texture" index="38"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_kaley/chr_f_kaley_64.png" type="Texture" index="36"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_ballerina_64/chr_f_ballerina_64.png" type="Texture" index="35"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_barbie/chr_f_barbie.png" type="Texture" index="33"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_captainAmerica/chr_captainAmerica.png" type="Texture" index="32"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_dancer/chr_f_dancer.png" type="Texture" index="31"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_flash/chr_flash.png" type="Texture" index="29"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_m_ragged/chr_m_ragged.png" type="Texture" index="30"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chr_samurai/chr_samurai.png" type="Texture" index="6"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chr_male_2/chr_male_2_256.png" type="Texture" index="13"></ext_resource>
 	<ext_resource path="res://Assets/Scripts/labels.gd" type="Script" index="4"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_superman/chr_superman_256.png" type="Texture" index="21"></ext_resource>
+	<ext_resource path="res://Assets/Sprites/Characters/chr_female_1/chr_female_1_256.png" type="Texture" index="12"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Props/prop_speechBubble/prop_speechBubble.png" type="Texture" index="46"></ext_resource>
 	<ext_resource path="res://Assets/Fonts/comic2.fnt" type="Font" index="47"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_superman/chr_superman_256.png" type="Texture" index="21"></ext_resource>
 	<ext_resource path="res://Assets/Sounds/sfx/jump.wav" type="Sample" index="2"></ext_resource>
 	<ext_resource path="res://Assets/Sounds/sfx/punch.wav" type="Sample" index="3"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_female_1/chr_female_1_256.png" type="Texture" index="12"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chr_flash/chr_flash_256.png" type="Texture" index="22"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/chrs_frozen/chrs_frozen_256.png" type="Texture" index="24"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_cowboyman/chr_cowboyman_256.png" type="Texture" index="25"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_firstpresident/chr_firstpresident_256.png" type="Texture" index="26"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_cowboy_64/chr_cowboy_64_256.png" type="Texture" index="27"></ext_resource>
 	<ext_resource path="res://Assets/Sprites/Characters/64x64/chrs_gymteachers/chrs_gymteachers_64.png" type="Texture" index="28"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_m_ragged/chr_m_ragged.png" type="Texture" index="30"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_flash/chr_flash.png" type="Texture" index="29"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_dancer/chr_f_dancer.png" type="Texture" index="31"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_captainAmerica/chr_captainAmerica.png" type="Texture" index="32"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_barbie/chr_f_barbie.png" type="Texture" index="33"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_ballerina_64/chr_f_ballerina_64.png" type="Texture" index="35"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chr_f_kaley/chr_f_kaley_64.png" type="Texture" index="36"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/64x64/chrs_disney_64/chrs_wreckItRalph_64.png" type="Texture" index="38"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Props/props_studio/props_studio_256.png" type="Texture" index="39"></ext_resource>
-	<ext_resource path="res://Assets/Scripts/anim.gd" type="Script" index="43"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds1.png" type="Texture" index="48"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds3.png" type="Texture" index="50"></ext_resource>
-	<ext_resource path="res://Assets/Scripts/blackhole.gd" type="Script" index="42"></ext_resource>
-	<ext_resource path="res://Assets/Scripts/canvas_controls.gd" type="Script" index="51"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Props/props_clouds/props_clouds/clouds2.png" type="Texture" index="49"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_christian_ninja/christian_ninja.png" type="Texture" index="20"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_spiderman/chr_spiderman.png" type="Texture" index="14"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_vader/chr_vader.png" type="Texture" index="15"></ext_resource>
-	<ext_resource path="res://Assets/Sprites/Characters/chr_male_3/chr_male_3_256.png" type="Texture" index="18"></ext_resource>
 	<resource type="SampleLibrary" path="local://15">
 		<dictionary name="samples/jump" shared="false">
 			<string> "db" </string>
@@ -372,12 +372,12 @@
 			<string> "conn_count" </string>
 			<int> 3 </int>
 			<string> "conns" </string>
-			<int_array  len="18"> 				54, 56, 242, 241, 2, 0, 79, 0, 244, 243, 2, 0, 80, 0, 244, 245, 2, 0 </int_array>
+			<int_array  len="18"> 				54, 56, 241, 240, 2, 0, 79, 0, 243, 242, 2, 0, 80, 0, 243, 244, 2, 0 </int_array>
 			<string> "editable_instances" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "names" </string>
-			<string_array  len="246">
+			<string_array  len="245">
 				<string> "Game" </string>
 				<string> "script/script" </string>
 				<string> "__meta__" </string>
@@ -523,7 +523,6 @@
 				<string> "anims/crouch" </string>
 				<string> "anims/shock" </string>
 				<string> "anims/walk" </string>
-				<string> "next/crouch" </string>
 				<string> "next/idle" </string>
 				<string> "next/jump" </string>
 				<string> "next/shock" </string>
@@ -631,9 +630,9 @@
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="1583"> 				-1, -1, 3, 0, -1, 2, 1, 0, 2, 1, 0, 0, 0, 13, 4, -1, 8, 5, 2, 6, 3, 7, 4, 8, 5, 9, 4, 10, 3, 11, 5, 12, 6, 0, 0, 0, 29, 14, -1, 14, 15, 7, 16, 8, 17, 5, 18, 9, 19, 5, 20, 5, 21, 5, 22, 10, 23, 5, 24, 5, 25, 5, 26, 10, 27, 5, 28, 5, 0, 0, 0, 3, 30, -1, 3, 31, 11, 1, 12, 2, 13, 0, 3, 0, 36, 32, -1, 4, 33, 14, 31, 15, 34, 16, 35, 14, 0, 3, 0, 36, 37, -1, 4, 33, 14, 31, 17, 34, 18, 35, 19, 0, 3, 0, 36, 38, -1, 5, 39, 3, 33, 14, 31, 20, 34, 21, 35, 19, 0, 3, 0, 36, 40, -1, 3, 33, 14, 31, 22, 34, 23, 0, 3, 0, 36, 41, -1, 3, 33, 14, 31, 24, 34, 25, 0, 3, 0, 36, 42, -1, 5, 33, 14, 31, 26, 34, 27, 35, 28, 43, 7, 0, 3, 0, 36, 44, -1, 4, 33, 14, 31, 29, 34, 27, 35, 28, 0, 3, 0, 36, 45, -1, 5, 33, 14, 31, 30, 34, 31, 35, 14, 2, 32, 0, 11, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 50, 34, 51, 4, 52, 9, 53, 35, 54, 36, 0, 3, 0, 36, 55, -1, 5, 33, 14, 31, 37, 34, 38, 35, 19, 2, 39, 0, 13, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 50, 34, 51, 4, 52, 9, 53, 35, 54, 36, 0, 3, 0, 36, 56, -1, 3, 33, 14, 31, 40, 34, 41, 0, 3, 0, 36, 57, -1, 3, 33, 14, 31, 42, 34, 43, 0, 3, 0, 36, 58, -1, 4, 33, 14, 31, 44, 34, 45, 35, 28, 0, 3, 0, 36, 59, -1, 5, 33, 14, 31, 46, 34, 45, 35, 28, 43, 7, 0, 3, 0, 36, 60, -1, 5, 33, 14, 31, 47, 34, 45, 35, 28, 43, 48, 0, 3, 0, 36, 61, -1, 6, 33, 14, 31, 49, 34, 50, 35, 51, 43, 19, 2, 52, 0, 20, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 62, 53, 51, 4, 52, 9, 53, 35, 54, 54, 0, 3, 0, 36, 63, -1, 5, 33, 14, 31, 55, 34, 56, 35, 57, 2, 58, 0, 22, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 64, 59, 51, 4, 52, 9, 53, 35, 54, 60, 0, 3, 0, 36, 65, -1, 3, 33, 14, 31, 61, 34, 62, 0, 3, 0, 36, 66, -1, 5, 33, 14, 31, 63, 34, 64, 35, 65, 43, 14, 0, 25, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 67, 66, 51, 4, 52, 9, 53, 35, 54, 67, 0, 3, 0, 36, 68, -1, 7, 39, 3, 33, 14, 31, 68, 34, 69, 69, 4, 35, 14, 2, 70, 0, 27, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 70, 71, 51, 4, 52, 9, 53, 35, 54, 72, 0, 3, 0, 36, 71, -1, 3, 33, 14, 31, 73, 34, 74, 0, 3, 0, 36, 72, -1, 3, 33, 14, 31, 75, 34, 76, 0, 3, 0, 36, 73, -1, 3, 33, 14, 31, 77, 34, 78, 0, 3, 0, 36, 74, -1, 3, 33, 14, 31, 79, 34, 80, 0, 3, 0, 75, 75, -1, 12, 33, 14, 76, 81, 77, 82, 78, 83, 79, 84, 80, 4, 81, 4, 82, 48, 83, 85, 84, 9, 85, 10, 86, 86, 0, 3, 0, 36, 87, -1, 3, 33, 14, 31, 87, 34, 88, 0, 3, 0, 36, 88, -1, 3, 33, 14, 31, 89, 34, 90, 0, 3, 0, 36, 89, -1, 3, 33, 14, 31, 91, 34, 92, 0, 3, 0, 36, 90, -1, 3, 33, 14, 31, 93, 34, 94, 0, 3, 0, 36, 91, -1, 3, 33, 14, 31, 95, 34, 96, 0, 3, 0, 36, 92, -1, 3, 33, 14, 31, 97, 34, 98, 0, 3, 0, 36, 93, -1, 3, 33, 14, 31, 99, 34, 100, 0, 3, 0, 36, 94, -1, 3, 33, 14, 31, 101, 34, 102, 0, 3, 0, 36, 95, -1, 3, 33, 14, 31, 103, 34, 104, 0, 3, 0, 36, 96, -1, 3, 33, 14, 31, 105, 34, 106, 0, 3, 0, 36, 97, -1, 3, 33, 14, 31, 107, 34, 108, 0, 3, 0, 36, 98, -1, 3, 33, 14, 31, 109, 34, 110, 0, 3, 0, 36, 99, -1, 3, 33, 14, 31, 111, 34, 112, 0, 3, 0, 36, 100, -1, 3, 33, 14, 31, 113, 34, 114, 0, 0, 0, 3, 101, -1, 1, 2, 115, 0, 48, 0, 36, 102, -1, 3, 39, 3, 31, 116, 34, 117, 0, 48, 0, 36, 103, -1, 6, 33, 14, 31, 118, 34, 119, 35, 19, 43, 14, 2, 120, 0, 50, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 104, 121, 51, 4, 52, 9, 53, 35, 54, 122, 0, 48, 0, 36, 105, -1, 4, 33, 14, 31, 123, 34, 124, 1, 125, 0, 52, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 104, 121, 51, 4, 52, 9, 53, 35, 54, 122, 0, 52, 0, 106, 106, -1, 10, 31, 126, 107, 127, 108, 4, 109, 128, 110, 129, 111, 3, 112, 130, 113, 131, 114, 132, 115, 9, 0, 54, 0, 116, 116, -1, 5, 31, 133, 107, 134, 117, 128, 118, 3, 119, 86, 0, 0, 0, 141, 120, -1, 26, 31, 135, 108, 3, 109, 136, 110, 137, 111, 3, 121, 7, 122, 7, 123, 48, 124, 9, 125, 9, 126, 5, 127, 138, 128, 3, 129, 10, 130, 10, 131, 3, 132, 3, 133, 4, 134, 139, 135, 5, 136, 140, 137, 140, 1, 141, 138, 142, 139, 6, 140, 143, 0, 56, 0, 36, 36, -1, 6, 33, 14, 31, 144, 34, 145, 35, 146, 43, 51, 2, 147, 0, 57, 0, 46, 46, -1, 16, 47, 7, 48, 5, 49, 33, 142, 148, 50, 149, 64, 150, 143, 151, 144, 152, 145, 36, 146, 36, 147, 153, 148, 36, 51, 4, 52, 9, 53, 35, 54, 36, 0, 56, 0, 116, 116, -1, 6, 31, 154, 107, 155, 117, 136, 118, 3, 119, 86, 2, 156, 0, 56, 0, 149, 149, -1, 19, 31, 157, 150, 7, 151, 3, 152, 4, 153, 158, 154, 159, 155, 159, 156, 160, 157, 160, 158, 4, 159, 4, 160, 4, 161, 161, 162, 162, 163, 162, 164, 162, 165, 162, 1, 163, 2, 164, 0, 56, 0, 171, 166, -1, 6, 31, 165, 167, 4, 168, 166, 169, 7, 170, 146, 2, 167, 0, 56, 0, 195, 172, -1, 24, 173, 4, 31, 168, 174, 169, 175, 170, 176, 171, 177, 3, 178, 172, 179, 173, 180, 174, 181, 175, 182, 5, 183, 5, 184, 173, 185, 176, 186, 5, 187, 5, 188, 5, 189, 5, 190, 177, 191, 175, 192, 5, 193, 9, 194, 5, 2, 178, 0, 56, 0, 36, 196, -1, 5, 33, 14, 31, 179, 107, 180, 34, 181, 2, 182, 0, 63, 0, 75, 75, -1, 14, 76, 183, 77, 184, 78, 185, 79, 186, 80, 4, 81, 4, 82, 48, 197, 187, 198, 188, 83, 189, 199, 4, 84, 9, 85, 10, 86, 86, 0, 0, 0, 203, 200, -1, 12, 31, 190, 108, 3, 109, 191, 110, 192, 111, 3, 121, 7, 122, 7, 201, 139, 202, 5, 125, 9, 126, 5, 2, 193, 0, 65, 0, 36, 36, -1, 6, 31, 194, 107, 195, 34, 117, 35, 57, 43, 65, 204, 196, 0, 65, 0, 116, 116, -1, 6, 39, 3, 31, 197, 107, 198, 117, 191, 118, 3, 119, 86, 0, 0, 0, 216, 205, -1, 11, 206, 86, 207, 139, 208, 5, 209, 158, 210, 139, 211, 139, 212, 158, 213, 139, 214, 139, 215, 3, 2, 199, 0, 68, 0, 217, 217, -1, 3, 31, 200, 218, 201, 219, 202, 0, 69, 0, 36, 36, -1, 3, 220, 203, 31, 204, 34, 205, 0, 69, 0, 36, 221, -1, 3, 220, 203, 31, 206, 34, 207, 0, 69, 0, 36, 222, -1, 3, 220, 203, 31, 208, 34, 209, 0, 69, 0, 36, 223, -1, 3, 220, 203, 31, 210, 34, 209, 0, 69, 0, 36, 224, -1, 3, 220, 203, 31, 211, 34, 205, 0, 0, 0, 226, 225, -1, 6, 206, 7, 207, 139, 208, 5, 209, 158, 1, 212, 2, 213, 0, 75, 0, 227, 227, -1, 12, 76, 214, 77, 214, 78, 215, 79, 216, 80, 3, 81, 4, 82, 48, 228, 48, 229, 3, 83, 217, 230, 3, 2, 218, 0, 76, 0, 231, 231, -1, 12, 39, 3, 220, 219, 76, 214, 77, 220, 78, 221, 79, 222, 80, 3, 81, 4, 82, 48, 228, 48, 232, 3, 233, 153, 0, 77, 0, 234, 234, -1, 10, 78, 223, 79, 224, 80, 3, 81, 4, 82, 48, 228, 48, 235, 4, 236, 225, 237, 86, 2, 226, 0, 75, 0, 227, 238, -1, 11, 76, 214, 77, 227, 78, 228, 79, 229, 80, 3, 81, 4, 82, 48, 228, 48, 229, 3, 83, 230, 230, 3, 0, 75, 0, 227, 239, -1, 12, 240, 48, 76, 214, 77, 231, 78, 228, 79, 232, 80, 3, 81, 4, 82, 48, 228, 48, 229, 3, 83, 233, 230, 3, 0 </int_array>
+			<int_array  len="1583"> 				-1, -1, 3, 0, -1, 2, 1, 0, 2, 1, 0, 0, 0, 13, 4, -1, 8, 5, 2, 6, 3, 7, 4, 8, 5, 9, 4, 10, 3, 11, 5, 12, 6, 0, 0, 0, 29, 14, -1, 14, 15, 7, 16, 8, 17, 5, 18, 9, 19, 5, 20, 5, 21, 5, 22, 10, 23, 5, 24, 5, 25, 5, 26, 10, 27, 5, 28, 5, 0, 0, 0, 3, 30, -1, 3, 31, 11, 1, 12, 2, 13, 0, 3, 0, 36, 32, -1, 4, 33, 14, 31, 15, 34, 16, 35, 14, 0, 3, 0, 36, 37, -1, 4, 33, 14, 31, 17, 34, 18, 35, 19, 0, 3, 0, 36, 38, -1, 5, 39, 3, 33, 14, 31, 20, 34, 21, 35, 19, 0, 3, 0, 36, 40, -1, 3, 33, 14, 31, 22, 34, 23, 0, 3, 0, 36, 41, -1, 3, 33, 14, 31, 24, 34, 25, 0, 3, 0, 36, 42, -1, 5, 33, 14, 31, 26, 34, 27, 35, 28, 43, 7, 0, 3, 0, 36, 44, -1, 4, 33, 14, 31, 29, 34, 27, 35, 28, 0, 3, 0, 36, 45, -1, 5, 33, 14, 31, 30, 34, 31, 35, 14, 2, 32, 0, 11, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 50, 34, 51, 4, 52, 9, 53, 35, 54, 36, 0, 3, 0, 36, 55, -1, 5, 33, 14, 31, 37, 34, 38, 35, 19, 2, 39, 0, 13, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 50, 34, 51, 4, 52, 9, 53, 35, 54, 36, 0, 3, 0, 36, 56, -1, 3, 33, 14, 31, 40, 34, 41, 0, 3, 0, 36, 57, -1, 3, 33, 14, 31, 42, 34, 43, 0, 3, 0, 36, 58, -1, 4, 33, 14, 31, 44, 34, 45, 35, 28, 0, 3, 0, 36, 59, -1, 5, 33, 14, 31, 46, 34, 45, 35, 28, 43, 7, 0, 3, 0, 36, 60, -1, 5, 33, 14, 31, 47, 34, 45, 35, 28, 43, 48, 0, 3, 0, 36, 61, -1, 6, 33, 14, 31, 49, 34, 50, 35, 51, 43, 19, 2, 52, 0, 20, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 62, 53, 51, 4, 52, 9, 53, 35, 54, 54, 0, 3, 0, 36, 63, -1, 5, 33, 14, 31, 55, 34, 56, 35, 57, 2, 58, 0, 22, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 64, 59, 51, 4, 52, 9, 53, 35, 54, 60, 0, 3, 0, 36, 65, -1, 3, 33, 14, 31, 61, 34, 62, 0, 3, 0, 36, 66, -1, 5, 33, 14, 31, 63, 34, 64, 35, 65, 43, 14, 0, 25, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 67, 66, 51, 4, 52, 9, 53, 35, 54, 67, 0, 3, 0, 36, 68, -1, 7, 39, 3, 33, 14, 31, 68, 34, 69, 69, 4, 35, 14, 2, 70, 0, 27, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 70, 71, 51, 4, 52, 9, 53, 35, 54, 72, 0, 3, 0, 36, 71, -1, 3, 33, 14, 31, 73, 34, 74, 0, 3, 0, 36, 72, -1, 3, 33, 14, 31, 75, 34, 76, 0, 3, 0, 36, 73, -1, 3, 33, 14, 31, 77, 34, 78, 0, 3, 0, 36, 74, -1, 3, 33, 14, 31, 79, 34, 80, 0, 3, 0, 75, 75, -1, 12, 33, 14, 76, 81, 77, 82, 78, 83, 79, 84, 80, 4, 81, 4, 82, 48, 83, 85, 84, 9, 85, 10, 86, 86, 0, 3, 0, 36, 87, -1, 3, 33, 14, 31, 87, 34, 88, 0, 3, 0, 36, 88, -1, 3, 33, 14, 31, 89, 34, 90, 0, 3, 0, 36, 89, -1, 3, 33, 14, 31, 91, 34, 92, 0, 3, 0, 36, 90, -1, 3, 33, 14, 31, 93, 34, 94, 0, 3, 0, 36, 91, -1, 3, 33, 14, 31, 95, 34, 96, 0, 3, 0, 36, 92, -1, 3, 33, 14, 31, 97, 34, 98, 0, 3, 0, 36, 93, -1, 3, 33, 14, 31, 99, 34, 100, 0, 3, 0, 36, 94, -1, 3, 33, 14, 31, 101, 34, 102, 0, 3, 0, 36, 95, -1, 3, 33, 14, 31, 103, 34, 104, 0, 3, 0, 36, 96, -1, 3, 33, 14, 31, 105, 34, 106, 0, 3, 0, 36, 97, -1, 3, 33, 14, 31, 107, 34, 108, 0, 3, 0, 36, 98, -1, 3, 33, 14, 31, 109, 34, 110, 0, 3, 0, 36, 99, -1, 3, 33, 14, 31, 111, 34, 112, 0, 3, 0, 36, 100, -1, 3, 33, 14, 31, 113, 34, 114, 0, 0, 0, 3, 101, -1, 1, 2, 115, 0, 48, 0, 36, 102, -1, 3, 39, 3, 31, 116, 34, 117, 0, 48, 0, 36, 103, -1, 6, 33, 14, 31, 118, 34, 119, 35, 19, 43, 14, 2, 120, 0, 50, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 104, 121, 51, 4, 52, 9, 53, 35, 54, 122, 0, 48, 0, 36, 105, -1, 4, 33, 14, 31, 123, 34, 124, 1, 125, 0, 52, 0, 46, 46, -1, 8, 47, 7, 48, 5, 49, 33, 104, 121, 51, 4, 52, 9, 53, 35, 54, 122, 0, 52, 0, 106, 106, -1, 10, 31, 126, 107, 127, 108, 4, 109, 128, 110, 129, 111, 3, 112, 130, 113, 131, 114, 132, 115, 9, 0, 54, 0, 116, 116, -1, 5, 31, 133, 107, 134, 117, 128, 118, 3, 119, 86, 0, 0, 0, 141, 120, -1, 27, 31, 135, 108, 3, 109, 136, 110, 137, 111, 3, 121, 7, 122, 7, 123, 48, 124, 9, 125, 9, 126, 5, 127, 138, 128, 3, 129, 10, 130, 10, 131, 3, 132, 3, 133, 4, 134, 139, 135, 5, 136, 140, 137, 140, 1, 141, 2, 142, 138, 143, 139, 6, 140, 144, 0, 56, 0, 36, 36, -1, 6, 33, 14, 31, 145, 34, 146, 35, 147, 43, 51, 2, 148, 0, 57, 0, 46, 46, -1, 15, 47, 7, 48, 5, 49, 33, 142, 149, 50, 150, 64, 151, 143, 152, 144, 153, 145, 36, 146, 154, 147, 36, 51, 4, 52, 9, 53, 35, 54, 36, 0, 56, 0, 116, 116, -1, 6, 31, 155, 107, 156, 117, 136, 118, 3, 119, 86, 2, 157, 0, 56, 0, 148, 148, -1, 19, 31, 158, 149, 7, 150, 3, 151, 4, 152, 159, 153, 160, 154, 160, 155, 161, 156, 161, 157, 4, 158, 4, 159, 4, 160, 162, 161, 163, 162, 163, 163, 163, 164, 163, 1, 164, 2, 165, 0, 56, 0, 170, 165, -1, 6, 31, 166, 166, 4, 167, 167, 168, 7, 169, 147, 2, 168, 0, 56, 0, 194, 171, -1, 24, 172, 4, 31, 169, 173, 170, 174, 171, 175, 172, 176, 3, 177, 173, 178, 174, 179, 175, 180, 176, 181, 5, 182, 5, 183, 174, 184, 177, 185, 5, 186, 5, 187, 5, 188, 5, 189, 178, 190, 176, 191, 5, 192, 9, 193, 5, 2, 179, 0, 56, 0, 36, 195, -1, 5, 33, 14, 31, 180, 107, 181, 34, 182, 2, 183, 0, 63, 0, 75, 75, -1, 14, 76, 184, 77, 185, 78, 186, 79, 187, 80, 4, 81, 4, 82, 48, 196, 188, 197, 189, 83, 190, 198, 4, 84, 9, 85, 10, 86, 86, 0, 0, 0, 202, 199, -1, 12, 31, 191, 108, 3, 109, 192, 110, 193, 111, 3, 121, 7, 122, 7, 200, 139, 201, 5, 125, 9, 126, 5, 2, 194, 0, 65, 0, 36, 36, -1, 6, 31, 195, 107, 196, 34, 117, 35, 57, 43, 65, 203, 197, 0, 65, 0, 116, 116, -1, 6, 39, 3, 31, 198, 107, 199, 117, 192, 118, 3, 119, 86, 0, 0, 0, 215, 204, -1, 11, 205, 86, 206, 139, 207, 5, 208, 159, 209, 139, 210, 139, 211, 159, 212, 139, 213, 139, 214, 3, 2, 200, 0, 68, 0, 216, 216, -1, 3, 31, 201, 217, 202, 218, 203, 0, 69, 0, 36, 36, -1, 3, 219, 204, 31, 205, 34, 206, 0, 69, 0, 36, 220, -1, 3, 219, 204, 31, 207, 34, 208, 0, 69, 0, 36, 221, -1, 3, 219, 204, 31, 209, 34, 210, 0, 69, 0, 36, 222, -1, 3, 219, 204, 31, 211, 34, 210, 0, 69, 0, 36, 223, -1, 3, 219, 204, 31, 212, 34, 206, 0, 0, 0, 225, 224, -1, 6, 205, 7, 206, 139, 207, 5, 208, 159, 1, 213, 2, 214, 0, 75, 0, 226, 226, -1, 12, 76, 215, 77, 215, 78, 216, 79, 217, 80, 3, 81, 4, 82, 48, 227, 48, 228, 3, 83, 218, 229, 3, 2, 219, 0, 76, 0, 230, 230, -1, 12, 39, 3, 219, 220, 76, 215, 77, 221, 78, 222, 79, 223, 80, 3, 81, 4, 82, 48, 227, 48, 231, 3, 232, 154, 0, 77, 0, 233, 233, -1, 10, 78, 224, 79, 225, 80, 3, 81, 4, 82, 48, 227, 48, 234, 4, 235, 226, 236, 86, 2, 227, 0, 75, 0, 226, 237, -1, 11, 76, 215, 77, 228, 78, 229, 79, 230, 80, 3, 81, 4, 82, 48, 227, 48, 228, 3, 83, 231, 229, 3, 0, 75, 0, 226, 238, -1, 12, 239, 48, 76, 215, 77, 232, 78, 229, 79, 233, 80, 3, 81, 4, 82, 48, 227, 48, 228, 3, 83, 234, 229, 3, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="234" shared="false">
+			<array  len="235" shared="false">
 				<resource  external="0">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -804,6 +803,10 @@
 				<vector2> 0, 0 </vector2>
 				<real> -1 </real>
 				<resource  external="43">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
 				<int> 300 </int>
 				<string> "res://Levels/level 2.xml" </string>
 				<vector2> -4, 3 </vector2>
@@ -811,8 +814,6 @@
 				<int> 15 </int>
 				<dictionary  shared="false">
 					<string> "_edit_lock_" </string>
-					<bool> True </bool>
-					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
 				<resource  resource_type="Animation" path="local://11">  </resource>

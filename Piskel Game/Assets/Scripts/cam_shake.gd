@@ -9,4 +9,5 @@ func _ready():
 	set_process(true)
 	
 func _process(delta):
-    shake(.2,15,8)
+    pass
+    #shake(.2,15,8)
