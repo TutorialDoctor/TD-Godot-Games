@@ -12,6 +12,7 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 ## Games/Projects from other Godot users:
 - [3rd person controller](https://github.com/khairul169/3rdperson-godot)
 - [Pixel art platormer game](https://github.com/alexandreychuk/cave-escape)
+- [Dialog Editor](https://github.com/agameraaron/squeaker)
 - [PlatShoot](https://github.com/Calinou/platshoot)
 - [Minecraft Clone](https://github.com/toger5/Godot-Voxel-Game-MineCraftClone)
 - [Text Interface](https://github.com/henriquelalves/GodotTIE)
