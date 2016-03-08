@@ -28,3 +28,6 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [Castles](https://github.com/Mikepicker/Castles)
 - [3D Procedural generation](https://github.com/pjimenezmateo/procedural)
 
+## Shaders for Godot
+
+- [Old Book](https://github.com/marcosbitetti/Old_Book_Shader_v1)
