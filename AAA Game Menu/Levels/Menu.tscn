@@ -1,70 +1,88 @@
-[gd_scene load_steps=9 format=1]
+[gd_scene load_steps=12 format=1]
 
-[ext_resource path="res://Assets/sprites/game_menu.jpg" type="Texture" id=1]
-[ext_resource path="res://Assets/sprites/button.png" type="Texture" id=2]
-[ext_resource path="res://Assets/scripts/navigate.gd" type="Script" id=3]
-[ext_resource path="res://Assets/sounds/music/Ars_Sonor_-_09_-_Jasminas_Song_Mona_Lisa_Overdrive_Mix_for_Jasmina_Olsson.ogg" type="AudioStream" id=4]
-[ext_resource path="res://Assets/sounds/sfx/Blip_Select3.wav" type="Sample" id=5]
+[ext_resource path="res://Assets/sprites/bg_blur_less.png" type="Texture" id=1]
+[ext_resource path="res://Assets/sprites/man.png" type="Texture" id=2]
+[ext_resource path="res://Assets/sprites/text.png" type="Texture" id=3]
+[ext_resource path="res://Assets/sprites/button.png" type="Texture" id=4]
+[ext_resource path="res://Assets/scripts/navigate.gd" type="Script" id=5]
+[ext_resource path="res://Assets/sounds/music/Blue_Dot_Sessions_-_04_-_Stillness.ogg" type="AudioStream" id=6]
+[ext_resource path="res://Assets/sounds/sfx/Blip_Select3.wav" type="Sample" id=7]
+[ext_resource path="res://Assets/sounds/sfx/shotgun.wav" type="Sample" id=8]
 
-[sub_resource type="StyleBoxFlat" id=1]
+[sub_resource type="StyleBoxFlat" id=3]
 
 content_margin/left = -1.0
 content_margin/right = -1.0
 content_margin/top = -1.0
 content_margin/bottom = -1.0
-bg_color = Color( 0.910156, 0.910156, 0.910156, 1 )
-light_color = Color( 0.977855, 0.996094, 0.762634, 1 )
-dark_color = Color( 0.921875, 0.613646, 0.446533, 1 )
+bg_color = Color( 0.6, 0.6, 0.6, 1 )
+light_color = Color( 0.8, 0.8, 0.8, 1 )
+dark_color = Color( 0.8, 0.8, 0.8, 1 )
 border_size = 0
 border_blend = true
 draw_bg = true
 
-[sub_resource type="StyleBoxEmpty" id=2]
+[sub_resource type="StyleBoxEmpty" id=1]
 
 content_margin/left = -1.0
 content_margin/right = -1.0
 content_margin/top = -1.0
 content_margin/bottom = -1.0
 
-[sub_resource type="SampleLibrary" id=3]
+[sub_resource type="SampleLibrary" id=2]
 
-samples/Blip_Select3 = { "db":0.0, "pitch":1.0, "sample":ExtResource( 5 ) }
+samples/shotgun = { "db":0.0, "pitch":1.0, "sample":ExtResource( 8 ) }
+samples/Blip_Select3 = { "db":0.0, "pitch":1.0, "sample":ExtResource( 7 ) }
 
 [node name="Node2D" type="Node2D"]
 
 __meta__ = { "__editor_plugin_screen__":"Script" }
 
-[node name="Sprite" type="Sprite" parent="."]
+[node name="bg" type="Sprite" parent="."]
 
 transform/pos = Vector2( 961.697, 543.787 )
 texture = ExtResource( 1 )
 
+[node name="soldier" type="Sprite" parent="."]
+
+transform/pos = Vector2( 928.386, 553.04 )
+texture = ExtResource( 2 )
+modulate = Color( 0.617188, 0.585243, 0.540039, 1 )
+
+[node name="Title" type="Sprite" parent="."]
+
+visibility/opacity = 0.7
+transform/pos = Vector2( 1030.63, 398.539 )
+transform/scale = Vector2( 0.7, 0.7 )
+texture = ExtResource( 3 )
+modulate = Color( 0.617188, 0.585243, 0.540039, 1 )
+
 [node name="VButtonArray" type="VButtonArray" parent="."]
 
 visibility/opacity = 0.7
-margin/left = 1068.0
-margin/top = 436.0
-margin/right = 1606.0
-margin/bottom = 972.0
+margin/left = 1044.0
+margin/top = 416.0
+margin/right = 1582.0
+margin/bottom = 952.0
 focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-custom_styles/selected = SubResource( 1 )
-custom_styles/normal = SubResource( 2 )
+custom_styles/selected = SubResource( 3 )
+custom_styles/normal = SubResource( 1 )
 button/count = 4
 button/min_button_size = 3.0
 button/align = 0
 button/0/text = ""
-button/0/icon = ExtResource( 2 )
+button/0/icon = ExtResource( 4 )
 button/1/text = ""
-button/1/icon = ExtResource( 2 )
+button/1/icon = ExtResource( 4 )
 button/2/text = ""
-button/2/icon = ExtResource( 2 )
+button/2/icon = ExtResource( 4 )
 button/3/text = ""
-button/3/icon = ExtResource( 2 )
+button/3/icon = ExtResource( 4 )
 button/selected = 0
-script/script = ExtResource( 3 )
+script/script = ExtResource( 5 )
 __meta__ = { "_editor_collapsed":true }
 
 [node name="Label" type="Label" parent="VButtonArray"]
@@ -129,9 +147,9 @@ max_lines_visible = -1
 
 [node name="StreamPlayer" type="StreamPlayer" parent="."]
 
-stream/stream = ExtResource( 4 )
+stream/stream = ExtResource( 6 )
 stream/play = false
-stream/loop = false
+stream/loop = true
 stream/volume_db = 0.0
 stream/autoplay = true
 stream/paused = false
@@ -141,7 +159,7 @@ stream/buffering_ms = 500
 [node name="SamplePlayer" type="SamplePlayer" parent="."]
 
 config/polyphony = 1
-config/samples = SubResource( 3 )
+config/samples = SubResource( 2 )
 default/volume_db = 0.0
 default/pitch_scale = 1.0
 default/pan = 0.0
@@ -157,11 +175,12 @@ default/chorus_send = 0.0
 
 [node name="WindowDialog" type="WindowDialog" parent="."]
 
+visibility/visible = false
 visibility/opacity = 0.9
-margin/left = 249.0
-margin/top = 178.0
-margin/right = 1255.0
-margin/bottom = 821.0
+margin/left = 65.0
+margin/top = 242.0
+margin/right = 1071.0
+margin/bottom = 885.0
 focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
