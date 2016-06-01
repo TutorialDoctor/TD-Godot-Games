@@ -34,6 +34,7 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [2d Platformer with free assets](https://github.com/crr0004/MGD-Showcase) Note: assets are missing, but it works. Open anyway.
 - [Pokemon Clone](https://github.com/MarianoGnu/Pokemon-Tutorials)
 - [Point and Click Adventure Game](https://github.com/StraToN/godot_pointandclickadv)
+- [Splitscreen Racing Game](https://github.com/khairul169/godot-cabinet/tree/master/templates/racing)
 
 ## Shaders for Godot
 
