@@ -9,6 +9,8 @@ Check out my [Piskel Art](https://github.com/TutorialDoctor/Piskel-Art) repo for
 
 Now demonstrates the screen shake code from [here](http://pastebin.com/LY52qRE5)
 
+[Video Preview](https://youtu.be/aMAV807nPI4)
+
 ## Games like this:
 
 - [I'm alright](http://gamejolt.com/games/i-m-alright/108592)
