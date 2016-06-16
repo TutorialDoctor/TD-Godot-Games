@@ -11,7 +11,7 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [Creating Pixel People](https://www.youtube.com/watch?v=gYaIvDQpTtY&feature=youtu.be)
 - [Roll a Ball in Godot](https://www.youtube.com/watch?v=vJ-XxNjGXlM)
 
-## Games/Projects from other Godot users:
+## Github Games/Projects from other Godot users:
 - [3rd person controller](https://github.com/khairul169/3rdperson-godot)
 - [Pixel art platormer game](https://github.com/alexandreychuk/cave-escape)
 - [Dialog Editor](https://github.com/agameraaron/squeaker)
