@@ -31,9 +31,9 @@
 **Tools**:
 
 - 3d:
-	- [Blender 3d]()
-	- [Wings 3d]()
-	- [Sketchup]()
+	- [Blender 3d](https://www.blender.org)
+	- [Wings 3d](http://www.wings3d.com)
+	- [Sketchup](http://www.sketchup.com)
 - 2d:
 	- Photo editor of choice ([Pixelmator]() or [Affinity Photo]())
 		
