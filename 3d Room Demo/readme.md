@@ -36,5 +36,7 @@
 	- [Sketchup](http://www.sketchup.com)
 - 2d:
 	- Photo editor of choice ([Pixelmator](http://www.pixelmator.com/mac/) or [Affinity Photo](https://affinity.serif.com/en-gb/photo/))
+- Sound:
+	- [bfxr](http://www.bfxr.net) 	
 		
 **Contributors**
