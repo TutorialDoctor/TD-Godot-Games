@@ -1,9 +1,19 @@
 extends Control
 
+# DECLARING VARIABLES FOR LATER USE
+
+# Create a new sample library
+var library = SampleLibrary.new()
+# Create a new sample player
+var player = SamplePlayer.new()
+# Load a .wav file as a resource
+var res = ResourceLoader.load("res://3d Room/Assets/sounds/samples/Select3.wav")
+
+
+
 # This function runs as soon as the game starts
 func _ready():
-	print("Ready to make some stuff!")
-	
+
 	# CREATE GUI ELEMENTS PROGRAMATICALLY
 	# Create a new button
 	var new_button = Button.new()
@@ -37,12 +47,18 @@ func _ready():
 	new_button.connect("pressed",self,'display')
 	# When you press the button, the Display() function triggers. Try it!
 	
+	# When can play a sound from a sample library upon the pressed signal by adding the resource variable to the sample library
+	# We also set the library we created earler as the sample library for the sample player.
+	library.add_sample('sound',res)
+	player.set_sample_library(library)
+	
 	# Lets make it so that we can process code ever frame
 	set_process(true)
 	
 
 func display():
 	print('You pressed the button mate!')
+	player.play('sound')
 	
 	
 # All frame-by-frame processing is done in the _process(function)
