@@ -1,4 +1,4 @@
-**Name**: 3d Room Demo
+**Name**: 3d Room Demo (WIP)
 
 **Description**:
 
