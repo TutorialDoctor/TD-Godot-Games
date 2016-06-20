@@ -37,7 +37,7 @@ func _ready():
 	#new_button.set_rotation(new_button.get_rotation()+PI)
 
 
-	# SCALING ELEMEMNTS
+	# SCALING ELEMENTS
 	# Set the scale of the new button to the current scale of the new button plus (1,1).
 	new_button.set_scale(new_button.get_scale()+Vector2(1,1))
 	# (1,1) is a 2D Vector that represents the X and Y axes
