@@ -33,8 +33,10 @@
 
 - 3d:
 	- [Blender 3d](https://www.blender.org)
+		- [SKP Importer](http://blenderartists.org/forum/showthread.php?360406-Sketchup-(SKP)-importer) 
 	- [Wings 3d](http://www.wings3d.com)
 	- [Sketchup](http://www.sketchup.com)
+		- [ObjExporter](http://sketchucation.com/forums/viewtopic.php?t=33448)  
 - 2d:
 	- Photo editor of choice ([Pixelmator](http://www.pixelmator.com/mac/) or [Affinity Photo](https://affinity.serif.com/en-gb/photo/))
 - Sound:
