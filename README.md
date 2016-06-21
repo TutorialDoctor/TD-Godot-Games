@@ -6,10 +6,14 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [The process](https://github.com/TutorialDoctor/TD-Godot-Games/blob/master/Godot%20Dev%20Process.md)
 - [The API](https://github.com/TutorialDoctor/Software_Development/blob/master/More-Info/Godot%20API%20Nav/Navigating%20the%20Godot%20API.md)
 
-## Video Tutorials
+## TD Video Tutorials
 - [Making a 2D Platformer with Godot](https://www.youtube.com/watch?v=Elw3KEz7TwQ)
 - [Creating Pixel People](https://www.youtube.com/watch?v=gYaIvDQpTtY&feature=youtu.be)
 - [Roll a Ball in Godot](https://www.youtube.com/watch?v=vJ-XxNjGXlM)
+- 
+## Other Video Tutorials
+- [Making Breakout](https://www.youtube.com/watch?v=ntYjl_obUDo&list=PL9FzW-m48fn1iR6WL4mjXtGi8P4TaPIAp)
+  Great tutorial for learning how Godot works while making a game.
 
 ## Github Games/Projects from other Godot users:
 - [3rd person controller](https://github.com/khairul169/3rdperson-godot)
