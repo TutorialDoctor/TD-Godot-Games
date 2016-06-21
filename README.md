@@ -10,7 +10,7 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - [Making a 2D Platformer with Godot](https://www.youtube.com/watch?v=Elw3KEz7TwQ)
 - [Creating Pixel People](https://www.youtube.com/watch?v=gYaIvDQpTtY&feature=youtu.be)
 - [Roll a Ball in Godot](https://www.youtube.com/watch?v=vJ-XxNjGXlM)
-- 
+
 ## Other Video Tutorials
 - [Making Breakout](https://www.youtube.com/watch?v=ntYjl_obUDo&list=PL9FzW-m48fn1iR6WL4mjXtGi8P4TaPIAp)
 
