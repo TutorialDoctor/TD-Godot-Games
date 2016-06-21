@@ -13,6 +13,7 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 - 
 ## Other Video Tutorials
 - [Making Breakout](https://www.youtube.com/watch?v=ntYjl_obUDo&list=PL9FzW-m48fn1iR6WL4mjXtGi8P4TaPIAp)
+
   Great tutorial for learning how Godot works while making a game.
 
 ## Github Games/Projects from other Godot users:
