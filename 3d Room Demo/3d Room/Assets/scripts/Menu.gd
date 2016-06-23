@@ -17,7 +17,7 @@ func _ready():
 	# CREATE GUI ELEMENTS PROGRAMATICALLY
 	# Create a new button
 	var new_button = Button.new()
-	# Set the "text" property of the button to "Hello"
+	# Set the "text" property of the button to "Press Me!"
 	new_button.set("text","Press Me!")
 	# Add the new button to this node (Control) as a child
 	self.add_child(new_button)
