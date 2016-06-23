@@ -63,7 +63,7 @@ func display():
 
 
 # All frame-by-frame processing is done in the _process(function)
-# It takes an argument (delta) which is the amount of time that has passed between the current frame and the last frame
+# It takes an optional argument (delta) which is the amount of time that has passed between the current frame and the last frame
 # This argument, if used with computations makes for smoother frame-rates
 # delta also be used to convert frames into seconds
 func _process(delta):
