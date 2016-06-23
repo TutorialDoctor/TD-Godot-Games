@@ -43,7 +43,7 @@ func _ready():
 	# (1,1) is a 2D Vector that represents the X and Y axes
 
 	# CONNECTING BUTTONS TO EVENTS/SIGNALS
-	# connect the "pressed" event/signal of the new button to a function in this/self node named "Display"
+	# connect the "pressed" event/signal of the new button to a function in this/self node named "display"
 	new_button.connect("pressed",self,'display')
 	# When you press the button, the Display() function triggers. Try it!
 
