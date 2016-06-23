@@ -48,7 +48,7 @@ func _ready():
 	# When you press the button, the Display() function triggers. Try it!
 
 	# PLAYING SOUNDS ON SIGNALS
-	# When can play a sound from a sample library upon the pressed signal by adding the resource variable to the sample library
+	# We can play a sound from a sample library upon the pressed signal by adding the resource variable to the sample library
 	# We also set the library we created earler as the sample library for the sample player.
 	library.add_sample('sound',res)
 	player.set_sample_library(library)
