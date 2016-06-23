@@ -25,7 +25,7 @@ func _ready():
 
 	# MOVING ELEMENTS
 	# Set the position of the new button to the current position of the new button plus (200,200)
-	new_button.set_pos(get_pos()+Vector2(200,200))
+	new_button.set_pos(new_button.get_pos()+Vector2(200,200))
 	# (200,200) is a 2D vector that represents the X and Y axes.
 
 
