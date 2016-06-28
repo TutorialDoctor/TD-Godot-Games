@@ -43,6 +43,9 @@ A collection of games and game demos made with the [Godot game engine](http://ww
 
 ## Game Jam Games (2016)
 - [MouseBoat](https://github.com/CowThing/MouseBoat)
+- 
+
+Check out the new Godot [Showcase Portal](http://www.godotengine.org/showcase) to discover games made in Godot.
 
 ## Shaders for Godot
 
