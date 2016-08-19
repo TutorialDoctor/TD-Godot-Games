@@ -1,5 +1,5 @@
 # TD-Godot-Games
-A collection of games and game demos made with the [Godot game engine](http://www.godotengine.org/projects/godot-engine) by the Tutorial Doctor.
+A collection of games and game demos made with the [Godot game engine](https://godotengine.org) by the Tutorial Doctor.
 
 [Demo Reel](https://www.youtube.com/watch?v=Uy441SL1o1s&index=5&list=PLXYUuKwcv3K9FPKlSxEqtyioJfOgeTSvK)
 
