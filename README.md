@@ -1,6 +1,8 @@
 # TD-Godot-Games
 A collection of games and game demos made with the [Godot game engine](https://godotengine.org) by the Tutorial Doctor.
 
+*Note:* These demos are for Godot 2.X
+
 [Demo Reel](https://www.youtube.com/watch?v=Uy441SL1o1s&index=5&list=PLXYUuKwcv3K9FPKlSxEqtyioJfOgeTSvK)
 
 - [The process](https://github.com/TutorialDoctor/TD-Godot-Games/blob/master/Godot%20Dev%20Process.md)
