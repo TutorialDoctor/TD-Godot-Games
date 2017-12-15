@@ -1,0 +1,210 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://addons/zylann.terrain/brush_panel.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+
+anchor/right = 1
+anchor/bottom = 1
+rect/min_size = Vector2( 35, 80 )
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 0.0
+margin/bottom = 550.0
+script/script = ExtResource( 1 )
+
+[node name="params" type="Control" parent="."]
+
+editor/display_folded = true
+rect/min_size = Vector2( 200, 0 )
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 400.0
+margin/bottom = 80.0
+
+[node name="mode_selector" type="HButtonArray" parent="params"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 208.0
+margin/bottom = 24.0
+button/count = 3
+button/min_button_size = -1.0
+button/align = 0
+button/0/text = "Add"
+button/0/icon = null
+button/1/text = "Subtract"
+button/1/icon = null
+button/2/text = "Smooth"
+button/2/icon = null
+button/selected = 0
+
+[node name="size" type="Control" parent="params"]
+
+editor/display_folded = true
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 4.0
+margin/top = 28.0
+margin/right = 44.0
+margin/bottom = 68.0
+
+[node name="label" type="Label" parent="params/size"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 0.0
+margin/top = 5.0
+margin/right = 40.0
+margin/bottom = 19.0
+text = "Size"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="slider" type="HSlider" parent="params/size"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 58.0
+margin/top = 4.0
+margin/right = 204.0
+margin/bottom = 20.0
+range/min = 1.0
+range/max = 25.0
+range/step = 1.0
+range/page = 0.0
+range/value = 5.0
+range/exp_edit = false
+range/rounded = true
+tick_count = 0
+ticks_on_borders = false
+focus_mode = 2
+
+[node name="LineEdit" type="LineEdit" parent="params/size"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 210.0
+margin/top = -1.0
+margin/right = 268.0
+margin/bottom = 23.0
+placeholder/alpha = 0.6
+focus_mode = 2
+caret/caret_blink = true
+caret/caret_blink_speed = 0.65
+
+[node name="opacity" type="Control" parent="params"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 4.0
+margin/top = 55.0
+margin/right = 44.0
+margin/bottom = 95.0
+
+[node name="label" type="Label" parent="params/opacity"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 0.0
+margin/top = 5.0
+margin/right = 40.0
+margin/bottom = 19.0
+text = "Opacity"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="slider" type="HSlider" parent="params/opacity"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 58.0
+margin/top = 4.0
+margin/right = 204.0
+margin/bottom = 20.0
+range/min = 0.0
+range/max = 200.0
+range/step = 1.0
+range/page = 0.0
+range/value = 100.0
+range/exp_edit = false
+range/rounded = true
+tick_count = 0
+ticks_on_borders = false
+focus_mode = 2
+
+[node name="LineEdit" type="LineEdit" parent="params/opacity"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 210.0
+margin/top = -1.0
+margin/right = 268.0
+margin/bottom = 23.0
+placeholder/alpha = 0.6
+focus_mode = 2
+caret/caret_blink = true
+caret/caret_blink_speed = 0.65
+
+[node name="shapes" type="ItemList" parent="."]
+
+anchor/right = 1
+anchor/bottom = 1
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 281.0
+margin/top = 0.0
+margin/right = 127.0
+margin/bottom = 0.0
+
+[node name="save_to_image" type="Button" parent="."]
+
+anchor/left = 1
+anchor/right = 1
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 119.0
+margin/top = 0.0
+margin/right = 6.0
+margin/bottom = 20.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Save to image..."
+flat = false
+
+

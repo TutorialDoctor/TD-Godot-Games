@@ -10,7 +10,7 @@ export var jump_height = 0
 export var next_level =''
 var shake_cam
 var can_stomp = true
-
+	
 func _ready():
 	set_process(true)
 	animations = get_node("Sprite/AnimationPlayer")

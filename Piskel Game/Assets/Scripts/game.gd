@@ -25,5 +25,5 @@ func _on_Pause_pressed():
 
 func _on_Unpause_pressed():
 	get_tree().set_pause(false)
-# The reason this unpause works is because the "Unpause" butoon has it's pause mode set to process. Check the Inspector.
+# The reason this unpause works is because the "Unpause" button has it's pause mode set to process. Check the Inspector.
 # I had to look at the "Pause" demo to finally figure it out. 
