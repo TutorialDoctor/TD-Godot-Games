@@ -1,6 +1,6 @@
 # TD-Godot-Games
 
-**I've started a Repot for Godot 3 [here](https://github.com/TutorialDoctor/TD-Godot-3-Demos/tree/master/Godot%203%20Demos/Platformer%20Test)**
+**I've started a Repo for Godot 3 [here](https://github.com/TutorialDoctor/TD-Godot-3-Demos/tree/master/Godot%203%20Demos/Platformer%20Test)**
 
 A collection of games and game demos made with the [Godot game engine](https://godotengine.org) by the Tutorial Doctor.
 
