@@ -46,6 +46,7 @@ A collection of games and game demos made with the [Godot game engine](https://g
 - [Pokemon Clone](https://github.com/MarianoGnu/Pokemon-Tutorials)
 - [Point and Click Adventure Game](https://github.com/StraToN/godot_pointandclickadv)
 - [Splitscreen Racing Game](https://github.com/khairul169/godot-cabinet/tree/master/templates/racing)
+- [Turn Based RPG](https://github.com/indiemaatheus/Godot-TBS-RPG)
 
 ## [Game Jam](https://godotengine.org/article/godot-gamejam-june-2016) Games (2016)
 - [MouseBoat](https://github.com/CowThing/MouseBoat)
